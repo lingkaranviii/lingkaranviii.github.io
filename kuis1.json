@@ -1,0 +1,111 @@
+[{
+    "soal0": {
+        "soal": "Perhatikan gambar di bawah ini <br> <img src='KUIS 1 1.png' width='256' height='280'> <br>Ruas garis \\[OP\\] dinamakan . . . .",
+        "a": "a. Busur",
+        "b": "b. Tali Busur",
+        "c": "c. Jari-jari",
+        "d": "d. Diameter",
+        "e": "e. Apotema",
+        "benar": "c",
+        "jwban": "c. Jari-jari"
+    }
+}, {
+    "soal1": {
+        "soal": "Perhatikan gambar di bawah ini <br> <img src='KUIS 1 1.png' width='256' height='280'> <br>Tali busur ditunjukkan oleh ruas garis . . . .",
+        "a": "a. \\[OP\\]",
+        "b": "b. \\[OQ\\]",
+        "c": "c. \\[OT\\]",
+        "d": "d. \\[RT\\]",
+        "e": "e. \\[RS\\]",
+        "benar": "e",
+        "jwban": "e. \\[RS\\]"
+    }
+}, {
+    "soal2": {
+        "soal": "Perhatikan gambar di bawah ini <br> <img src='KUIS 1 1.png' width='256' height='280'> <br>Berapakah diameter lingkaran tersebut jika panjang ruas garis OQ adalah 13 cm . . . .",
+        "a": "a. \\[27\\,cm\\]",
+        "b": "b. \\[26\\,cm\\]",
+        "c": "c. \\[25\\,cm\\]",
+        "d": "d. \\[24\\,cm\\]",
+        "e": "e. \\[23\\,cm\\]",
+        "benar": "b",
+        "jwban": "b. \\[26\\,cm\\]"
+    }
+}, {
+    "soal3": {
+        "soal": "Perhatikan gambar di bawah ini <br> <img src='KUIS 1 1.png' width='256' height='280'> <br>Panjang apotema pada lingkaran tersebut adalah . . . jika panjang tali busurnya \\[10\\,cm\\].",
+        "a": "a. \\[12\\,cm\\]",
+        "b": "b. \\[11\\,cm\\]",
+        "c": "c. \\[10\\,cm\\]",
+        "d": "d. \\[9\\,cm\\]",
+        "e": "e. \\[8\\,cm\\]",
+        "benar": "a",
+        "jwban": "a. \\[12\\,cm\\]"
+    }
+}, {
+    "soal4": {
+        "soal": "Daerah di dalam lingkaran yang dibatasi oleh tali busur dan busur lingkaran adalah . . . .",
+        "a": "a. Busur",
+        "b": "b. Tali Busur",
+        "c": "c. Apotema",
+        "d": "d. Juring",
+        "e": "e. Tembereng",
+        "benar": "e",
+        "jwban": "e. Tembereng"
+    }
+}, {
+    "soal5": {
+        "soal": "Perhatikan gambar di bawah ini <br> <img src='KUIS 1 6.png' width='230' height='320'> <br>Daerah yang diarsir atau berwarna pada lingkaran di atas disebut . . . .",
+        "a": "a. Tembereng minor",
+        "b": "b. Tembereng mayor",
+        "c": "c. Juring mayor",
+        "d": "d. Juring minor",
+        "e": "e. Busur mayor",
+        "benar": "d",
+        "jwban": "d. Juring mayor"
+    }
+}, {
+    "soal6": {
+        "soal": "Perhatikan gambar di bawah ini <br> <img src='KUIS 1 6.png' width='230' height='320'> <br>Berdasarkan gambar di atas, maka \\[m\\angle MGK\\] . . . .",
+        "a": "a. \\[160^{\\circ}\\]",
+        "b": "b. \\[165^{\\circ}\\]",
+        "c": "c. \\[170^{\\circ}\\]",
+        "d": "d. \\[185^{\\circ}\\]",
+        "e": "e. \\[180^{\\circ}\\]",
+        "benar": "a",
+        "jwban": "a. \\[160^{\\circ}\\]"
+    }
+}, {
+    "soal7": {
+        "soal": "Keliling lingkaran yang memiliki diameter \\[25\\,cm\\] adalah . . . .",
+        "a": "a. \\[59,3\\,cm\\]",
+        "b": "b. \\[67,8\\,cm\\]",
+        "c": "c. \\[78,5\\,cm\\]",
+        "d": "d. \\[79,3\\,cm\\]",
+        "e": "e. \\[81,4\\,cm\\]",
+        "benar": "c",
+        "jwban": "c. \\[78,5\\,cm\\]"
+    }
+}, {
+    "soal8": {
+        "soal": "Perhatikan gambar di bawah ini <br> <img src='KUIS 1 9.jpg' width='500' height='250'> <br>Diameter roda sepeda di bawah ini adalah \\[56\\,cm\\]. Jika roda sepeda tersebut berputar sebanyak \\[1700\\] kali, maka jarak yang dilintasi sepeda tersebut adalah . . . \\[km\\].",
+        "a": "a. \\[2,31\\]",
+        "b": "b. \\[2,53\\]",
+        "c": "c. \\[2,99\\]",
+        "d": "d. \\[3\\]",
+        "e": "e. \\[3,15\\]",
+        "benar": "c",
+        "jwban": "c. \\[2,99\\]"
+    }
+}, {
+    "soal9": {
+        "soal": "Luas sebuah jam dinding adalah . . . jika jari-jarinya \\[14\\,cm\\].",
+        "a": "a. \\[616\\,cm^{2}\\]",
+        "b": "b. \\[632\\,cm^{2}\\]",
+        "c": "c. \\[651\\,cm^{2}\\]",
+        "d": "d. \\[700\\,cm^{2}\\]",
+        "e": "e. \\[714\\,cm^{2}\\]",
+        "benar": "a",
+        "jwban": "a. \\[616\\,cm^{2}\\]"
+    }
+}]

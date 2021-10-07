@@ -1,0 +1,306 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link rel="icon" type="image/png" href="L.png">
+	<title>Lingkaran</title>
+</head>
+<!-- mathjax -->
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<style>
+	mjx-container {
+  display: inline-block !important;
+  margin: 0 !important;
+  heading: 4px 0px !important;
+}
+</style>
+<body>
+<link rel="stylesheet" href="style.css" type="text/css" media="screen"/>
+<header></header>
+<ul>
+	<li><a href="index.html"><img src="t home.png" width="30px" height="30px"></a></li>
+</ul>
+	
+	<section>
+		  <nav>
+			<div class="button-nav">
+		  <button class="dropbutton dropdown-btn active" onclick="ftampil()">A. Mengenal Lingkaran
+			<i class="fa fa-caret-down"></i>
+		  </button>
+	
+		  <div class="dropdown-content dropdown-containerr">
+			<a href="materii.html">1. Mengenal Lingkaran</a>
+			<a href="unsurlingkarangaris.html" class="hvr">2. Unsur-unsur lingkaran yang berupa garis dan ciri-cirinya</a>
+			<a href="unsurlingkaranluasan.html">3. Unsur-unsur lingkaran yang berupa luasan dan ciri-cirinya</a>
+			<a href="kelilingdanluas.html">4. Keliling dan luas lingkaran</a>
+			<a href="rangkuman1.html">Rangkuman</a>
+			<a href="kuis1awal.html">Kuis 1</a>
+		  </div>
+
+		  <button class="dropbtn dropdown-btn" onclick="ftampil()">B. Sudut Pusat dan Sudut Keliling
+			<i class="fa fa-caret-down"></i>
+		  </button>
+
+		  <div class="dropdown-content dropdown-container">
+			<a href="sudutpk.html">Sudut Pusat dan Sudut Keliling</a>
+			<a href="rangkuman2.html">Rangkuman</a>
+			<a href="kuis2.html">Kuis 2</a>
+		  </div>
+
+		  <button class="dropbtn dropdown-btn" onclick="ftampil()">C. Panjang Busur dan Luas Juring
+			<i class="fa fa-caret-down"></i>
+		  </button>
+
+		  <div class="dropdown-content dropdown-container">
+			<a href="panjangbusur.html">Panjang Busur dan Luas Juring</a>
+			<a href="rangkuman3.html">Rangkuman</a>
+			<a href="kuis3.html">Kuis 3</a>
+		  </div>
+		   
+		   <button class="dropbtn dropdown-btn" onclick="ftampil()">D. Garis Singgung Lingkaran
+			  <i class="fa fa-caret-down"></i>
+		  </button>
+	
+		   <div class="dropdown-content dropdown-container">
+			 <a href="garissl.html">1. Garis singgung persekutuan luar dua lingkaran</a>
+			 <a href="garissd.html">2. Garis singgung persekutuan dalam dua lingkaran</a>
+			 <a href="rangkuman4.html">Rangkuman</a>
+			 <a href="kuis4.html">Kuis 4</a>
+			</div>
+		
+		  <button class="button" button onclick="location.href='evaluasi.html'">Evaluasi</button>
+	  
+		  </div>
+		  </nav>
+
+          <div class="konten">
+            <div class="subsubbab">2. Unsur-unsur Lingkaran yang Berupa Garis dan Ciri-cirinya</div>
+			<p>Dalam bahasan ini kata unsur-unsur lingkaran adalah istilah yang terkait dengan lingkaran. Unsur lingkaran yang berupa garis atau ruas garis yaitu busur (busur besar, busur kecil), tali busur, jari-jari, diameter, dan apotema.</p>
+			<div class="bsubsubbab">
+				<table cellpadding="5">
+					<tr>
+						<td align=left valign=top><img src="mengamati.png" class="gambar1" width="55px" height="55px"></td>
+						<td>Mari Mengamati</td>
+					</tr>
+				</table>
+			</div>
+			<p>Perhatikan bagian yang ber<b style="color: red;">warna merah</b> pada gambar 5 sampai 9 di bawah, serta <b>ciri-ciri</b> dari setiap unsur berikut!</p>
+			<p><b>Busur</b></p>
+			<p>Amatilah gambar 5 di bawah ini!</p>
+			<p><center>Penulisan simbol: \[\widehat{AD}, \widehat{ACD}, \widehat{RTS}\]</center></p>
+			<img src="BUSUR.PNG" width="900px" height="300px" style="display: block;margin: auto;border-style: solid;border-color: #8e6bc5;">
+			<center><i><b>Gambar 5</b>: Busur</i></center>	
+			<p>Dari pengamatan di atas diperoleh <b>Ciri-ciri</b> dari <input type="text" id="Textbusur" value="" placeholder="....................." style="width: 70px;" class="input" oninput="busur()"></p>
+			<p id="demobusur"></p>
+			<p><b>Jari-jari</b></p>
+			<p>Amatilah gambar 6 di bawah ini!</p>
+			<p><center>Penulisan simbol: \[\overline{OD}\]</center></p>
+			<img src="JARI-JARI.png" class="gambar" width="300px" height="300px" style="display: block;margin: auto;border-style: solid;border-color: #8e6bc5;">
+			<center><i><b>Gambar 6</b>: Jari-jari</i></center>
+			<p>Dari pengamatan di atas diperoleh <b>Ciri-ciri</b> dari <input type="text" id="Textjari2" value="" placeholder="....................." style="width: 70px;" class="input" oninput="jari2()"></p>
+			<p id="demojari2"></p>
+			<p><b>Diameter</b></p>
+			<p>Amatilah gambar 7 di bawah ini!</p>
+			<p><center>Penulisan simbol: \[\overline{BD}\]</center></p>
+			<img src="DIAMETER.png" class="gambar" width="300px" height="300px" style="display: block;margin: auto;border-style: solid;border-color: #8e6bc5;">
+			<center><i><b>Gambar 7</b>: Diameter</i></center>
+			<p>Dari pengamatan di atas diperoleh <b>Ciri-ciri</b> dari <input type="text" id="Textdiameter" value="" placeholder="........................" style="width: 80px;" class="input" oninput="diameter()"></p>
+			<p id="demodiameter"></p>
+			<p><b>Tali Busur</b></p>
+			<p>Amatilah gambar 8 di bawah ini!</p>
+			<p><center>Penulisan simbol: \[\overline{FE}, \overline{IR}, \overline{SU}\]</center></p>
+			<img src="TALI BUSUR.png" width="900px" height="300px" style="display: block;margin: auto;border-style: solid;border-color: #8e6bc5;">
+			<center><i><b>Gambar 8</b>: Tali Busur</i></center>
+			<p>Dari pengamatan di atas diperoleh <b>Ciri-ciri</b> dari <input type="text" id="Texttalibusur" value="" placeholder="..........................." style="width: 100px;" class="input" oninput="talibusur()"></p>
+			<p id="demotalibusur"></p>
+			<p><b>Apotema</b></p>
+			<p>Amatilah gambar 9 di bawah ini!</p>
+			<p><center>Penulisan simbol: \[\overline{OG}, \overline{PQ}\]</center></p>
+			<img src="APOTEMA.png" width="900px" height="300px" style="display: block;margin: auto;border-style: solid;border-color: #8e6bc5;"><br>
+			<center><i><b>Gambar 9</b>: Apotema</i></center>
+			<p>Dari pengamatan di atas diperoleh <b>Ciri-ciri</b> dari <input type="text" id="Textapotema" value="" placeholder="........................" style="width: 85px;" class="input" oninput="apotema()"></p>
+			<p id="demoapotema"></p>
+			<div class="bsubsubbab">
+				<table cellpadding="5">
+					<tr>
+						<td align=left valign=top><img src="menanya.png" class="gambar1" width="55px" height="55px"></td>
+						<td>Mari Menanya</td>
+					</tr>
+				</table>
+			</div>
+			<p>Ada suatu lingkaran yang mempunyai jari-jari \[12\,cm\] kemudian pada lingkaran tersebut terdapat tali busur \[\overline{MN}\] dengan panjang \[16\,cm\]. Jika dari titik pusat lingkaran dibuat apotema terhadap tali busur, berapakah panjang apotema pada tali busur \[\overline{MN}\]?</p>
+			<div class="bsubsubbab">
+				<table cellpadding="5">
+					<tr>
+						<td align=left valign=top><img src="pmasalah.png" class="gambar1" width="55px" height="55px"></td>
+						<td>Alternatif Pemecahan Masalah</td>
+					</tr>
+				</table>
+			</div>
+			<p>Untuk menyelesaikan permasalahan di atas lakukan prosedur berikut:</p>
+			<p><b>Langkah 1</b></p>
+			<p>Wajib mengingat ini:</p>
+				<div id="boxkecil">
+				<p><center><b>Menggunakan rumus Teorema Pythagoras untuk mencari Apotema:</b></p>
+				<p style="color: white;"><i>r = jari-jari</i></p>
+				<p style="color: white;"><i>a = tali busur</i></p>
+				<p style="color: white;">\[Apotema=\sqrt{r^{2}-\left ( \frac{1}{2} a \right )^{2}}\]</p>
+			</div>
+			<p><b>Langkah 2</b></p>
+			<p>Menyesuaikan:</p>
+				<div id="boxkecil">
+				<p><center><b>Apotema pada tali busur \[\overline{MN}\]</b></center></p>
+				<p style="color: white;"><i>r = jari-jari = <input type="text" id="Textmm1" value="" placeholder="........" style="width: 30px !important;" class="input" oninput="mm1()"> cm</i> <text id="demomm1"></p>
+				<p style="color: white;"><i>a = tali busur = <input type="text" id="Textmm2" value="" placeholder="........" style="width: 30px !important;" class="input" oninput="mm2()"> cm</i> <text id="demomm2"></p>
+			</div>	
+			<p><b>Langkah 3</b></p>
+			<p>Menyelesaikan</p>
+				<div id="boxkecil">
+				<p><center><b>Apotema pada tali busur \[\overline{MN}\]</b></center></p>
+				<p style="color: white;">\[Apotema\,MN=\sqrt{12^{2}-\left ( \frac{1}{2} 16 \right )^{2}}\]</p>
+				<p style="color: white;">\[Apotema\,MN=\sqrt{12^{2}-8^{2}}\]</p>
+				<p style="color: white;">\[Apotema\,MN=\sqrt{144-64}\]</p>
+				<p style="color: white;">\[Apotema\,MN=\sqrt{80}\]</p>
+				<p style="color: white;">\[Apotema\,MN=\] <input type="text" id="Textmm3" value="" placeholder="........" style="width: 40px !important;" class="input" oninput="mm3()"> \[cm\] <text id="demomm3"></text></p>
+			</div>
+			<div class="bsubsubbab" style="margin-top: 20px;">
+				<table cellpadding="5">
+					<tr>
+						<td align=left valign=top><img src="mencoba.png" class="gambar1" width="55px" height="55px"></td>
+						<td>Mari Mencoba</td>
+					</tr>
+				</table>
+			</div><br>
+			<button class="tujuan tujuan1" style="font-size: 14px;">Klik untuk melihat Petunjuk Soal</button>
+				<div id="tujuan1" class="hilang">
+					<ol class="tulisan">
+					<center><b class="tujuan">Petunjuk Pengerjaan Soal:</b><br></center>
+					<li>Perhatikan gambar pada soal, apabila terdapat gambar pada soal</li><br>
+					<li>Baca dan pahami soal sebelum menjawabnya</li><br>
+					<li>Masukkan jawabanmu pada kolom jawaban seperti ini <img src="kolom jawaban.PNG" class="imgt"></li><br>
+					<li>Ketika ingin memeriksa jawaban yang sudah diisi maka silakan klik tombol <img src="tombol periksa.PNG" class="imgt"></li><br><br>
+				</ol>
+				</div>
+			<p>Perhatikan gambar di bawah ini.</p>
+			<img src="MARI MENCOBA 1.png" class="gambar" width="300px" height="300px" style="display: block;">
+			<p>Titik \[O\] adalah titik pusat lingkaran, maka sebutkan garis yang merupakan Jari-jari, diameter, tali busur dan apotema, berdasarkan pengamatan yang sudah kalian lakukan sebelumnya. Kemudian hitunglah panjang apotema pada tali busur \[EF\]  yang memiliki panjang \[14\,cm\] dengan jari-jari lingkaran \[10\,cm\].</p>
+			<div class="pembahasan"><b><center>Pembahasan</center></b>
+				<p id="demo"></p>
+			</div>
+			<table cellpadding="5">
+				<tr>
+					<td align=left valign=middle><center>a.</center></td>
+					<td>Jari-jari <input type="text" id="myText" value="" placeholder=".........." style="width: 40px;" class="input">,	<input type="text" id="myText1" value="" placeholder=".........." style="width: 40px;" class="input">,	<input type="text" id="myText2" value="" placeholder=".........." style="width: 40px;" class="input"></td>
+					<td style="background-color: #d9c2fa;"><button onclick="myFunction()" class="pj1">Periksa Jawaban</button></td>
+				</tr>
+			</table>
+			<table cellpadding="5">
+				<tr>
+					<td align=left valign=middle><center>b.</center></td>
+					<td>Diameter <input type="text" id="myText3" value="" placeholder=".........." style="width: 40px;" class="input">
+					<td style="background-color: #d9c2fa;"><button onclick="myFunction3()" class="pj1">Periksa Jawaban</button></td>
+				</tr>
+			</table>
+			
+			<table cellpadding="5">
+				<tr>
+					<td align=left valign=middle><center>c.</center></td>
+					<td>Tali Busur <input type="text" id="myText4" value="" placeholder=".........." style="width: 40px;" class="input">,	 <input type="text" id="myText5" value="" placeholder=".........." style="width: 40px;" class="input"></td>
+					<td style="background-color: #d9c2fa;"><button onclick="myFunction4()" class="pj1">Periksa Jawaban</button></td>
+				</tr>
+			</table>
+			
+			<table cellpadding="5">
+				<tr>
+					<td align=left valign=middle><center>d.</center></td>
+					<td>Apotema <input type="text" id="myText6" value="" placeholder=".........." style="width: 40px;" class="input">
+					<td style="background-color: #d9c2fa;"><button onclick="myFunction6()" class="pj1">Periksa Jawaban</button></td>
+				</tr>
+			</table>
+			
+			<table cellpadding="5">
+				<tr>
+					<td align=left valign=middle><center>e.</center></td>
+					<td>Panjang Apotema \[\overline{OY}\] <input type="text" id="myText7" value="" placeholder=".........." style="width: 40px;" class="input"> \[cm\] </td>
+					<td style="background-color: #d9c2fa;"><button onclick="myFunction7()" class="pj1">Periksa Jawaban</button></td>
+				</tr>
+			</table>
+			
+			<div class="subsubbab"><center>Pertanyaan</center></div>
+
+			<div class="slideshow-container">                 
+				<button class="tujuan tujuan2" style="font-size: 14px;">Klik untuk melihat Petunjuk Soal</button><br>
+			  <div id="tujuan2" class="hilang">
+				<ol class="tulisan">
+				  <center><b class="tujuan">Petunjuk Pengerjaan Soal:</b><br></center>
+				  <li>Perhatikan gambar pada soal, apabila terdapat gambar pada soal</li><br>
+				  <li>Baca dan pahami soal sebelum menjawabnya</li><br>
+				  <li>Masukkan jawabanmu pada kolom jawaban seperti ini <img src="kolom jawaban.PNG" class="imgt"></li><br>
+				  <li>Ketika ingin memeriksa jawaban yang sudah diisi maka silakan klik tombol <img src="tombol periksa1.PNG" class="imgt"></li><br>
+				  <li>Tekan tombol 1,2,3,4, dan 5 di bawah soal atau tombol <img src="pre.PNG" width="20px" height="20px" class="imgt"> dan <img src="nex.PNG" width="20px" height="20px" class="imgt"> untuk mengganti ke nomor soal selanjutnya</li><br><br>
+			   </ol>
+			  </div>
+				  <div class="mySlides">
+					<p>1. Berdasarkan gambar di bawah panjang \[AB=30\,cm\] dan panjang tali busur \[CD=26\,cm\], tentukan:</p>
+					<center><img src="PERTANYAAN 1 (1).png" width="300px" height="300px" style="display: block;" class="imgs"></center>
+				  	<p class="tulisan">a. Jari-jari lingkaran, <input type="text" id="myText8" value="" placeholder=".........." style="width: 40px;" class="input"> \[cm\] </p>
+					<button onclick="myFunction8()" class="pj">Periksa Jawaban</button>
+					<p id="demo8"></p>
+				  </div>
+				  
+				  <div class="mySlides">
+					<p>1. Berdasarkan gambar di bawah panjang \[AB=30\,cm\] dan panjang tali busur \[CD=26\,cm\], tentukan:</p>
+					<center><img src="PERTANYAAN 1 (1).png" width="300px" height="300px" style="display: block;" class="imgs"></center>
+				  	<p class="tulisan">b. Panjang garis apotema \[\overline{OE}\], <input type="text" id="myText9" value="" placeholder=".........." style="width: 40px;" class="input"> \[cm\] </p>
+					<button onclick="myFunction9()" class="pj">Periksa Jawaban</button>
+					<p id="demo9"></p>
+				  </div>
+				  
+				  <div class="mySlides">
+					<p>1. Berdasarkan gambar di bawah panjang \[AB=30\,cm\] dan panjang tali busur \[CD=26\,cm\], tentukan:</p>
+					<center><img src="PERTANYAAN 1 (1).png" width="300px" height="300px" style="display: block;" class="imgs"></center>
+				  	<p class="tulisan">c. Panjang garis \[AE\]. <input type="text" id="myText10" value="" placeholder=".........." style="width: 40px;" class="input"> \[cm\] </p>
+					<button onclick="myFunction10()" class="pj">Periksa Jawaban</button>
+					<p id="demo10"></p>
+				  </div>
+
+				  <div class="mySlides">
+					<p>2. Berdasarkan gambar di bawah panjang jari-jari lingkaran \[8\,cm\] dan panjang tali busur \[RS=14\,cm\], tentukan:</p>
+					<center><img src="PERTANYAAN 1 (2).png" width="300px" height="300px" style="display: block;" class="imgs"></center>
+				  	<p class="tulisan">a. Diameter lingkaran, <input type="text" id="myText11" value="" placeholder=".........." style="width: 40px;" class="input"> \[cm\] </p>
+					<button onclick="myFunction11()" class="pj">Periksa Jawaban</button>
+					<p id="demo11"></p>
+				  </div>
+
+				  <div class="mySlides">
+					<p>2. Berdasarkan gambar di bawah panjang jari-jari lingkaran \[8\,cm\] dan panjang tali busur \[RS=14\,cm\], tentukan:</p>
+					<center><img src="PERTANYAAN 1 (2).png" width="300px" height="300px" style="display: block;" class="imgs"></center>
+				  	<p class="tulisan">b. Panjang garis apotema \[\overline{OT}\]. <input type="text" id="myText12" value="" placeholder=".........." style="width: 40px;" class="input"> \[cm\] </p>
+					<button onclick="myFunction12()" class="pj">Periksa Jawaban</button>
+					<p id="demo12"></p>
+				  </div>
+
+				  <a class="pre" onclick="plusSlides(-1)">❮</a>
+				  <a class="nex" onclick="plusSlides(1)">❯</a>
+				  
+				  </div>
+				  
+				  <div class="dot-container">
+					<b class="no">Nomor Soal:</b><br>
+					<span class="dot" onclick="currentSlide(1)">1</span> 
+					<span class="dot" onclick="currentSlide(2)">2</span>
+					<span class="dot" onclick="currentSlide(3)">3</span> 
+					<span class="dot" onclick="currentSlide(4)">4</span>
+					<span class="dot" onclick="currentSlide(5)">5</span>  
+				  </div>
+
+		</section>
+		<footer>
+			<div id="footer">
+			  <a href="materii.html" class="previous"><img src="previous.png" width="25px" height="25px"></a>
+			  <a href="unsurlingkaranluasan.html" class="next"><img src="next.png" width="25px" height="25px"></a>
+		  </div>
+		</footer>
+		<script src="javascript1.js"></script>
+	</body>
+	</html>

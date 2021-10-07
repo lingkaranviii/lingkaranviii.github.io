@@ -1,0 +1,270 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link rel="icon" type="image/png" href="L.png">
+	<title>Lingkaran</title>
+</head>
+<!-- mathjax -->
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<style>
+	mjx-container {
+  display: inline-block !important;
+  margin: 0 !important;
+  heading: 4px 0px !important;
+}
+</style>
+<body>
+<link rel="stylesheet" href="style.css" type="text/css" media="screen"/>
+<header></header>
+<ul>
+	<li><a href="index.html"><img src="t home.png" width="30px" height="30px"></a></li>
+</ul>
+	
+	<section>
+		  <nav>
+			<div class="button-nav">
+		  <button class="dropbtn dropdown-btn" onclick="ftampil()">A. Mengenal Lingkaran
+			<i class="fa fa-caret-down"></i>
+		  </button>
+		  <div class="dropdown-content dropdown-container">
+			<a href="materii.html">1. Mengenal Lingkaran</a>
+			<a href="unsurlingkarangaris.html">2. Unsur-unsur lingkaran yang berupa garis dan ciri-cirinya</a>
+			<a href="unsurlingkaranluasan.html">3. Unsur-unsur lingkaran yang berupa luasan dan ciri-cirinya</a>
+			<a href="kelilingdanluas.html">4. Keliling dan luas lingkaran</a>
+			<a href="rangkuman1.html">Rangkuman</a>
+			<a href="kuis1awal.html">Kuis 1</a>
+		  </div>
+
+		  <button class="dropbtn dropdown-btn" onclick="ftampil()">B. Sudut Pusat dan Sudut Keliling
+			<i class="fa fa-caret-down"></i>
+		  </button>
+
+		  <div class="dropdown-content dropdown-container">
+			<a href="sudutpk.html">Sudut Pusat dan Sudut Keliling</a>
+			<a href="rangkuman2.html">Rangkuman</a>
+			<a href="kuis2.html">Kuis 2</a>
+		  </div>
+
+		  <button class="dropbutton dropdown-btn active" onclick="ftampil()">C. Panjang Busur dan Luas Juring
+			<i class="fa fa-caret-down"></i>
+		  </button>
+
+		  <div class="dropdown-content dropdown-containerr">
+			<a href="panjangbusur.html" class="hvr">Panjang Busur dan Luas Juring</a> 
+			<a href="rangkuman3.html">Rangkuman</a>
+			<a href="kuis3.html">Kuis 3</a>
+		  </div>
+		   
+		   <button class="dropbtn dropdown-btn" onclick="ftampil()">D. Garis Singgung Lingkaran
+			  <i class="fa fa-caret-down"></i>
+		  </button>
+	
+		   <div class="dropdown-content dropdown-container">
+			 <a href="garissl.html">1. Garis singgung persekutuan luar dua lingkaran</a>
+			 <a href="garissd.html">2. Garis singgung persekutuan dalam dua lingkaran</a>
+			 <a href="rangkuman4.html">Rangkuman</a>
+			 <a href="kuis4.html">Kuis 4</a>
+			</div>
+		
+		  <button class="button" button onclick="location.href='evaluasi.html'">Evaluasi</button>
+	  
+		  </div>
+		  </nav>
+
+          <div class="konten">
+            <img src="c.png" width="700px" height="130px" style="display: block;margin: auto;">
+      			<button class="tujuan">Klik Untuk Menyembunyikan Tujuan Pembelajaran</button>
+      				<div id="tujuan">
+        				<ol>
+							<center><b>Tujuan Pembelajaran:</b><br></center>
+        					<li>Siswa mampu menentukan hubungan sudut pusat dengan panjang busur dengan tepat.</li><br>
+       						<li>Siswa mampu menentukan hubungan sudut pusat dengan luas juring dengan tepat.</li><br>
+      					</ol>
+ 	  				</div><br>
+			<p>Panjang busur sebanding dengan sudut pusat yang menghadapnya. Begitupun luas juring sebanding dengan sudut pusat yang bersesuaian dengan juring tersebut.</p>
+			<table cellpadding="10">
+				<tr>
+					<td align=left valign=middle style="background-color: #d9c2fa;"><center><img class="gambar" src="Sudut Pusat AOB.png" width="300px" height="300px" style="border-style: solid;border-color: #8e6bc5;"></center><br><p><center style="color: black;"><b><i>Gambar 20</i></b>: Sudut Pusat \[AOB\] atau \[\angle AOB\]</center></p></td>
+					<td align=left valign=middle style="background-color: #d9c2fa;"><center><img class="gambar" src="Busur AB.png" width="300px" height="300px" style="border-style: solid;border-color: #8e6bc5;"></center><br><p><center style="color: black;"><b><i>Gambar 21</i></b>: Busur \[AB\]</center></p></td>
+				</tr>
+				<tr>
+					<td align=left valign=middle style="background-color: #d9c2fa;"><center><img class="gambar" src="Sudut Pusat AOB.png" width="300px" height="300px" style="border-style: solid;border-color: #8e6bc5;"></center><br><p><center style="color: black;"><b><i>Gambar 22</i></b>: Sudut Pusat \[AOB\] atau \[\angle AOB\]</center></p></td>
+					<td align=left valign=middle style="background-color: #d9c2fa;"><center><img class="gambar" src="Luas Juring AOB.png" width="300px" height="300px" style="border-style: solid;border-color: #8e6bc5;"></center><br><p><center style="color: black;"><b><i>Gambar 23</i></b>: Luas Juring \[AOB\]</center></p></td>
+				</tr>
+			</table>
+			<p>Dari ilustrasi di atas kita bisa amati panjang busur \[AB\] bersesuaian dengan sudut pusat α, begitupun luas juring \[AOB\] bersesuaian dengan sudut pusat α. Ukuran sudut pusat lingkaran adalah antara \[0^{\circ}\] hingga \[360^{\circ}\].</p>
+			<div class="bsubsubbab">
+				<table cellpadding="5">
+					<tr>
+						<td align=left valign=top><img src="mengamati.png" class="gambar1" width="55px" height="55px"></td>
+						<td>Mari Mengamati</td>
+					</tr>
+				</table>
+			</div><br>
+			<p>Perlu diketahui terlebih dahulu bahwa:</p>
+			<center><img src="sudutpusat.png" width="500" height="250"></center>
+			<p>Perhatikan hubungan antara <b>sudut pusat</b> dengan <b>busur lingkaran</b> pada animasi penjelasan di bawah ini!</p>
+			<center><div class="divscratch">
+				<iframe class="scratch" src="https://scratch.mit.edu/projects/577715467/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+			</div></center>
+			<p><i>*silakan tunggu beberapa saat jika animasi belum muncul</i></p>
+			<p>Perlu diketahui terlebih dahulu bahwa:</p>
+			<center><img src="sudutpusatlj.png" width="500" height="250"></center>
+			<p>Perhatikan hubungan antara <b>sudut pusat</b> dengan <b>juring lingkaran</b> pada animasi penjelasan di bawah ini!</p>
+			<center><div class="divscratch">
+				<iframe class="scratch" src="https://scratch.mit.edu/projects/577714457/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+			</div></center>
+			<p><i>*silakan tunggu beberapa saat jika animasi belum muncul</i></p>
+			<div class="bsubsubbab">
+				<table cellpadding="5">
+					<tr>
+						<td align=left valign=top><img src="menanya.png" class="gambar1" width="55px" height="55px"></td>
+						<td>Mari Menanya</td>
+					</tr>
+				</table>
+			</div><br><br>
+			<img src="C. MARI MENANYA.png" class="gambar" width="300px" height="300px" style="display: block;">
+			<p>Pada suatu lingkaran dengan pusat \[O\] diketahui titik \[A,\,B,\,C,\] dan \[D\] pada keliling lingkaran, sehingga \[m\angle\,AOB = 30^{\circ}\] dan \[m\angle\,COD = 150^{\circ}\]. Jika panjang busur \[AB = 12\,cm\], maka berapakah panjang busur \[CD\].</p>
+			<div class="bsubsubbab">
+				<table cellpadding="5">
+					<tr>
+						<td align=left valign=top><img src="pmasalah.png" class="gambar1" width="55px" height="55px"></td>
+						<td>Alternatif Pemecahan Masalah</td>
+					</tr>
+				</table>
+			</div>
+			<p>Untuk menyelesaikan permasalahan di atas lakukan prosedur berikut:</p>
+			<p><b>Langkah 1</b></p>
+			<p>Wajib mengingat ini:</p>
+				<div id="boxkecil1">
+				<p><center>\[\frac{Besar\,\,sudut\,\,pusat}{Besar\,\,sudut\,\,satu\,\,putaran}=\frac{panjang\,\,busur}{keliling\,\,lingkaran}×\frac{luas\,\,juring}{luas\,\,lingkaran}\]</center></p>
+				<p><center>\[Panjang\,\,busur=\frac{Besar\,\,Sudut}{360°}×K_{lingkaran}\]</center></p>
+				<p><center>&nbsp;&nbsp; \[Luas\,\,Juring=\frac{Besar\,\,Sudut}{360°}×L_{lingkaran}\]</center></p><br>
+				<p><center>Hubungan antara dua sudut dan panjang busur dalam satu lingkaran</center></p>
+				<p><center>\[\frac{AB}{CD}=\frac{∠AOB}{∠COD}\]</center></p><br>
+				<p><center>Hubungan antara dua sudut denga luas juring</center></p>
+				<p><center>\[\frac{L.Juring\,\,AOB}{L.Juring\,\,COD}=\frac{∠AOB}{∠COD}\]</center></p>
+			</div>
+			<p><b>Langkah 2</b></p>
+			<p>Menyesuaikan:</p>
+			<p>Karena ada dua sudut yang saling berhubungan, maka rumus yang digunakan adalah:</p>
+				<div id="boxkecil">
+				<p><center>\[\frac{AB}{CD}=\frac{∠AOB}{∠COD}\]</center></p>
+			</div>	
+			<p><b>Langkah 3</b></p>
+			<p>Menyelesaikan</p>
+				<div id="boxkecil">
+				<p style="color: white;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \[\frac{AB}{CD}=\frac{∠AOB}{∠COD}\]</p>
+				<p style="color: white;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \[\frac{12}{CD}=\frac{30}{150}\]</p>
+				<p style="color: white;"><center>\[CD×30=150×12\]</center></p>
+				<p style="color: white;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \[CD×30=1800\]</p>
+				<p style="color: white;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \[CD=\frac{1800}{30}\]</p>
+				<p style="color: white;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \[CD=60\,\,cm\]</p>
+			</div>
+			<p>Jadi, panjang busur \[CD\] pada lingkaran \[O\] adalah \[60\,cm\].</p>
+			<div class="bsubsubbab">
+				<table cellpadding="5">
+					<tr>
+						<td align=left valign=top><img src="mencoba.png" class="gambar1" width="55px" height="55px"></td>
+						<td>Mari Mencoba</td>
+					</tr>
+				</table>
+			</div><br>
+			<button class="tujuan tujuan1" style="font-size: 14px;">Klik untuk melihat Petunjuk Soal</button>
+				<div id="tujuan1" class="hilang">
+					<ol>
+					<center><b>Petunjuk Pengerjaan Soal:</b><br></center>
+					<li>Perhatikan gambar pada soal, apabila terdapat gambar pada soal</li><br>
+					<li>Baca dan pahami soal sebelum menjawabnya</li><br>
+					<li>Masukkan jawabanmu pada kolom jawaban seperti ini <img src="kolom jawaban.PNG" class="imgt"></li><br>
+					<li>Ketika ingin memeriksa jawaban yang sudah diisi maka silakan klik tombol <img src="tombol periksa.PNG" class="imgt"></li><br><br>
+				</ol>
+				</div>
+			<ol>
+				<li>Diketahui sudut pusat suatu lingkaran besarnya adalah \[70^{\circ}\] dan jari-jarinya adalah \[5\,cm\], \[(\pi\,=\,3,14)\]. Maka berapakah panjang busurnya?
+				</li>
+				<li>Diketahui sudut pusat suatu lingkaran adalah \[90^{\circ}\] dan jari-jarinya adalah \[7\,cm\], \[(\pi\,=\frac{22}{7})\]. Maka berapakah luas juringnya?</li>
+			</ol>
+			<div class="pembahasan"><b><center>Pembahasan</center></b>
+				<p id="demo4"></p>
+			</div>
+			<table cellpadding="5">
+				<tr>
+					<td align=left valign=middle><center>a.</center></td>
+					<td>Panjang Busur <input type="text" id="myText31" value="" placeholder=".............." style="width: 50px;" class="input"> \[cm\] </td>
+					<td style="background-color: #d9c2fa;"><button onclick="myFunction31()" class="pj1">Periksa Jawaban</button></td>
+				</tr>
+			</table>
+			<table cellpadding="5">
+				<tr>
+					<td align=left valign=middle><center>b.</center></td>
+					<td>Luas Juring <input type="text" id="myText32" value="" placeholder=".........." style="width: 40px;" class="input"> \[cm^{2}\] </td>
+					<td style="background-color: #d9c2fa;"><button onclick="myFunction32()" class="pj1">Periksa Jawaban</button></td>
+				</tr>
+			</table>
+			<div class="subsubbab"><center>Pertanyaan</center></div>
+				<div class="slideshow-container">                 
+					<button class="tujuan tujuan2" style="font-size: 14px;">Klik untuk melihat Petunjuk Soal</button><br>
+				  <div id="tujuan2" class="hilang">
+					<ol>
+					  <center><b>Petunjuk Pengerjaan Soal:</b><br></center>
+					  <li>Perhatikan gambar pada soal, apabila terdapat gambar pada soal</li><br>
+					  <li>Baca dan pahami soal sebelum menjawabnya</li><br>
+					  <li>Masukkan jawabanmu pada kolom jawaban seperti ini <img src="kolom jawaban.PNG" class="imgt"></li><br>
+					  <li>Ketika ingin memeriksa jawaban yang sudah diisi maka silakan klik tombol <img src="tombol periksa.PNG" class="imgt"></li><br>
+					  <li>Tekan tombol 1,2,3, dan 4 di bawah soal atau tombol <img src="pre.PNG" width="20px" height="20px" class="imgt"> dan <img src="nex.PNG" width="20px" height="20px" class="imgt"> untuk mengganti ke nomor soal selanjutnya</li><br><br>
+				   </ol>
+				  </div>
+					  <div class="mySlides">
+						<p>1. Diketahui sudut pusat suatu lingkaran besarnya adalah \[80 ^{\circ}\] dan jari-jarinya adalah \[14\,cm\]. <br> &nbsp;&nbsp;&nbsp; Tentukan:</p>
+						<p class="tulisan"> &nbsp;&nbsp;&nbsp; a. Luas Lingkaran, <input type="text" id="myText33" value="" placeholder=".........." style="width: 40px;" class="input"> \[cm^{2}\] </p>
+						<button onclick="myFunction33()" class="pj">Periksa Jawaban</button>
+						<p id="demo33"></p>
+					  </div>
+					  
+					  <div class="mySlides">
+						<p>1. Diketahui sudut pusat suatu lingkaran besarnya adalah \[80 ^{\circ}\] dan jari-jarinya adalah \[14\,cm\]. <br> &nbsp;&nbsp;&nbsp; Tentukan:</p>
+						<p class="tulisan"> &nbsp;&nbsp;&nbsp; b. Keliling Lingkaran, <input type="text" id="myText34" value="" placeholder=".........." style="width: 40px;" class="input"> \[cm\] </p>
+						<button onclick="myFunction34()" class="pj">Periksa Jawaban</button>
+						<p id="demo34"></p>
+					  </div>
+					  
+					  <div class="mySlides">
+						<p>1. Diketahui sudut pusat suatu lingkaran besarnya adalah \[80 ^{\circ}\] dan jari-jarinya adalah \[14\,cm\]. <br> &nbsp;&nbsp;&nbsp; Tentukan:</p>
+						<p class="tulisan"> &nbsp;&nbsp;&nbsp; c. Luas Juring, <input type="text" id="myText35" value="" placeholder=".............." style="width: 50px;" class="input"> \[cm^{2}\] </p>
+						<button onclick="myFunction35()" class="pj">Periksa Jawaban</button>
+						<p id="demo35"></p>
+					  </div>
+			
+					  <div class="mySlides">
+						<p>1. Diketahui sudut pusat suatu lingkaran besarnya adalah \[80 ^{\circ}\] dan jari-jarinya adalah \[14\,cm\]. <br> &nbsp;&nbsp;&nbsp; Tentukan:</p>
+						<p class="tulisan"> &nbsp;&nbsp;&nbsp; d. Panjang Busur. <input type="text" id="myText36" value="" placeholder=".........." style="width: 40px;" class="input"> \[cm\] </p>
+						<button onclick="myFunction36()" class="pj">Periksa Jawaban</button>
+						<p id="demo36"></p>
+					  </div>
+			
+					  <a class="pre" onclick="plusSlides(-1)">❮</a>
+					  <a class="nex" onclick="plusSlides(1)">❯</a>
+							  
+						</div>
+							  
+							  <div class="dot-container">
+								<b class="no">Nomor Soal:</b><br>
+								<span class="dot" onclick="currentSlide(1)">1</span> 
+								<span class="dot" onclick="currentSlide(2)">2</span>
+								<span class="dot" onclick="currentSlide(3)">3</span> 
+								<span class="dot" onclick="currentSlide(4)">4</span> 
+							  </div>
+							<br>
+
+	</section>
+	<footer>
+		<div id="footer">
+		  <a href="rangkuman2.html" class="previous"><img src="previous.png" width="25px" height="25px"></a>
+		  <a href="rangkuman3.html" class="next"><img src="next.png" width="25px" height="25px"></a>
+	  </div>
+	</footer>
+		<script src="javascript1.js"></script>
+	</body>
+	</html>

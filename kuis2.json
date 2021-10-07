@@ -1,0 +1,112 @@
+[{
+    "soal0": {
+        "soal": "Perhatikan gambar di bawah ini <br> <img src='spsk 2.png' width='200' height='200'> <br>Dari gambar pizza di atas terbentuk sudut keliling yaitu . . . .",
+        "a": "a. \\[\\angle WCO\\]",
+        "b": "b. \\[\\angle DOC\\]",
+        "c": "c. \\[\\angle CWD\\]",
+        "d": "d. \\[\\angle WDO\\]",
+        "e": "e. \\[\\angle OCW\\]",
+        "benar": "c",
+        "jwban": "c. \\[\\angle CWD\\]"
+    }
+}, {
+    "soal1": {
+        "soal": "Diketahui pada lingkaran \\[O\\], terdapat sudut pusat \\[DOE\\] dan sudut keliling \\[DFE\\]. Jika besar sudut \\[DOE\\] adalah \\[50^{\\circ}\\], maka besar sudut DFE adalah . . . .",
+        "a": "a. \\[20^{\\circ}\\]",
+        "b": "b. \\[25^{\\circ}\\]",
+        "c": "c. \\[40^{\\circ}\\]",
+        "d": "d. \\[50^{\\circ}\\]",
+        "e": "e. \\[65^{\\circ}\\]",
+        "benar": "b",
+        "jwban": "b. \\[25^{\\circ}\\]"
+    }
+
+}, {
+    "soal2": {
+        "soal": "Suatu sudut keliling dan sudut pusat menghadap busur yang sama. Jika sudut pusat berukuran \\[170^{\\circ}\\], maka besar sudut keliling tersebut adalah . . . .",
+        "a": "a. \\[30^{\\circ}\\]",
+        "b": "b. \\[45^{\\circ}\\]",
+        "c": "c. \\[55^{\\circ}\\]",
+        "d": "d. \\[70^{\\circ}\\]",
+        "e": "e. \\[85^{\\circ}\\]",
+        "benar": "e",
+        "jwban": "e. \\[85^{\\circ}\\]"
+    }
+}, {
+    "soal3": {
+        "soal": "Perhatikan gambar di bawah ini <br> <img src='KUIS 2 4.png' width='300' height='200'> <br>Berdasarkan gambar di atas, maka besar sudut keliling \\[ABD\\] dan \\[ACD\\] adalah . . . .",
+        "a": "a. \\[50^{\\circ}\\]",
+        "b": "b. \\[65^{\\circ}\\]",
+        "c": "c. \\[78^{\\circ}\\]",
+        "d": "d. \\[90^{\\circ}\\]",
+        "e": "e. \\[97^{\\circ}\\]",
+        "benar": "a",
+        "jwban": "a. \\[50^{\\circ}\\]"
+    }
+}, {
+    "soal4": {
+        "soal": "Perhatikan gambar di bawah ini <br> <img src='KUIS 2 4.png' width='300' height='200'> <br>Besar sudut pusat pada gambar di atas adalah . . . .",
+        "a": "a. \\[15^{\\circ}\\]",
+        "b": "b. \\[30^{\\circ}\\]",
+        "c": "c. \\[95^{\\circ}\\]",
+        "d": "d. \\[100^{\\circ}\\]",
+        "e": "e. \\[113^{\\circ}\\]",
+        "benar": "d",
+        "jwban": "d. \\[100^{\\circ}\\]"
+    }
+}, {
+    "soal5": {
+        "soal": "Diketahui sebuah lingkaran \\[Q\\] terdapat sudut keliling \\[DEF\\] dan sudut pusat \\[DQF\\] dengan besar sudut \\[DEF = 75^{\\circ}\\], maka besar sudut pusat \\[DQF\\] adalah . . . .",
+        "a": "a. \\[135^{\\circ}\\]",
+        "b": "b. \\[140^{\\circ}\\]",
+        "c": "c. \\[150^{\\circ}\\]",
+        "d": "d. \\[165^{\\circ}\\]",
+        "e": "e. \\[175^{\\circ}\\]",
+        "benar": "c",
+        "jwban": "c. \\[150^{\\circ}\\]"
+    }
+}, {
+    "soal6": {
+        "soal": "Suatu sudut keliling dan sudut pusat menghadap busur yang sama. Jika sudut kelilingnya berukuran \\[37^{\\circ}\\], maka besar sudut pusat tersebut adalah . . . .",
+        "a": "a. \\[54^{\\circ}\\]",
+        "b": "b. \\[74^{\\circ}\\]",
+        "c": "c. \\[76^{\\circ}\\]",
+        "d": "d. \\[81^{\\circ}\\]",
+        "e": "e. \\[90^{\\circ}\\]",
+        "benar": "b",
+        "jwban": "b. \\[74^{\\circ}\\]"
+    }
+}, {
+    "soal7": {
+        "soal": "Perhatikan gambar di bawah ini <br> <img src='KUIS 2 8.png' width='250' height='200'> <br>Pada gambar segiempat tali busur di atas \\[\\angle FEH\\] berhadapan dengan . . . .",
+        "a": "a. \\[\\angle FGH\\]",
+        "b": "b. \\[\\angle EFG\\]",
+        "c": "c. \\[\\angle GFE\\]",
+        "d": "d. \\[\\angle EHG\\]",
+        "e": "e. \\[\\angle GHE\\]",
+        "benar": "a",
+        "jwban": "a. \\[\\angle FGH\\]"
+    }
+}, {
+    "soal8": {
+        "soal": "Perhatikan gambar di bawah ini <br> <img src='KUIS 2 8.png' width='250' height='200'> <br>Diketahui \\[m\\angle EHG = 85^{\\circ}\\], maka \\[m\\angle EFG\\] adalah . . . .",
+        "a": "a. \\[64^{\\circ}\\]",
+        "b": "b. \\[75^{\\circ}\\]",
+        "c": "c. \\[83^{\\circ}\\]",
+        "d": "d. \\[85^{\\circ}\\]",
+        "e": "e. \\[95^{\\circ}\\]",
+        "benar": "e",
+        "jwban": "e. \\[95^{\\circ}\\]"
+    }
+}, {
+    "soal9": {
+        "soal": "Besar sudut \\[FGH\\] adalah . . .jika diketahui besar sudut \\[FEH\\] adalah \\[50^{\\circ}\\].",
+        "a": "a. \\[96^{\\circ}\\]",
+        "b": "b. \\[103^{\\circ}\\]",
+        "c": "c. \\[115^{\\circ}\\]",
+        "d": "d. \\[129^{\\circ}\\]",
+        "e": "e. \\[130^{\\circ}\\]",
+        "benar": "e",
+        "jwban": "e. \\[130^{\\circ}\\]"
+    }
+}]

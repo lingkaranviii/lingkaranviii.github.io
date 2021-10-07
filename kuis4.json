@@ -1,0 +1,112 @@
+[{
+    "soal0": {
+        "soal": "Perhatikan gambar di bawah ini <br> <img src='KUIS 4 1.jpg' width='317' height='180'> <br>Pada gambar di atas menunjukkan dua buah lingkaran dengan pusat \\[A\\] dan \\[B\\]. Panjang jari-jari \\[AC = 15\\,cm\\] dan \\[BD = 8\\,cm\\]. \\[CD\\] adalah garis singgung persekutuan luar. Jika \\[AB = 33\\,cm\\], maka panjang CD adalah . . . .",
+        "a": "a. \\[\\sqrt{1008\\,cm}\\]",
+        "b": "b. \\[\\sqrt{1025\\,cm}\\]",
+        "c": "c. \\[\\sqrt{1040\\,cm}\\]",
+        "d": "d. \\[\\sqrt{1053\\,cm}\\]",
+        "e": "e. \\[\\sqrt{1064\\,cm}\\]",
+        "benar": "c",
+        "jwban": "c. \\[\\sqrt{1040\\,cm}\\]"
+    }
+}, {
+    "soal1": {
+        "soal": "Dua lingkaran mempunyai jari-jari masing-masing \\[23\\,cm\\] dan \\[2\\,cm\\]. Jika jarak kedua titik pusat lingkaran \\[29\\,cm\\], maka panjang garis singgung persekutuan luar kedua lingkaran tersebut adalah . . . .",
+        "a": "a. \\[16\\,cm\\]",
+        "b": "b. \\[20\\,cm\\]",
+        "c": "c. \\[25\\,cm\\]",
+        "d": "d. \\[31\\,cm\\]",
+        "e": "e. \\[36\\,cm\\]",
+        "benar": "b",
+        "jwban": "b. \\[20\\,cm\\]"
+    }
+
+}, {
+    "soal2": {
+        "soal": "Pada lingkaran \\[E\\] dan \\[F\\] memiliki garis singgung persekutuan luar sepanjang \\[20\\,cm\\] dengan jari-jari lingkaran \\[E\\] dan \\[F\\] berturut-turut \\[18\\,cm\\] dan \\[3\\,cm\\]. Maka jarak pusat kedua lingkaran tersebut adalah . . . .",
+        "a": "a. \\[50\\,cm\\]",
+        "b": "b. \\[41\\,cm\\]",
+        "c": "c. \\[37\\,cm\\]",
+        "d": "d. \\[32\\,cm\\]",
+        "e": "e. \\[25\\,cm\\]",
+        "benar": "e",
+        "jwban": "e. \\[25\\,cm\\]"
+    }
+}, {
+    "soal3": {
+        "soal": "Perhatikan gambar di bawah ini <br> <img src='KUIS 4 2.jpg' width='319' height='161'> <br>Berdasarkan gambar di atas, panjang garis singgung persekutuan luar dua lingkaran tersebut adalah . . . .",
+        "a": "a. \\[20\\,cm\\]",
+        "b": "b. \\[17\\,cm\\]",
+        "c": "c. \\[13\\,cm\\]",
+        "d": "d. \\[12\\,cm\\]",
+        "e": "e. \\[9\\,cm\\]",
+        "benar": "d",
+        "jwban": "d. \\[12\\,cm\\]"
+    }
+}, {
+    "soal4": {
+        "soal": "Perhatikan gambar di bawah ini <br> <img src='KUIS 4 2.jpg' width='319' height='161'> <br>Jarak kedua lingkaran \\[I\\] dan \\[J\\] pada gambar di atas adalah . . . .",
+        "a": "a. \\[4\\,cm\\]",
+        "b": "b. \\[6\\,cm\\]",
+        "c": "c. \\[7\\,cm\\]",
+        "d": "d. \\[8\\,cm\\]",
+        "e": "e. \\[9\\,cm\\]",
+        "benar": "a",
+        "jwban": "a. \\[4\\,cm\\]"
+    }
+}, {
+    "soal5": {
+        "soal": "Pada lingkaran \\[M\\] dan \\[N\\] yang memiliki jari-jari berturut-turut \\[14\\,cm\\] dan \\[6\\,cm\\]. Maka jarak pusat lingkaran \\[M\\] dan \\[N\\] tersebut adalah . . . jika garis singgung persekutuan dalamnya \\[21\\,cm\\].",
+        "a": "a. \\[15\\,cm\\]",
+        "b": "b. \\[21\\,cm\\]",
+        "c": "c. \\[29\\,cm\\]",
+        "d": "d. \\[31\\,cm\\]",
+        "e": "e. \\[33\\,cm\\]",
+        "benar": "c",
+        "jwban": "c. \\[29\\,cm\\]"
+    }
+}, {
+    "soal6": {
+        "soal": "Perhatikan gambar di bawah ini <br> <img src='KUIS 4 3.jpg' width='317' height='180'> <br>Gambar di atas menunjukkan dua buah lingkaran dengan pusat \\[Q\\] dan \\[R\\]. \\[ST\\] adalah garis singgung persekutuan dalam. Jika jari-jari lingkaran \\[Q\\] dan \\[R\\] berturut-turut \\[10\\,cm\\] dan \\[8\\,cm\\], maka panjang \\[ST\\] adalah . . . dengan jarak pusat kedua lingkaran \\[22\\,cm\\].",
+        "a": "a. \\[\\sqrt{160\\,cm}\\]",
+        "b": "b. \\[\\sqrt{171\\,cm}\\]",
+        "c": "c. \\[\\sqrt{197\\,cm}\\]",
+        "d": "d. \\[\\sqrt{257\\,cm}\\]",
+        "e": "e. \\[\\sqrt{325\\,cm}\\]",
+        "benar": "a",
+        "jwban": "a. \\[\\sqrt{160\\,cm}\\]"
+    }
+}, {
+    "soal7": {
+        "soal": "Perhatikan gambar di bawah ini <br> <img src='KUIS 4 4.jpg' width='233' height='350'> <br>Berdasarkan gambar di atas, panjang garis singgung persekutuan dalam dua lingkaran tersebut adalah . . . .",
+        "a": "a. \\[31\\,cm\\]",
+        "b": "b. \\[24\\,cm\\]",
+        "c": "c. \\[19\\,cm\\]",
+        "d": "d. \\[15\\,cm\\]",
+        "e": "e. \\[10\\,cm\\]",
+        "benar": "b",
+        "jwban": "b. \\[24\\,cm\\]"
+    }
+}, {
+    "soal8": {
+        "soal": "Perhatikan gambar di bawah ini <br> <img src='KUIS 4 4.jpg' width='233' height='350'> <br>Jarak lingkaran \\[U\\] dan \\[V\\] pada gambar di atas adalah . . . .",
+        "a": "a. \\[9\\,cm\\]",
+        "b": "b. \\[12\\,cm\\]",
+        "c": "c. \\[16\\,cm\\]",
+        "d": "d. \\[17\\,cm\\]",
+        "e": "e. \\[18\\,cm\\]",
+        "benar": "e",
+        "jwban": "e. \\[18\\,cm\\]"
+    }
+}, {
+    "soal9": {
+        "soal": "Panjang garis singgung persekutuan dalam dua lingkaran adalah \\[21\\,cm\\] dan jarak kedua pusatnya adalah \\[29\\,cm\\]. Jika panjang salah satu jari-jari lingkaran \\[13\\,cm\\], maka panjang jari-jari lingkaran yang lain adalah . . . .",
+        "a": "a. \\[13\\,cm\\]",
+        "b": "b. \\[12\\,cm\\]",
+        "c": "c. \\[10\\,cm\\]",
+        "d": "d. \\[7\\,cm\\]",
+        "e": "e. \\[5\\,cm\\]",
+        "benar": "d",
+        "jwban": "d. \\[7\\,cm\\]"
+    }
+}]

@@ -1,0 +1,10 @@
+var firebaseConfig = {
+    apiKey: "AIzaSyC9nDwrMuB2BDep7PR9RVKE63HBy9d05CI",
+    authDomain: "lingkaran8-720b4.firebaseapp.com",
+    projectId: "lingkaran8-720b4",
+    storageBucket: "lingkaran8-720b4.appspot.com",
+    messagingSenderId: "601366976968",
+    appId: "1:601366976968:web:3be0ad083c3007d5bcc8fd"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);

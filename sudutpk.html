@@ -1,0 +1,337 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link rel="icon" type="image/png" href="L.png">
+	<title>Lingkaran</title>
+</head>
+<!-- mathjax -->
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<style>
+	mjx-container {
+  display: inline-block !important;
+  margin: 0 !important;
+  heading: 4px 0px !important;
+}
+</style>
+<body>
+<link rel="stylesheet" href="style.css" type="text/css" media="screen"/>
+<header></header>
+	<ul>
+            <li><a href="index.html"><img src="t home.png" width="30px" height="30px"></a></li>
+    </ul>
+	
+	<section>
+		  <nav>
+			<div class="button-nav">
+		  <button class="dropbutton dropdown-btn" onclick="ftampil()">A. Mengenal Lingkaran
+			<i class="fa fa-caret-down"></i>
+		  </button>
+	
+		  <div class="dropdown-content dropdown-container">
+			<a href="materii.html">1. Mengenal Lingkaran</a>
+			<a href="unsurlingkarangaris.html">2. Unsur-unsur lingkaran yang berupa garis dan ciri-cirinya</a>
+			<a href="unsurlingkaranluasan.html">3. Unsur-unsur lingkaran yang berupa luasan dan ciri-cirinya</a>
+			<a href="kelilingdanluas.html">4. Keliling dan luas lingkaran</a>
+			<a href="rangkuman1.html">Rangkuman</a>
+			<a href="kuis1awal.html">Kuis 1</a>
+		  </div>
+
+		  <button class="dropbtn dropdown-btn active" onclick="ftampil()">B. Sudut Pusat dan Sudut Keliling</a>
+			<i class="fa fa-caret-down"></i>
+		  </button>
+
+		  <div class="dropdown-content dropdown-containerr">
+			<a href="sudutpk.html" class="hvr">Sudut Pusat dan Sudut Keliling</a>
+			<a href="rangkuman2.html">Rangkuman</a>
+			<a href="kuis2.html">Kuis 2</a>
+		  </div>
+
+		  <button class="dropbtn dropdown-btn" onclick="ftampil()">C. Panjang Busur dan Luas Juring
+			<i class="fa fa-caret-down"></i>
+		  </button>
+
+		  <div class="dropdown-content dropdown-container">
+			<a href="panjangbusur.html">Panjang Busur dan Luas Juring</a>
+			<a href="rangkuman3.html">Rangkuman</a>
+			<a href="kuis3.html">Kuis 3</a>
+		  </div>
+		   
+		   <button class="dropbtn dropdown-btn" onclick="ftampil()">D. Garis Singgung Lingkaran
+			  <i class="fa fa-caret-down"></i>
+		  </button>
+	
+		   <div class="dropdown-content dropdown-container">
+			 <a href="garissl.html">1. Garis singgung persekutuan luar dua lingkaran</a>
+			 <a href="garissd.html">2. Garis singgung persekutuan dalam dua lingkaran</a>
+			 <a href="rangkuman4.html">Rangkuman</a>
+			 <a href="kuis4.html">Kuis 4</a>
+			</div>
+		
+		  <button class="button" button onclick="location.href='evaluasi.html'">Evaluasi</button>
+	  
+		  </div>
+		  </nav>
+	
+	<div class="konten">
+		<img src="b.png" width="700px" height="130px" style="display: block;margin: auto;">
+      <button class="tujuan">Klik Untuk Menyembunyikan Tujuan Pembelajaran</button>
+      <div id="tujuan">
+        <ol>
+		<center><b class="tujuan">Tujuan Pembelajaran:</b><br></center>
+        <li>Siswa mampu menemukan hubungan antara sudut pusat dengan sudut keliling yang menghadap busur sama dengan tepat.</li><br>
+        <li>Siswa mampu menemukan hubungan antar sudut keliling yang menghadap busur sama dengan tepat.</li><br>
+        <li>Siswa mampu menemukan hubungan sudut yang saling berhadapan pada segiempat tali busur dengan tepat.</li><br><br>
+      </ol>
+ 	  </div><br>
+	<br><center><img class="gambar" src="SUDUT KELILING ABC.png" style="border-style: solid;border-color: #8e6bc5;"></center>
+	<center><i><b>Gambar 15</b>: Sudut Keliling ABC</i></center>
+	<p><b>Sudut Keliling</b> adalah sudut yang kaki sudutnya berhimpit dengan tali busur, dan titik pusatnya berhimpit dengan suatu titik pada lingkaran, seperti yang bisa dilihat pada gambar 15.</p>
+	<center><img class="gambar" src="SUDUT PUSAT.png" style="border-style: solid;border-color: #8e6bc5;"></center>
+	<center><i><b>Gambar 16</b>: Sudut Pusat</i></center>
+	<p>\[\angle ROS\] disebut sudut pusat. <b>Sudut Pusat</b> adalah daerah sudut yang dibatasi oleh <b>dua jari-jari</b> lingkaran yang titik sudutnya merupakan titik pusat lingkaran, seperti yang bisa dilihat pada gambar 16.</p>
+	<center><img class="gambar" src="SUDUT KELILING.png" style="border-style: solid;border-color: #8e6bc5;"></center>
+	<center><i><b>Gambar 17</b>: Sudut Keliling</i></center>
+	<p>\[\angle RTS\] disebut sudut keliling. <b>Sudut keliling</b> adalah daerah sudut yang dibatasi oleh <b>dua tali busur</b> yang berpotongan di satu titik pada lingkaran dan titik sudutnya terletak pada keliling lingkaran, seperti yang bisa dilihat pada gambar 17.</p>
+	<center><img class="gambar" src="SUDUT PUSAT DAN KELILING.png" style="border-style: solid;border-color: #8e6bc5;"></center>
+	<center><i><b>Gambar 18</b>: Sudut Pusat dan Keliling</i></center>
+	<p>\[\angle ROS\] disebut sudut pusat dan \[\angle RTS\] disebut sudut keliling, seperti yang bisa dilihat pada gambar 18 adalah gabungan dari <b>sudut pusat</b> dan <b>sudut keliling</b>.</p>
+	<div id="boxkecil3">
+		<p><center><b>Sudut Pusat:</b></center></p>
+		<p style="color: white;">\[Besar\,\,sudut\,\,pusat = 2 × Besar\,\,sudut\,\,keliling\]</p>
+		<p style="color: white;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\[m\angle ROS = 2 × m\angle RTS\]</p>
+		<p><center><b>Sudut Keliling:</b></center></p>
+		<p style="color: white;">\[Besar\,\,sudut\,\,keliling= \frac{1}{2}×Besar\,\,sudut\,\,pusat\]</p>
+		<p style="color: white;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\[m\angle RTS = \frac{1}{2} × m\angle ROS\]</p>
+	</div><br>
+	<center><img class="gambar" src="SEGI EMPAT TALI BUSUR.png" style="border-style: solid;border-color: #8e6bc5;"></center>
+	<center><i><b>Gambar 19</b>: Segi Empat Tali Busur</i></center>
+	<p><b>Segiempat Tali Busur</b> adalah segi empat yang keempat titik sudutnya berhimpit dengan suatu lingkaran, seperti yang bisa dilihat pada gambar 19.</p>
+	<div id="boxkecil2">
+		<p style="color: white;"><b><i>Keterangan:</i></b></p>
+		<ol>
+			<li>Segiempat tali busur \[ABCD\] tersusun atas dua pasang sudut keliling yang saling berhadapan yaitu \[\angle ABC\] dengan \[\angle ADC\] dan \[\angle ABC\] dengan \[\angle ADC\]</i></b>.</li>
+			<li>Kedua busur yang dihadapi oleh masing-masing sudut keliling yang saling berhadapan jika digabung akan membentuk lingkaran utuh.</li>
+			<li>Jumlah besar sudut yang berhadapan pada segiempat tali busur sama dengan:</li>
+			<p style="color: white;">\[\frac{1}{2} × 360^{\circ} = 180^{\circ}\]</p>
+		</ol>
+	</div><br>
+	<div class="bsubsubbab">
+		<table cellpadding="5">
+			<tr>
+				<td align=left valign=top><img src="mengamati.png" class="gambar1" width="55px" height="55px"></td>
+				<td>Mari Mengamati</td>
+			</tr>
+		</table>
+	</div>
+	<p>Perhatikan gambar berikut ini!</p>
+	<table cellpadding="5">
+		<tr>
+			<td align=left valign=middle><center><img src="spsk 2.png" width="250px" height="250px"></center></td>
+			<td align=left valign=middle><center><img src="spsk 1.png" width="250px" height="250px"></center></td>
+			<td align=left valign=middle><center><img src="spsk.png" width="250px" height="250px"></center></td>
+		</tr>
+	</table>
+	<p>Pada potongan pizza yang membentuk \[\angle COD\] memiliki besar sudut atau \[m\angle COD = 90^{\circ}\] kemudian potongan pizza yang membentuk \[\angle EOF\] memiliki besar sudut atau \[m\angle EOF = 135^{\circ}\] dan potongan pizza yang membentuk \[\angle GOH\] memiliki besar sudut atau  \[m\angle GOH = 70^{\circ}\]. Sudut-sudut tersebut merupakan sudut pusat dan memiliki masing-masing sudut keliling yang menghadap busur yang sama.</p>
+	<div class="bsubsubbab">
+		<table cellpadding="5">
+			<tr>
+				<td align=left valign=top><img src="menanya.png" class="gambar1" width="55px" height="55px"></td>
+				<td>Mari Menanya</td>
+			</tr>
+		</table>
+	</div>
+	<p>Bagaimana cara menemukan besar masing-masing sudut keliling \[\angle CWD\], \[\angle EYF\], \[\angle GJH\], dan \[\angle GKH\] pada pizza tersebut?</p>
+	<div class="bsubsubbab">
+		<table cellpadding="5">
+			<tr>
+				<td align=left valign=top><img src="pmasalah.png" class="gambar1" width="55px" height="55px"></td>
+				<td>Alternatif Pemecahan Masalah</td>
+			</tr>
+		</table>
+	</div>
+	<p>Untuk menyelesaikan permasalahan di atas lakukan prosedur berikut:</p>
+	<p><b>Langkah 1</b></p>
+	<p>Wajib mengingat ini:</p>
+		<div id="boxkecil4">
+		<p style="color: white;"><b>\[Besar\,\,sudut\,\,pusat=2×Besar\,\,sudut\,\,\]<input type="text" id="Textmm11" value="" placeholder="............." style="width: 50px !important;" class="input" oninput="mm11()"> <text id="demomm11"></text></b></p>
+		<p style="color: white;"><b>\[Besar\,\,sudut\,\,keliling=\frac{1}{2}×Besar\,\,sudut\,\,\]<input type="text" id="Textmm12" value="" placeholder="............." style="width: 50px !important;" class="input" oninput="mm12()"> <text id="demomm12"></text></b></p>
+	</div>
+	<p><b>Langkah 2</b></p>
+	<p>Menyesuaikan:</p>
+		<div id="boxkecil3">
+		<p><center>\[\angle CWD\]</center></p>
+		<p style="color: white;">\[Besar\,\,sudut\,\,keliling=\frac{1}{2}×Besar\,\,sudut\,\,pusat\]</p>
+		<p style="color: white;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\[m\angle\]<input type="text" id="Textmm13" value="" placeholder="......." style="width: 40px !important;" class="input" oninput="mm13()"> <text id="demomm13"></text> \[=\frac{1}{2}×m\angle\]<input type="text" id="Textmm14" value="" placeholder="......." style="width: 40px !important;" class="input" oninput="mm14()"> <text id="demomm14"></text></p><br>
+		<p style="color: white;"><center>\[\angle EYF\]</center></p>
+		<p style="color: white;">\[Besar\,\,sudut\,\,keliling=\frac{1}{2}×Besar\,\,sudut\,\,pusat\]</p>
+		<p style="color: white;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\[m\angle\]<input type="text" id="Textmm15" value="" placeholder="......." style="width: 40px !important;" class="input" oninput="mm15()"> <text id="demomm15"></text> \[=\frac{1}{2}×m\angle\]<input type="text" id="Textmm16" value="" placeholder="......." style="width: 40px !important;" class="input" oninput="mm16()"> <text id="demomm16"></text></p><br>
+		<p style="color: white;"><center>\[\angle GJH\] dan \[\angle GKH\]</center></p>
+		<p style="color: white;">\[Besar\,\,sudut\,\,keliling=\frac{1}{2}×Besar\,\,sudut\,\,pusat\]</p>
+		<p style="color: white;">\[m\angle\]<input type="text" id="Textmm17" value="" placeholder="......." style="width: 40px !important;" class="input" oninput="mm17()"> <text id="demomm17"></text>\[=m\angle\]<input type="text" id="Textmm18" value="" placeholder="......." style="width: 40px !important;" class="input" oninput="mm18()"> <text id="demomm18"></text>\[=\frac{1}{2}×m\angle\]<input type="text" id="Textmm19" value="" placeholder="......." style="width: 40px !important;" class="input" oninput="mm19()"> <text id="demomm19"></text></p>
+	</div>	
+	<p><b>Langkah 3</b></p>
+	<p>Menyelesaikan:</p>
+		<div id="boxkecil3">
+			<p><center>\[\angle CWD\]</center></p>
+			<p style="color: white;">\[Besar\,\,sudut\,\,keliling=\frac{1}{2}×Besar\,\,sudut\,\,pusat\]</p>
+			<p style="color: white;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\[\angle CWD=\frac{1}{2}×m\angle COD\]</p>
+			<p style="color: white;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\[\angle CWD=\frac{1}{2}×\]<input type="text" id="Textmm20" value="" placeholder="......." style="width: 40px !important;" class="input" oninput="mm20()"> \[^{\circ}\] <text id="demomm20"></text></p>
+			<p style="color: white;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\[\angle CWD=\]<input type="text" id="Textmm21" value="" placeholder="......." style="width: 40px !important;" class="input" oninput="mm21()"> \[^{\circ}\] <text id="demomm21"></text></p><br>
+			<p><center>\[\angle EYF\]</center></p>
+			<p style="color: white;">\[Besar\,\,sudut\,\,keliling=\frac{1}{2}×Besar\,\,sudut\,\,pusat\]</p>
+			<p style="color: white;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\[\angle EYF=\frac{1}{2}×m\angle EOF\]</p>
+			<p style="color: white;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\[\angle CWD=\frac{1}{2}×\]<input type="text" id="Textmm22" value="" placeholder="......." style="width: 40px !important;" class="input" oninput="mm22()"> \[^{\circ}\] <text id="demomm22"></text></p>
+			<p style="color: white;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\[\angle CWD=\]<input type="text" id="Textmm23" value="" placeholder="......." style="width: 40px !important;" class="input" oninput="mm23()"> \[^{\circ}\] <text id="demomm23"></text></p><br>
+			<p><center><i><b>∠GJH</b> dan <b>∠GKH</b></i></center></p>
+			<p style="color: white;">\[Besar\,\,sudut\,\,keliling=\frac{1}{2}×Besar\,\,sudut\,\,pusat\]</p>
+			<p style="color: white;">\[m\angle GJH=m\angle GKH=\frac{1}{2}×m\angle GOH\]</p>
+			<p style="color: white;">\[m\angle GJH=m\angle GKH=\frac{1}{2}×\]<input type="text" id="Textmm24" value="" placeholder="......." style="width: 40px !important;" class="input" oninput="mm24()"> \[^{\circ}\] <text id="demomm24"></text></p>
+			<p style="color: white;">\[m\angle GJH=m\angle GKH=\]<input type="text" id="Textmm25" value="" placeholder="......." style="width: 40px !important;" class="input" oninput="mm25()"> \[^{\circ}\] <text id="demomm25"></text><br>
+			</div><br>
+	<div class="bsubsubbab">
+		<table cellpadding="5">
+			<tr>
+				<td align=left valign=top><img src="mencoba.png" class="gambar1" width="55px" height="55px"></td>
+				<td>Mari Mencoba</td>
+			</tr>
+		</table>
+	</div><br>
+	<button class="tujuan tujuan1" style="font-size: 14px;">Klik untuk melihat Petunjuk Soal</button>
+				<div id="tujuan1" class="hilang">
+					<ol>
+					<center><b>Petunjuk Pengerjaan Soal:</b><br></center>
+					<li>Perhatikan gambar pada soal, apabila terdapat gambar pada soal</li><br>
+					<li>Baca dan pahami soal sebelum menjawabnya</li><br>
+					<li>Masukkan jawabanmu pada kolom jawaban seperti ini <img src="kolom jawaban.PNG" class="imgt"></li><br>
+					<li>Ketika ingin memeriksa jawaban yang sudah diisi maka silakan klik tombol <img src="tombol periksa.PNG" class="imgt"></li><br><br>
+				</ol>
+				</div><br>
+				<p></p>
+	<table cellpadding="5">
+		<tr>
+			<td align=left valign=middle><center><img src="B. MARI MENCOBA 1.png" width="250px" height="250px"></center></td>
+			<td align=left valign=middle><center><img src="B. MARI MENCOBA 2.png" width="250px" height="250px"></center></td>
+		</tr>
+	</table>
+	<p>Berdasarkan 2 gambar di atas, diketahui \[m\angle LKM = 50^{\circ}\], \[m\angle LQM = (3x + 4)^{\circ}\], \[m\angle BDC = 67^{\circ}\], dan \[m\angle ACD = 135^{\circ}\]. Tentukan:</p>
+	<div class="pembahasan"><b><center>Pembahasan</center></b>
+		<p id="demo3"></p>
+	</div>
+	<table cellpadding="5">
+		<tr>
+			<td align=left valign=middle><center>a.</center></td>
+			<td>Nilai \[x\] <input type="text" id="myText21" value="" placeholder=".........." style="width: 40px;" class="input"></td>
+			<td style="background-color: #d9c2fa;"><button onclick="myFunction21()" class="pj1">Periksa Jawaban</button></td>
+		</tr>
+	</table>
+	<table cellpadding="5">
+		<tr>
+			<td align=left valign=middle><center>b.</center></td>
+			<td>\[m\angle LQM\] <input type="text" id="myText22" value="" placeholder=".........." style="width: 40px;" class="input">
+			<td style="background-color: #d9c2fa;"><button onclick="myFunction22()" class="pj1">Periksa Jawaban</button></td>
+		</tr>
+	</table>
+	<table cellpadding="5">
+		<tr>
+			<td align=left valign=middle><center>c.</center></td>
+			<td>\[m\angle BAC\] <input type="text" id="myText23" value="" placeholder=".........." style="width: 40px;" class="input">
+			</td>
+			<td style="background-color: #d9c2fa;"><button onclick="myFunction23()" class="pj1">Periksa Jawaban</button></td>
+		</tr>
+	</table>
+	<table cellpadding="5">
+		<tr>
+			<td align=left valign=middle><center>d.</center></td>
+			<td>\[m\angle ABD\] <input type="text" id="myText24" value="" placeholder=".........." style="width: 40px;" class="input">
+			<td style="background-color: #d9c2fa;"><button onclick="myFunction24()" class="pj1">Periksa Jawaban</button></td>
+		</tr>
+	</table>
+	<div class="subsubbab"><center>Pertanyaan</center></div>
+
+	<div class="slideshow-container">                 
+		<button class="tujuan tujuan2" style="font-size: 14px;">Klik untuk melihat Petunjuk Soal</button><br>
+	  <div id="tujuan2" class="hilang">
+		<ol>
+		  <center><b>Petunjuk Pengerjaan Soal:</b><br></center>
+		  <li>Perhatikan gambar pada soal, apabila terdapat gambar pada soal</li><br>
+		  <li>Baca dan pahami soal sebelum menjawabnya</li><br>
+		  <li>Masukkan jawabanmu pada kolom jawaban seperti ini <img src="kolom jawaban.PNG" class="imgt"></li><br>
+		  <li>Ketika ingin memeriksa jawaban yang sudah diisi maka silakan klik tombol <img src="tombol periksa1.PNG" class="imgt"></li><br>
+		  <li>Tekan tombol 1,2,3,4,5 dan 6 di bawah soal atau tombol <img src="pre.PNG" width="20px" height="20px" class="imgt"> dan <img src="nex.PNG" width="20px" height="20px" class="imgt"> untuk mengganti ke nomor soal selanjutnya</li><br><br>
+	   </ol>
+	  </div>
+		  <div class="mySlides">
+			<p>1. Perhatikan lingkaran N di bawah. Diketahui \[m\angle QPS = 2x\] dan \[m\angle QRS = 2x - 40^{\circ}\] <br> &nbsp;&nbsp;&nbsp; Tentukan:</p>
+			<center><img src="B. PERTANYAAN 1.PNG" width="300px" height="300px" style="display: block;" class="imgs"></center>
+			<p class="tulisan">a. Nilai x, <input type="text" id="myText25" value="" placeholder=".........." style="width: 40px;" class="input"> \[^{\circ}\] </p>
+			<button onclick="myFunction25()" class="pj">Periksa Jawaban</button>
+			<p id="demo25"></p>
+		  </div>
+		  
+		  <div class="mySlides">
+			<p>1. Perhatikan lingkaran N di bawah. Diketahui \[m\angle QPS = 2x\] dan \[m\angle QRS = 2x - 40\]. <br> &nbsp;&nbsp;&nbsp; Tentukan:</p>
+			<center><img src="B. PERTANYAAN 1.PNG" width="300px" height="300px" style="display: block;" class="imgs"></center>
+			<p class="tulisan">b. \[m\angle QNS\,minor\], <input type="text" id="myText26" value="" placeholder=".........." style="width: 40px;" class="input"> \[^{\circ}\] </p>
+			<button onclick="myFunction26()" class="pj">Periksa Jawaban</button>
+			<p id="demo26"></p>
+		  </div>
+		  
+		  <div class="mySlides">
+			<p>1. Perhatikan lingkaran N di bawah. Diketahui \[m\angle QPS = 2x\] dan \[m\angle QRS = 2x - 40\]. <br> &nbsp;&nbsp;&nbsp; Tentukan:</p>
+			<center><img src="B. PERTANYAAN 1.PNG" width="300px" height="300px" style="display: block;" class="imgs"></center>
+			<p class="tulisan">c. \[m\angle QNS\,mayor\]. <input type="text" id="myText27" value="" placeholder=".........." style="width: 40px;" class="input"> \[^{\circ}\] </p>
+			<button onclick="myFunction27()" class="pj">Periksa Jawaban</button>
+			<p id="demo27"></p>
+		  </div>
+
+		  <div class="mySlides">
+			<p>2. Suatu lingkaran dibagi menjadi tiga sudut 1, 2, dan 3 dengan perbandingan 3 : 7 : 14. <br> &nbsp;&nbsp;&nbsp; Tentukan:</p>
+			<center><img src="B. PERTANYAAN 2.png" width="300px" height="300px" style="display: block;" class="imgs"></center>
+			<p class="tulisan">a. Ukuran sudut 1, <input type="text" id="myText28" value="" placeholder=".........." style="width: 40px;" class="input"> \[^{\circ}\] </p>
+			<button onclick="myFunction28()" class="pj">Periksa Jawaban</button>
+			<p id="demo28"></p>
+		  </div>
+
+		  <div class="mySlides">
+			<p>2. Suatu lingkaran dibagi menjadi tiga sudut 1, 2, dan 3 dengan perbandingan 3 : 7 : 14. <br> &nbsp;&nbsp;&nbsp; Tentukan:</p>
+			<center><img src="B. PERTANYAAN 2.png" width="300px" height="300px" style="display: block;" class="imgs"></center>
+			<p class="tulisan">b. Ukuran sudut 2, <input type="text" id="myText29" value="" placeholder=".........." style="width: 40px;" class="input"> \[^{\circ}\] </p>
+			<button onclick="myFunction29()" class="pj">Periksa Jawaban</button>
+			<p id="demo29"></p>
+		  </div>
+
+		  <div class="mySlides">
+			<p>2. Suatu lingkaran dibagi menjadi tiga sudut 1, 2, dan 3 dengan perbandingan 3 : 7 : 14. <br> &nbsp;&nbsp;&nbsp; Tentukan:</p>
+			<center><img src="B. PERTANYAAN 2.png" width="300px" height="300px" style="display: block;" class="imgs"></center>
+			<p class="tulisan">c. Ukuran sudut 3. <input type="text" id="myText30" value="" placeholder=".........." style="width: 40px;" class="input"> \[^{\circ}\] </p>
+			<button onclick="myFunction30()" class="pj">Periksa Jawaban</button>
+			<p id="demo30"></p>
+		  </div>
+
+		  <a class="pre" onclick="plusSlides(-1)">❮</a>
+		  <a class="nex" onclick="plusSlides(1)">❯</a>
+				  
+			</div>
+				  
+				  <div class="dot-container">
+					<b class="no">Nomor Soal:</b><br>
+					<span class="dot" onclick="currentSlide(1)">1</span> 
+					<span class="dot" onclick="currentSlide(2)">2</span>
+					<span class="dot" onclick="currentSlide(3)">3</span> 
+					<span class="dot" onclick="currentSlide(4)">4</span>
+					<span class="dot" onclick="currentSlide(5)">5</span>  
+					<span class="dot" onclick="currentSlide(6)">6</span> 
+				  </div>
+				<br>
+
+</section>
+<footer>
+	<div id="footer">
+	  <a href="rangkuman1.html" class="previous"><img src="previous.png" width="25px" height="25px"></a>
+	  <a href="rangkuman2.html" class="next"><img src="next.png" width="25px" height="25px"></a>
+  </div>
+</footer>
+	<script src="javascript1.js"></script>
+</body>
+</html>

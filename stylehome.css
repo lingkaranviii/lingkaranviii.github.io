@@ -1,0 +1,90 @@
+/* Layout */
+
+body {
+    width: 99%;
+	min-height: 200px;
+    background-color: #000e2a;
+}
+
+.ki-kd{
+	text-align: center;
+	background-color: #000e2a;
+	height: 275px;
+	width: 250px;
+	float: left;
+	margin-left: 150px;
+	margin-top: 50px;
+}
+
+.materi{
+	text-align: center;
+	background-color: #000e2a;
+	height: 275px;
+	width: 250px;
+	float: left;
+	margin-left: 150px;
+	margin-top: 50px;
+}
+
+.tentang{
+	text-align: center;
+	background-color: #000e2a;
+	height: 275px;
+	width: 250px;
+	float: left;
+	margin-left: 150px;
+	margin-top: 50px;
+}
+
+.tmbl :hover {
+	-webkit-transform: scale(1.2, 1.2);
+	transform: scale(1.2, 1.2);
+}
+
+.tmbl :hover ::after {
+    opacity: 1;
+}
+
+.tmbl {
+	-webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+	transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.tmbl::after {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+/* Mobile layout*/
+@media (max-width: 992px) {
+	.ki-kd {
+		text-align: center;
+    	background-color: #000e2a;
+    	float: left;
+    	margin-left: 575px;
+    	margin-top: 70px;
+	}
+
+	.materi {
+		text-align: center;
+    	background-color: #000e2a;
+    	float: left;
+    	margin-left: 575px;
+    	margin-top: 70px;
+	}
+
+	.tentang {
+		text-align: center;
+    	background-color: #000e2a;
+    	float: left;
+    	margin-left: 575px;
+    	margin-top: 70px;
+	}
+}

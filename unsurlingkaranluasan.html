@@ -1,0 +1,242 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link rel="icon" type="image/png" href="L.png">
+	<title>Lingkaran</title>
+</head>
+<!-- mathjax -->
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<style>
+	mjx-container {
+  display: inline-block !important;
+  margin: 0 !important;
+  heading: 4px 0px !important;
+}
+</style>
+<body>
+<link rel="stylesheet" href="style.css" type="text/css" media="screen"/>
+<header></header>
+<ul>
+	<li><a href="index.html"><img src="t home.png" width="30px" height="30px"></a></li>
+</ul>
+	
+	<section>
+		  <nav>
+			<div class="button-nav">
+		  <button class="dropbtn dropdown-btn active" onclick="ftampil()">A. Mengenal Lingkaran
+			<i class="fa fa-caret-down"></i>
+		  </button>
+	
+		  <div class="dropdown-content dropdown-containerr">
+			<a href="materii.html">1. Mengenal Lingkaran</a>
+			<a href="unsurlingkarangaris.html">2. Unsur-unsur lingkaran yang berupa garis dan ciri-cirinya</a>
+			<a href="unsurlingkaranluasan.html" class="hvr">3. Unsur-unsur lingkaran yang berupa luasan dan ciri-cirinya</a>
+			<a href="kelilingdanluas.html">4. Keliling dan luas lingkaran</a>
+			<a href="rangkuman1.html">Rangkuman</a>
+			<a href="kuis1awal.html">Kuis 1</a>
+		  </div>
+
+		  <button class="dropbtn dropdown-btn" onclick="ftampil()">B. Sudut Pusat dan Sudut Keliling
+			<i class="fa fa-caret-down"></i>
+		  </button>
+
+		  <div class="dropdown-content dropdown-container">
+			<a href="sudutpk.html">Sudut Pusat dan Sudut Keliling</a>
+			<a href="rangkuman2.html">Rangkuman</a>
+			<a href="kuis2.html">Kuis 2</a>
+		  </div>
+
+		  <button class="dropbtn dropdown-btn" onclick="ftampil()">C. Panjang Busur dan Luas Juring
+			<i class="fa fa-caret-down"></i>
+		  </button>
+
+		  <div class="dropdown-content dropdown-container">
+			<a href="panjangbusur.html">Panjang Busur dan Luas Juring</a>
+			<a href="rangkuman3.html">Rangkuman</a>
+			<a href="kuis3.html">Kuis 3</a>
+		  </div>
+		   
+		   <button class="dropbtn dropdown-btn" onclick="ftampil()">D. Garis Singgung Lingkaran
+			  <i class="fa fa-caret-down"></i>
+		  </button>
+	
+		   <div class="dropdown-content dropdown-container">
+			 <a href="garissl.html">1. Garis singgung persekutuan luar dua lingkaran</a>
+			 <a href="garissd.html">2. Garis singgung persekutuan dalam dua lingkaran</a>
+			 <a href="rangkuman4.html">Rangkuman</a>
+			 <a href="kuis4.html">Kuis 4</a>
+			</div>
+		
+		  <button class="button" button onclick="location.href='evaluasi.html'">Evaluasi</button>
+	  
+		  </div>
+		  </nav>
+
+          <div class="konten">
+            <div class="subsubbab">3. Unsur-unsur Daerah Lingkaran yang Berupa Luasan dan Ciri-cirinya</div>
+			<p>Dalam bahasan ini kata unsur-unsur lingkaran adalah istilah yang terkait dengan lingkaran. Unsur lingkaran yang berupa luasan yaitu juring dan tembereng.</p>
+			<div class="bsubsubbab">
+				<table cellpadding="5">
+					<tr>
+						<td align=left valign=top><img src="mengamati.png" class="gambar1" width="55px" height="55px"></td>
+						<td>Mari Mengamati</td>
+					</tr>
+				</table>
+			</div>
+			<p>Perhatikan bagian yang ber<b style="color: red;">warna merah</b> pada gambar 10 dan 11 di bawah, serta <b>ciri-ciri</b> dari setiap unsur berikut!</p>
+			<p><b>Juring</b></p>
+			<p>Amatilah gambar 10 di bawah ini!</p>
+			<img src="JURING.png" width="900px" height="300px" style="display: block;margin: auto;border-style: solid;border-color: #8e6bc5;">
+			<center><i><b>Gambar 10</b>: Juring</i></center>	
+			<p>Dari pengamatan di atas diperoleh <b>Ciri-ciri</b> dari <input type="text" id="Textjuring" value="" placeholder="....................." style="width: 70px;" class="input" oninput="juring()"></p>
+			<p id="demojuring"></p>
+			<p><b>Tembereng</b></p>
+			<p>Amatilah gambar 11 di bawah ini!</p>
+			<img src="TEMBERENG.png" width="900px" height="300px" style="display: block;margin: auto;border-style: solid;border-color: #8e6bc5;">
+			<center><i><b>Gambar 11</b>: Tembereng</i></center>
+			<p>Dari pengamatan di atas diperoleh <b>Ciri-ciri</b> dari <input type="text" id="Texttembereng" value="" placeholder="........................" style="width: 95px;" class="input" oninput="tembereng()"></p>
+			<p id="demotembereng"></p>
+			<div class="bsubsubbab">
+				<table cellpadding="5">
+					<tr>
+						<td align=left valign=top><img src="menanya.png" class="gambar1" width="55px" height="55px"></td>
+						<td>Mari Menanya</td>
+					</tr>
+				</table>
+			</div>
+			<p>Bagaimanakah cara yang harus dilakukan untuk menemukan besar sudut pusat \[YCZ\] (\[m\angle YCZ\]) dan besar sudut pusat \[WCX\] (\[m\angle WCX\]) berdasarkan gambar di bawah ini.</p>
+			<img src="MARI MENANYA 1.png" class="gambar" width="300px" height="300px" style="display: block;margin: auto;"><br>
+			<div class="bsubsubbab">
+				<table cellpadding="5">
+					<tr>
+						<td align=left valign=top><img src="pmasalah.png" class="gambar1" width="55px" height="55px"></td>
+						<td>Alternatif Pemecahan Masalah</td>
+					</tr>
+				</table>
+			</div>
+			<p>Untuk menyelesaikan permasalahan di atas lakukan prosedur berikut:</p>
+			<p><b>Langkah 1</b></p>
+			<p>Perhatikan besar sudut yang diketahui:</p>
+			<div id="boxkecil1">
+			<p style="color: white">\[Besar\,\,sudut\,\,setengah\,\,lingkaran =\] <input type="text" id="Textmm4" value="" placeholder="........" style="width: 30px !important;" class="input" oninput="mm4()"> \[^{\circ}\] <text id="demomm4"></p>
+			<p style="color: white">\[m\angle VCY\,\,dan\,\,m\angle WCY\,\,merupakan\,\,sudut\,\,siku-siku\,\,yaitu\,\] <input type="text" id="Textmm5" value="" placeholder="........" style="width: 30px !important;" class="input" oninput="mm5()"> \[^{\circ}\] <text id="demomm5"></p>
+			<p style="color: white">\[m\angle VCX=\] <input type="text" id="Textmm6" value="" placeholder="........" style="width: 30px !important;" class="input" oninput="mm6()"> \[^{\circ}\] <text id="demomm6"> \[\,\,dan\,\,bertolak\,\,belakang\,\,dengan\,\,\angle WCZ\]</p>
+			</div>
+			<p><b>Langkah 2</b></p>
+			<p>Menyelesaikan:</p>
+			<div id="boxkecil">
+			<p style="color: white"><b><i>m∠YCZ</i></b></p>
+			<p style="color: white">\[m\angle YCZ=90^{\circ}-m\angle WCZ\]</p>
+			<p style="color: white">\[m\angle YCZ=90^{\circ}-\,\]<input type="text" id="Textmm7" value="" placeholder="........" style="width: 30px !important;" class="input" oninput="mm7()"> \[^{\circ}\] <text id="demomm7"></p>
+			<p style="color: white">\[m\angle YCZ=\,\]<input type="text" id="Textmm8" value="" placeholder="........" style="width: 30px !important;" class="input" oninput="mm8()"> \[^{\circ}\] <text id="demomm8"></p>
+			<p style="color: white"><b><i>m∠WCX</i></b></p>
+			<p style="color: white">\[m\angle WCX=180^{\circ}-m\angle VCX\]</p>
+			<p style="color: white">\[m\angle WCX=180^{\circ}-\,\]<input type="text" id="Textmm9" value="" placeholder="........" style="width: 30px !important;" class="input" oninput="mm9()"> \[^{\circ}\] <text id="demomm9"></p>
+			<p style="color: white">\[m\angle WCX=\,\]<input type="text" id="Textmm10" value="" placeholder="........" style="width: 30px !important;" class="input" oninput="mm10()"> \[^{\circ}\] <text id="demomm10"></p>
+			</div><br>
+			<div class="bsubsubbab">
+				<table cellpadding="5">
+					<tr>
+						<td align=left valign=top><img src="mencoba.png" class="gambar1" width="55px" height="55px"></td>
+						<td>Mari Mencoba</td>
+					</tr>
+				</table>
+			</div><br>
+			<button class="tujuan tujuan1" style="font-size: 14px;">Klik untuk melihat Petunjuk Soal</button>
+				<div id="tujuan1" class="hilang">
+					<ol>
+					<center><b class="tujuan">Petunjuk Pengerjaan Soal:</b><br></center>
+					<li>Perhatikan gambar pada soal, apabila terdapat gambar pada soal</li><br>
+					<li>Baca dan pahami soal sebelum menjawabnya</li><br>
+					<li>Masukkan jawabanmu pada kolom jawaban seperti ini <img src="kolom jawaban.PNG" class="imgt"></li><br>
+					<li>Ketika ingin memeriksa jawaban yang sudah diisi maka silakan klik tombol <img src="tombol periksa.PNG" class="imgt"></li><br><br>
+				</ol>
+				</div>
+			<p>Perhatikan gambar di bawah ini.</p>
+			<img src="MARI MENCOBA 2.png" class="gambar" width="300px" height="300px" style="display: block;margin: auto;">
+			<p>Manakah yang merupakan daerah juring dan tembereng, berdasarkan pengamatan yang sudah kalian lakukan sebelumnya. Kemudian tentukan \[m\angle DOE\].</p>
+			<div class="pembahasan"><b><center>Pembahasan</center></b>
+				<p id="demo1"></p>
+			</div>
+			<table cellpadding="5">
+				<tr>
+					<td align=left valign=middle><center>a.</center></td>
+					<td>Daerah Juring yang berukuran \[90^{\circ}\] <input type="text" id="myText13" value="" placeholder=".........." style="width: 40px;" class="input">, <input type="text" id="myText132" value="" placeholder=".........." style="width: 40px;" class="input"></td>
+					<td style="background-color: #d9c2fa;"><button onclick="myFunction13()" class="pj1"><center>Periksa Jawaban</center></button></td>
+				</tr>
+			</table>
+			<table cellpadding="5">
+				<tr>
+					<td align=left valign=middle><center>b.</center></td>
+					<td>Daerah Tembereng Minor <input type="text" id="myText14" value="" placeholder=".........." style="width: 40px;" class="input">, <input type="text" id="myText142" value="" placeholder=".........." style="width: 40px;" class="input"></td>
+					<td style="background-color: #d9c2fa;"><button onclick="myFunction14()" class="pj1"><center>Periksa Jawaban</center></button></td>
+				</tr>
+			</table>
+			<table cellpadding="5">
+				<tr>
+					<td align=left valign=middle><center>c.</center></td>
+					<td>\[m\angle DOE\] <input type="text" id="myText15" value="" placeholder=".........." style="width: 40px;" class="input"> °</td>
+					<td style="background-color: #d9c2fa;"><button onclick="myFunction15()" class="pj1">Periksa Jawaban</button></td>
+				</tr>
+			</table>
+			<div class="subsubbab"><center>Pertanyaan</center></div>
+
+			<div class="slideshow-container">                 
+				<button class="tujuan tujuan2" style="font-size: 14px;">Klik untuk melihat Petunjuk Soal</button><br>
+			  <div id="tujuan2" class="hilang">
+				<ol>
+				  <center><b class="tujuan">Petunjuk Pengerjaan Soal:</b><br></center>
+				  <li>Perhatikan gambar pada soal, apabila terdapat gambar pada soal</li><br>
+				  <li>Baca dan pahami soal sebelum menjawabnya</li><br>
+				  <li>Masukkan jawabanmu pada kolom jawaban seperti ini <img src="kolom jawaban.PNG" class="imgt"></li><br>
+				  <li>Ketika ingin memeriksa jawaban yang sudah diisi maka silakan klik tombol <img src="tombol periksa1.PNG" class="imgt"></li><br>
+				  <li>Tekan tombol 1,2, dan 3 di bawah soal atau tombol <img src="pre.PNG" width="20px" height="20px" class="imgt"> dan <img src="nex.PNG" width="20px" height="20px" class="imgt"> untuk mengganti ke nomor soal selanjutnya</li><br><br>
+			   </ol>
+			  </div>
+				  <div class="mySlides">
+					<p>Berdasarkan gambar di bawah, tentukan:</p>
+					<center><img src="PERTANYAAN 2.png" width="300px" height="300px" style="display: block;margin: auto;" class="imgs"></center>
+				  	<p class="tulisan">a. Nilai \[x\],  <input type="text" id="myText16" value="" placeholder=".........." style="width: 40px;" class="input"> °</p>
+					<button onclick="myFunction16()" class="pj">Periksa Jawaban</button>
+					<p id="demo16"></p>
+				  </div>
+				  
+				  <div class="mySlides">
+					<p>Berdasarkan gambar di bawah, tentukan:</p>
+					<center><img src="PERTANYAAN 2.png" width="300px" height="300px" style="display: block;margin: auto;" class="imgs"></center>
+				  	<p class="tulisan">b. \[m\angle IGE\],  <input type="text" id="myText17" value="" placeholder=".........." style="width: 40px;" class="input"> °</p>
+					<button onclick="myFunction17()" class="pj">Periksa Jawaban</button>
+					<p id="demo17"></p>
+				  </div>
+				  
+				  <div class="mySlides">
+					<p>Berdasarkan gambar di bawah, tentukan:</p>
+					<center><img src="PERTANYAAN 2.png" width="300px" height="300px" style="display: block;margin: auto;" class="imgs"></center>
+				  	<p class="tulisan">c. \[m\angle EGF\].  <input type="text" id="myText18" value="" placeholder=".........." style="width: 40px;" class="input"> °</p>
+					<button onclick="myFunction18()" class="pj">Periksa Jawaban</button>
+					<p id="demo18"></p>
+				  </div>
+
+				  <a class="pre" onclick="plusSlides(-1)">❮</a>
+				  <a class="nex" onclick="plusSlides(1)">❯</a>
+				  
+				  </div>
+				  
+				  <div class="dot-container">
+					<b class="no">Nomor Soal: &nbsp;</b><br>
+					<span class="dot" onclick="currentSlide(1)">1</span> 
+					<span class="dot" onclick="currentSlide(2)">2</span>
+					<span class="dot" onclick="currentSlide(3)">3</span>
+				  </div>
+
+		</section>
+		<footer>
+			<div id="footer">
+			  <a href="unsurlingkarangaris.html" class="previous"><img src="previous.png" width="25px" height="25px"></a>
+			  <a href="kelilingdanluas.html" class="next"><img src="next.png" width="25px" height="25px"></a>
+		  </div>
+		</footer>
+		<script src="javascript1.js"></script>
+	</body>
+	</html>
