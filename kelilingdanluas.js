@@ -212,7 +212,7 @@ function ksmpl2() {
   } else {
     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
   }
-  document.getElementById("demoksmpl1").innerHTML = jawaban;
+  document.getElementById("demoksmpl2").innerHTML = jawaban;
 }
 
 function ksmpl3() {
