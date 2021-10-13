@@ -82,6 +82,42 @@ td {
   font-weight: bold;
 }
 
+.td1 {
+  background-color: #d9c2fa;
+  border-radius: 0px;
+  border: 3px solid #8e6bc5;
+  color: black;
+  text-align: left;
+  min-width: 50px;
+  width: max-content;
+  font-family: 'Bookman Old Style', serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.td2 {
+  background-color: #8e6bc5;
+  border-radius: 0px;
+  border: 3px solid #8bb4d0;
+  color: white;
+  text-align: left;
+  min-width: 50px;
+  width: max-content;
+  font-family: 'Bookman Old Style', serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+ol {
+  display: block;
+  list-style-type: decimal;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
 .pertanyaan {
   border: none;
   color: white;
@@ -421,6 +457,42 @@ li mjx-container{
   background-color: #8bb4d0;
   box-shadow: 0 5px #8e6bc5;
   transform: translateY(4px);
+}
+
+.keliling{
+  background-color: #8bb4d0;
+  font-family: 'Bookman Old Style', serif;
+  border: none;
+  color: white;
+  padding: 7px 10px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-top: 5px;
+  min-width: 70px;
+}
+
+.keliling:hover {background-color: #000e2a}
+
+.keliling:active {
+  background-color: #8bb4d0;
+  box-shadow: 0 5px #000e2a;
+  transform: translateY(4px);
+}
+
+#keliling {
+  width: 82%;
+  height: auto;
+  text-align: left;
+  color: white;
+  background-color: #8e6bc5;
+  border: 3px dotted #8bb4d0;
+  border-radius: 8px;
+  margin-top: 10px;
 }
 
 #tujuan, #tujuan1, #tujuan2 {
