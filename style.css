@@ -624,15 +624,15 @@ li mjx-container{
 
 .divscratch{
   overflow-y: hidden;
-  height: 360px;
-  width: 480px;
+  height: 485px;
+  width: 60%;
   margin-bottom: 2px;
 }
 
 .scratch{
   margin-top: 2px;
   width: 100%;
-  height: 100%;
+  height: 485px;
 }
 
 #boxkecil {
