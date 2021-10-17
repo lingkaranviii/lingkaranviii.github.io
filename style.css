@@ -79,7 +79,6 @@ td {
   width: max-content;
   font-family: 'Bookman Old Style', serif;
   font-size: 18px;
-  font-weight: bold;
 }
 
 .td1 {
@@ -106,6 +105,17 @@ td {
   font-family: 'Bookman Old Style', serif;
   font-size: 18px;
   font-weight: bold;
+}
+
+.td3 {
+  background-color: #d9c2fa;
+  border-radius: 0px;
+  color: black;
+  text-align: left;
+  min-width: 50px;
+  width: max-content;
+  font-family: 'Bookman Old Style', serif;
+  font-size: 14px;
 }
 
 ol {

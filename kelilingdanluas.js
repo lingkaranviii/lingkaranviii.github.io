@@ -31,7 +31,7 @@ function myFunction20() {
 function d1() {
   var x = document.getElementById("textd1").value;
   var jawaban;
-  if (x == "3,6") {
+  if (x == "12,2") {
     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
   } else {
     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
@@ -42,7 +42,7 @@ function d1() {
 function k1() {
   var x = document.getElementById("textk1").value;
   var jawaban;
-  if (x == "11,3") {
+  if (x == "38,3") {
     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
   } else {
     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
@@ -64,7 +64,7 @@ function pi1() {
 function d2() {
   var x = document.getElementById("textd2").value;
   var jawaban;
-  if (x == "2,7") {
+  if (x == "9,3") {
     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
   } else {
     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
@@ -75,7 +75,7 @@ function d2() {
 function k2() {
   var x = document.getElementById("textk2").value;
   var jawaban;
-  if (x == "8,5") {
+  if (x == "29,2") {
     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
   } else {
     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
@@ -86,7 +86,7 @@ function k2() {
 function pi2() {
   var x = document.getElementById("textpi2").value;
   var jawaban;
-  if (x == "3,15") {
+  if (x == "3,14") {
     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
   } else {
     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
@@ -97,7 +97,7 @@ function pi2() {
 function d3() {
   var x = document.getElementById("textd3").value;
   var jawaban;
-  if (x == "4,7") {
+  if (x == "4,8") {
     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
   } else {
     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
@@ -108,7 +108,7 @@ function d3() {
 function k3() {
   var x = document.getElementById("textk3").value;
   var jawaban;
-  if (x == "14,8") {
+  if (x == "15,1") {
     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
   } else {
     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
@@ -119,7 +119,7 @@ function k3() {
 function pi3() {
   var x = document.getElementById("textpi3").value;
   var jawaban;
-  if (x == "3,15") {
+  if (x == "3,14") {
     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
   } else {
     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
@@ -130,7 +130,7 @@ function pi3() {
 function d4() {
   var x = document.getElementById("textd4").value;
   var jawaban;
-  if (x == "5") {
+  if (x == "7,1") {
     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
   } else {
     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
@@ -141,7 +141,7 @@ function d4() {
 function k4() {
   var x = document.getElementById("textk4").value;
   var jawaban;
-  if (x == "15,7") {
+  if (x == "22,8") {
     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
   } else {
     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
@@ -152,7 +152,7 @@ function k4() {
 function pi4() {
   var x = document.getElementById("textpi4").value;
   var jawaban;
-  if (x == "3,14") {
+  if (x == "3,21") {
     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
   } else {
     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
@@ -163,7 +163,7 @@ function pi4() {
 function d5() {
   var x = document.getElementById("textd5").value;
   var jawaban;
-  if (x == "8") {
+  if (x == "5,3") {
     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
   } else {
     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
@@ -174,7 +174,7 @@ function d5() {
 function k5() {
   var x = document.getElementById("textk5").value;
   var jawaban;
-  if (x == "25,1") {
+  if (x == "16,7") {
     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
   } else {
     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
@@ -185,12 +185,210 @@ function k5() {
 function pi5() {
   var x = document.getElementById("textpi5").value;
   var jawaban;
-  if (x == "3,14") {
+  if (x == "3,15") {
     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
   } else {
     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
   }
   document.getElementById("demopi5").innerHTML = jawaban;
+}
+
+function d6() {
+  var x = document.getElementById("textd6").value;
+  var jawaban;
+  if (x == "5,4") {
+    jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+  } else {
+    jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+  }
+  document.getElementById("demod6").innerHTML = jawaban;
+}
+
+function k6() {
+  var x = document.getElementById("textk6").value;
+  var jawaban;
+  if (x == "17") {
+    jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+  } else {
+    jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+  }
+  document.getElementById("demok6").innerHTML = jawaban;
+}
+
+function pi6() {
+  var x = document.getElementById("textpi6").value;
+  var jawaban;
+  if (x == "3,14") {
+    jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+  } else {
+    jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+  }
+  document.getElementById("demopi6").innerHTML = jawaban;
+}
+
+function d7() {
+  var x = document.getElementById("textd7").value;
+  var jawaban;
+  if (x == "3,3") {
+    jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+  } else {
+    jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+  }
+  document.getElementById("demod7").innerHTML = jawaban;
+}
+
+function k7() {
+  var x = document.getElementById("textk7").value;
+  var jawaban;
+  if (x == "10,4") {
+    jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+  } else {
+    jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+  }
+  document.getElementById("demok7").innerHTML = jawaban;
+}
+
+function pi7() {
+  var x = document.getElementById("textpi7").value;
+  var jawaban;
+  if (x == "3,15") {
+    jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+  } else {
+    jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+  }
+  document.getElementById("demopi7").innerHTML = jawaban;
+}
+
+function d8() {
+  var x = document.getElementById("textd8").value;
+  var jawaban;
+  if (x == "3") {
+    jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+  } else {
+    jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+  }
+  document.getElementById("demod8").innerHTML = jawaban;
+}
+
+function k8() {
+  var x = document.getElementById("textk8").value;
+  var jawaban;
+  if (x == "9,4") {
+    jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+  } else {
+    jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+  }
+  document.getElementById("demok8").innerHTML = jawaban;
+}
+
+function pi8() {
+  var x = document.getElementById("textpi8").value;
+  var jawaban;
+  if (x == "3,13") {
+    jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+  } else {
+    jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+  }
+  document.getElementById("demopi8").innerHTML = jawaban;
+}
+
+function d9() {
+  var x = document.getElementById("textd9").value;
+  var jawaban;
+  if (x == "2,3") {
+    jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+  } else {
+    jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+  }
+  document.getElementById("demod9").innerHTML = jawaban;
+}
+
+function k9() {
+  var x = document.getElementById("textk9").value;
+  var jawaban;
+  if (x == "7,2") {
+    jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+  } else {
+    jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+  }
+  document.getElementById("demok9").innerHTML = jawaban;
+}
+
+function pi9() {
+  var x = document.getElementById("textpi9").value;
+  var jawaban;
+  if (x == "3,13") {
+    jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+  } else {
+    jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+  }
+  document.getElementById("demopi9").innerHTML = jawaban;
+}
+
+function d10() {
+  var x = document.getElementById("textd10").value;
+  var jawaban;
+  if (x == "2") {
+    jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+  } else {
+    jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+  }
+  document.getElementById("demod10").innerHTML = jawaban;
+}
+
+function k10() {
+  var x = document.getElementById("textk10").value;
+  var jawaban;
+  if (x == "6,3") {
+    jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+  } else {
+    jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+  }
+  document.getElementById("demok10").innerHTML = jawaban;
+}
+
+function pi10() {
+  var x = document.getElementById("textpi10").value;
+  var jawaban;
+  if (x == "3,15") {
+    jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+  } else {
+    jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+  }
+  document.getElementById("demopi10").innerHTML = jawaban;
+}
+
+function r1() {
+  var x = document.getElementById("textr1").value;
+  var jawaban;
+  if (x == "31,48") {
+    jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+  } else {
+    jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+  }
+  document.getElementById("demor1").innerHTML = jawaban;
+}
+
+function r2() {
+  var x = document.getElementById("textr2").value;
+  var jawaban;
+  if (x == "10") {
+    jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+  } else {
+    jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+  }
+  document.getElementById("demor2").innerHTML = jawaban;
+}
+
+function r3() {
+  var x = document.getElementById("textr3").value;
+  var jawaban;
+  if (x == "3,148") {
+    jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+  } else {
+    jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+  }
+  document.getElementById("demor3").innerHTML = jawaban;
 }
 
 function ksmpl1() {
