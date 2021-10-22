@@ -68,88 +68,88 @@
 			 <a href="kuis4.html">Kuis 4</a>
 			</div>
 		
-		  <button class="button" button onclick="location.href=''">Evaluasi</button>
+		  <button class="button" button onclick="location.href='evaluasi.html'">Evaluasi</button>
 	  
 		  </div>
 		  </nav>
           <div class="konten">
 			<p>Sebelum masuk ke materi Keliling dan Luas Lingkaran, ketahui terlebih dahulu bagaimana cara menemukan nilai pi (\[\pi\]) dengan mengamati penjelasan di bawah ini:</p>
-			<p>Silakan tonton video di bawah ini terlebih dahulu!</p>
-			<center>
-				<video class="video" style="width: 480px;" controls>
-				  <source src="mencari nilai phi.mp4" type="video/mp4"/>
-				</video>
-			</center>
-			<p>Setelah menonton video di atas maka lengkapilah isian yang masih kosong pada tabel 1 berikut.</p>
-			<p><center><i><b>Tabel 1</b>: Mencari Nilai Pi (\[\pi\])</i></center></p>
-			<center><table cellpadding="5" style="border-spacing: 0px; border: 3px solid #8e6bc5;">
+			<p>Silakan tonton video di bawah ini terlebih dahulu kemudian isi kolom diameter, keliling, dan nilai \[\pi\] pada tabel 1.</p>
+			<center><table>
 				<tr>
-					<td align=left valign=middle class="td2"><center>Benda</center></td>
-					<td class="td2">diameter (d)</td>
-					<td class="td2">keliling (k)</td>
-					<td class="td2">\[\pi=\frac{k}{d}\]</td>
+					<td class="td3"><video class="video" style="width: 480px;" controls>
+						<source src="mencari nilai phi.mp4" type="video/mp4"/>
+					  </video>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+					  <td class="td3"><center><i><b>Tabel 1</b>: Mencari Nilai Pi (\[\pi\])</i><br><table cellpadding="5" style="border-spacing: 0px; border: 3px solid #8e6bc5;">
+						<tr>
+							<td align=left valign=middle class="td2"><center>Benda</center></td>
+							<td class="td2">diameter (d)</td>
+							<td class="td2">keliling (k)</td>
+							<td class="td2"><center>\[\pi=\frac{k}{d}\]</center></td>
+						</tr>
+						<tr>
+							<td align=left valign=middle class="td1"><center>1</center></td>
+							<td class="td1"><center><input type="text" id="textd1" value="" placeholder="........" style="width: 40px;" class="input" oninput="d1()"> <text id="demod1"></text> </center></td>
+							<td class="td1"><center><input type="text" id="textk1" value="" placeholder="........" style="width: 40px;" class="input" oninput="k1()"> <text id="demok1"></text> </center></td>
+							<td class="td1"><center><input type="text" id="textpi1" value="" placeholder="......." style="width: 40px;" class="input" oninput="pi1()"> <text id="demopi1"></text> </center></td>
+						</tr>
+						<tr>
+							<td align=left valign=middle class="td1"><center>2</center></td>
+							<td class="td1"><center><input type="text" id="textd2" value="" placeholder="........" style="width: 40px;" class="input" oninput="d2()"> <text id="demod2"></text> </center></td>
+							<td class="td1"><center><input type="text" id="textk2" value="" placeholder="........" style="width: 40px;" class="input" oninput="k2()"> <text id="demok2"></text> </center></td>
+							<td class="td1"><center><input type="text" id="textpi2" value="" placeholder="......." style="width: 40px;" class="input" oninput="pi2()"> <text id="demopi2"></text> </center></td>
+						</tr>
+						<tr>
+							<td align=left valign=middle class="td1"><center>3</center></td>
+							<td class="td1"><center><input type="text" id="textd3" value="" placeholder="........" style="width: 40px;" class="input" oninput="d3()"> <text id="demod3"></text> </center></td>
+							<td class="td1"><center><input type="text" id="textk3" value="" placeholder="........" style="width: 40px;" class="input" oninput="k3()"> <text id="demok3"></text> </center></td>
+							<td class="td1"><center><input type="text" id="textpi3" value="" placeholder="......." style="width: 40px;" class="input" oninput="pi3()"> <text id="demopi3"></text> </center></td>
+						</tr>
+						<tr>
+							<td align=left valign=middle class="td1"><center>4</center></td>
+							<td class="td1"><center><input type="text" id="textd4" value="" placeholder="........" style="width: 40px;" class="input" oninput="d4()"> <text id="demod4"></text> </center></td>
+							<td class="td1"><center><input type="text" id="textk4" value="" placeholder="........" style="width: 40px;" class="input" oninput="k4()"> <text id="demok4"></text> </center></td>
+							<td class="td1"><center><input type="text" id="textpi4" value="" placeholder="......." style="width: 40px;" class="input" oninput="pi4()"> <text id="demopi4"></text> </center></td>
+						</tr>
+						<tr>
+							<td align=left valign=middle class="td1"><center>5</center></td>
+							<td class="td1"><center><input type="text" id="textd5" value="" placeholder="........" style="width: 40px;" class="input" oninput="d5()"> <text id="demod5"></text> </center></td>
+							<td class="td1"><center><input type="text" id="textk5" value="" placeholder="........" style="width: 40px;" class="input" oninput="k5()"> <text id="demok5"></text> </center></td>
+							<td class="td1"><center><input type="text" id="textpi5" value="" placeholder="......." style="width: 40px;" class="input" oninput="pi5()"> <text id="demopi5"></text> </center></td>
+						</tr>
+						<tr>
+							<td align=left valign=middle class="td1"><center>6</center></td>
+							<td class="td1"><center><input type="text" id="textd6" value="" placeholder="........" style="width: 40px;" class="input" oninput="d6()"> <text id="demod6"></text> </center></td>
+							<td class="td1"><center><input type="text" id="textk6" value="" placeholder="........" style="width: 40px;" class="input" oninput="k6()"> <text id="demok6"></text> </center></td>
+							<td class="td1"><center><input type="text" id="textpi6" value="" placeholder="......." style="width: 40px;" class="input" oninput="pi6()"> <text id="demopi6"></text> </center></td>
+						</tr>
+						<tr>
+							<td align=left valign=middle class="td1"><center>7</center></td>
+							<td class="td1"><center><input type="text" id="textd7" value="" placeholder="........" style="width: 40px;" class="input" oninput="d7()"> <text id="demod7"></text> </center></td>
+							<td class="td1"><center><input type="text" id="textk7" value="" placeholder="........" style="width: 40px;" class="input" oninput="k7()"> <text id="demok7"></text> </center></td>
+							<td class="td1"><center><input type="text" id="textpi7" value="" placeholder="......." style="width: 40px;" class="input" oninput="pi7()"> <text id="demopi7"></text> </center></td>
+						</tr>
+						<tr>
+							<td align=left valign=middle class="td1"><center>8</center></td>
+							<td class="td1"><center><input type="text" id="textd8" value="" placeholder="........" style="width: 40px;" class="input" oninput="d8()"> <text id="demod8"></text> </center></td>
+							<td class="td1"><center><input type="text" id="textk8" value="" placeholder="........" style="width: 40px;" class="input" oninput="k8()"> <text id="demok8"></text> </center></td>
+							<td class="td1"><center><input type="text" id="textpi8" value="" placeholder="......." style="width: 40px;" class="input" oninput="pi8()"> <text id="demopi8"></text> </center></td>
+						</tr>
+						<tr>
+							<td align=left valign=middle class="td1"><center>9</center></td>
+							<td class="td1"><center><input type="text" id="textd9" value="" placeholder="........" style="width: 40px;" class="input" oninput="d9()"> <text id="demod9"></text> </center></td>
+							<td class="td1"><center><input type="text" id="textk9" value="" placeholder="........" style="width: 40px;" class="input" oninput="k9()"> <text id="demok9"></text> </center></td>
+							<td class="td1"><center><input type="text" id="textpi9" value="" placeholder="......." style="width: 40px;" class="input" oninput="pi9()"> <text id="demopi9"></text> </center></td>
+						</tr>
+						<tr>
+							<td align=left valign=middle class="td1"><center>10</center></td>
+							<td class="td1"><center><input type="text" id="textd10" value="" placeholder="........" style="width: 40px;" class="input" oninput="d10()"> <text id="demod10"></text> </center></td>
+							<td class="td1"><center><input type="text" id="textk10" value="" placeholder="........" style="width: 40px;" class="input" oninput="k10()"> <text id="demok10"></text> </center></td>
+							<td class="td1"><center><input type="text" id="textpi10" value="" placeholder="......." style="width: 40px;" class="input" oninput="pi10()"> <text id="demopi10"></text> </center></td>
+						</tr>
+					</table></center><br></td>
 				</tr>
-				<tr>
-					<td align=left valign=middle class="td1"><center>1</center></td>
-					<td class="td1"><center><input type="text" id="textd1" value="" placeholder="........" style="width: 40px;" class="input" oninput="d1()"> <text id="demod1"></text> </center></td>
-					<td class="td1"><center><input type="text" id="textk1" value="" placeholder="........" style="width: 40px;" class="input" oninput="k1()"> <text id="demok1"></text> </center></td>
-					<td class="td1"><center><input type="text" id="textpi1" value="" placeholder="......." style="width: 40px;" class="input" oninput="pi1()"> <text id="demopi1"></text> </center></td>
-				</tr>
-				<tr>
-					<td align=left valign=middle class="td1"><center>2</center></td>
-					<td class="td1"><center><input type="text" id="textd2" value="" placeholder="........" style="width: 40px;" class="input" oninput="d2()"> <text id="demod2"></text> </center></td>
-					<td class="td1"><center><input type="text" id="textk2" value="" placeholder="........" style="width: 40px;" class="input" oninput="k2()"> <text id="demok2"></text> </center></td>
-					<td class="td1"><center><input type="text" id="textpi2" value="" placeholder="......." style="width: 40px;" class="input" oninput="pi2()"> <text id="demopi2"></text> </center></td>
-				</tr>
-				<tr>
-					<td align=left valign=middle class="td1"><center>3</center></td>
-					<td class="td1"><center><input type="text" id="textd3" value="" placeholder="........" style="width: 40px;" class="input" oninput="d3()"> <text id="demod3"></text> </center></td>
-					<td class="td1"><center><input type="text" id="textk3" value="" placeholder="........" style="width: 40px;" class="input" oninput="k3()"> <text id="demok3"></text> </center></td>
-					<td class="td1"><center><input type="text" id="textpi3" value="" placeholder="......." style="width: 40px;" class="input" oninput="pi3()"> <text id="demopi3"></text> </center></td>
-				</tr>
-				<tr>
-					<td align=left valign=middle class="td1"><center>4</center></td>
-					<td class="td1"><center><input type="text" id="textd4" value="" placeholder="........" style="width: 40px;" class="input" oninput="d4()"> <text id="demod4"></text> </center></td>
-					<td class="td1"><center><input type="text" id="textk4" value="" placeholder="........" style="width: 40px;" class="input" oninput="k4()"> <text id="demok4"></text> </center></td>
-					<td class="td1"><center><input type="text" id="textpi4" value="" placeholder="......." style="width: 40px;" class="input" oninput="pi4()"> <text id="demopi4"></text> </center></td>
-				</tr>
-				<tr>
-					<td align=left valign=middle class="td1"><center>5</center></td>
-					<td class="td1"><center><input type="text" id="textd5" value="" placeholder="........" style="width: 40px;" class="input" oninput="d5()"> <text id="demod5"></text> </center></td>
-					<td class="td1"><center><input type="text" id="textk5" value="" placeholder="........" style="width: 40px;" class="input" oninput="k5()"> <text id="demok5"></text> </center></td>
-					<td class="td1"><center><input type="text" id="textpi5" value="" placeholder="......." style="width: 40px;" class="input" oninput="pi5()"> <text id="demopi5"></text> </center></td>
-				</tr>
-				<tr>
-					<td align=left valign=middle class="td1"><center>6</center></td>
-					<td class="td1"><center><input type="text" id="textd6" value="" placeholder="........" style="width: 40px;" class="input" oninput="d6()"> <text id="demod6"></text> </center></td>
-					<td class="td1"><center><input type="text" id="textk6" value="" placeholder="........" style="width: 40px;" class="input" oninput="k6()"> <text id="demok6"></text> </center></td>
-					<td class="td1"><center><input type="text" id="textpi6" value="" placeholder="......." style="width: 40px;" class="input" oninput="pi6()"> <text id="demopi6"></text> </center></td>
-				</tr>
-				<tr>
-					<td align=left valign=middle class="td1"><center>7</center></td>
-					<td class="td1"><center><input type="text" id="textd7" value="" placeholder="........" style="width: 40px;" class="input" oninput="d7()"> <text id="demod7"></text> </center></td>
-					<td class="td1"><center><input type="text" id="textk7" value="" placeholder="........" style="width: 40px;" class="input" oninput="k7()"> <text id="demok7"></text> </center></td>
-					<td class="td1"><center><input type="text" id="textpi7" value="" placeholder="......." style="width: 40px;" class="input" oninput="pi7()"> <text id="demopi7"></text> </center></td>
-				</tr>
-				<tr>
-					<td align=left valign=middle class="td1"><center>8</center></td>
-					<td class="td1"><center><input type="text" id="textd8" value="" placeholder="........" style="width: 40px;" class="input" oninput="d8()"> <text id="demod8"></text> </center></td>
-					<td class="td1"><center><input type="text" id="textk8" value="" placeholder="........" style="width: 40px;" class="input" oninput="k8()"> <text id="demok8"></text> </center></td>
-					<td class="td1"><center><input type="text" id="textpi8" value="" placeholder="......." style="width: 40px;" class="input" oninput="pi8()"> <text id="demopi8"></text> </center></td>
-				</tr>
-				<tr>
-					<td align=left valign=middle class="td1"><center>9</center></td>
-					<td class="td1"><center><input type="text" id="textd9" value="" placeholder="........" style="width: 40px;" class="input" oninput="d9()"> <text id="demod9"></text> </center></td>
-					<td class="td1"><center><input type="text" id="textk9" value="" placeholder="........" style="width: 40px;" class="input" oninput="k9()"> <text id="demok9"></text> </center></td>
-					<td class="td1"><center><input type="text" id="textpi9" value="" placeholder="......." style="width: 40px;" class="input" oninput="pi9()"> <text id="demopi9"></text> </center></td>
-				</tr>
-				<tr>
-					<td align=left valign=middle class="td1"><center>10</center></td>
-					<td class="td1"><center><input type="text" id="textd10" value="" placeholder="........" style="width: 40px;" class="input" oninput="d10()"> <text id="demod10"></text> </center></td>
-					<td class="td1"><center><input type="text" id="textk10" value="" placeholder="........" style="width: 40px;" class="input" oninput="k10()"> <text id="demok10"></text> </center></td>
-					<td class="td1"><center><input type="text" id="textpi10" value="" placeholder="......." style="width: 40px;" class="input" oninput="pi10()"> <text id="demopi10"></text> </center></td>
-				</tr>
-			</table></center><br>
+			</table></center>
 			<center><table cellpadding="5" style="border-spacing: 0px; border: 3px solid #8e6bc5;">
 				<tr>
 					<td align=left valign=middle class="td2"><center>Rata-rata</center></td>
