@@ -24,7 +24,6 @@ var xx2= document.querySelector('.tujuan1');
 var x3 = document.getElementById("tujuan2");
 var xx3= document.querySelector('.tujuan2');
 
-
 xx1.addEventListener("click",function(){
   x1.classList.toggle("hilang");
 });

@@ -16,9 +16,101 @@
 </style>
 <body>
 <link rel="stylesheet" href="style.css" type="text/css" media="screen"/>
+<link rel="stylesheet" href="kalkulator.css" type="text/css" media="screen"/>
 <header></header>
 <ul>
 	<li><a href="index.html"><img src="t home.png" width="30px" height="30px"></a></li>
+	<a class="kalkulator kalkulator"><center><img src="t cal.png" width="30px" height="30px"></center></a>
+			<div id="kalkulator" class="hilang">
+				<form>
+				  <input type="text" id="viewer"/>
+				  <table>
+					<tr>
+					  <td>
+						<input type="button" value="C" class="btn" onclick="clean()" />
+					  </td>
+					  <td>
+						<input
+						  type="button"
+						  value="DEL"
+						  class="btn"
+						  onclick="backspace()"
+						/>
+					  </td>
+					  <td>
+						<input type="button" value="/" class="btn" onclick="view('/')" />
+					  </td>
+					  <td>
+						<input type="button" value="X" class="btn" onclick="view('*')" />
+					  </td>
+					</tr>
+					<tr>
+					  <td>
+						<input type="button" value="7" class="btn" onclick="view(7)" />
+					  </td>
+					  <td>
+						<input type="button" value="8" class="btn" onclick="view(8)" />
+					  </td>
+					  <td>
+						<input type="button" value="9" class="btn" onclick="view(9)" />
+					  </td>
+					  <td>
+						<input type="button" value="-" class="btn" onclick="view('-')" />
+					  </td>
+					</tr>
+					<tr>
+					  <td>
+						<input type="button" value="4" class="btn" onclick="view(4)" />
+					  </td>
+					  <td>
+						<input type="button" value="5" class="btn" onclick="view(5)" />
+					  </td>
+					  <td>
+						<input type="button" value="6" class="btn" onclick="view(6)" />
+					  </td>
+					  <td>
+						<input type="button" value="+" class="btn" onclick="view('+')" />
+					  </td>
+					</tr>
+					<tr>
+					  <td>
+						<input type="button" value="1" class="btn" onclick="view(1)" />
+					  </td>
+					  <td>
+						<input type="button" value="2" class="btn" onclick="view(2)" />
+					  </td>
+					  <td>
+						<input type="button" value="3" class="btn" onclick="view(3)" />
+					  </td>
+					  <td rowspan="2">
+						<input
+						  type="button"
+						  value="="
+						  class="btn"
+						  onclick="equal()"
+						  style="height: 8.5em;"
+						/>
+					  </td>
+					</tr>
+					<tr>
+					  <td>
+						<input type="button" value="0" class="btn" onclick="view('0')" />
+					  </td>
+					  <td>
+						<input
+						  type="button"
+						  value="&radic;"
+						  class="btn"
+						  onclick="sqrt()"
+						/>
+					  </td>
+					  <td>
+						<input type="button" value="." class="btn" onclick="view('.')" />
+					  </td>
+					</tr>
+				  </table>
+				</form>
+			  </div>
 </ul>
 	
 	<section>
@@ -284,5 +376,6 @@
 		</footer>
 		<script src="javascript1.js"></script>
 		<script src="kelilingdanluas.js"></script>
+		<script src="kalkulator.js"></script>
 	</body>
 	</html>

@@ -16,9 +16,102 @@
 </style>
 <body>
 <link rel="stylesheet" href="style.css" type="text/css" media="screen"/>
+<link rel="stylesheet" href="kalkulator.css" type="text/css" media="screen"/>
 <header></header>
 <ul>
 	<li><a href="index.html"><img src="t home.png" width="30px" height="30px"></a></li>
+	<a class="kalkulator kalkulator"><center><img src="t cal.png" width="30px" height="30px"></center></a>
+			<div id="kalkulator" class="hilang">
+				<form>
+				  <input type="text" id="viewer" />
+		  
+				  <table>
+					<tr>
+					  <td>
+						<input type="button" value="C" class="btn" onclick="clean()" />
+					  </td>
+					  <td>
+						<input
+						  type="button"
+						  value="DEL"
+						  class="btn"
+						  onclick="backspace()"
+						/>
+					  </td>
+					  <td>
+						<input type="button" value="/" class="btn" onclick="view('/')" />
+					  </td>
+					  <td>
+						<input type="button" value="X" class="btn" onclick="view('*')" />
+					  </td>
+					</tr>
+					<tr>
+					  <td>
+						<input type="button" value="7" class="btn" onclick="view(7)" />
+					  </td>
+					  <td>
+						<input type="button" value="8" class="btn" onclick="view(8)" />
+					  </td>
+					  <td>
+						<input type="button" value="9" class="btn" onclick="view(9)" />
+					  </td>
+					  <td>
+						<input type="button" value="-" class="btn" onclick="view('-')" />
+					  </td>
+					</tr>
+					<tr>
+					  <td>
+						<input type="button" value="4" class="btn" onclick="view(4)" />
+					  </td>
+					  <td>
+						<input type="button" value="5" class="btn" onclick="view(5)" />
+					  </td>
+					  <td>
+						<input type="button" value="6" class="btn" onclick="view(6)" />
+					  </td>
+					  <td>
+						<input type="button" value="+" class="btn" onclick="view('+')" />
+					  </td>
+					</tr>
+					<tr>
+					  <td>
+						<input type="button" value="1" class="btn" onclick="view(1)" />
+					  </td>
+					  <td>
+						<input type="button" value="2" class="btn" onclick="view(2)" />
+					  </td>
+					  <td>
+						<input type="button" value="3" class="btn" onclick="view(3)" />
+					  </td>
+					  <td rowspan="2">
+						<input
+						  type="button"
+						  value="="
+						  class="btn"
+						  onclick="equal()"
+						  style="height: 8.5em;"
+						/>
+					  </td>
+					</tr>
+					<tr>
+					  <td>
+						<input type="button" value="0" class="btn" onclick="view('0')" />
+					  </td>
+					  <td>
+						<input
+						  type="button"
+						  value="&radic;"
+						  class="btn"
+						  onclick="sqrt()"
+						/>
+					  </td>
+					  <td>
+						<input type="button" value="." class="btn" onclick="view('.')" />
+					  </td>
+					</tr>
+				  </table>
+				</form>
+			  </div>
 </ul>
 	
 	<section>
@@ -86,7 +179,7 @@
 			</div>
 			<p>Perhatikan bagian yang ber<b style="color: red;">warna merah</b> pada gambar 5 sampai 9 di bawah, serta <b>ciri-ciri</b> dari setiap unsur berikut!</p>
 			<p><b>Busur</b></p>
-			<p>Amatilah gambar 5 di bawah ini!</p>
+			<p>Untuk mengetahui contoh busur pada lingkaran amatilah gambar 5 di bawah ini kemudian lengkapilah bagian yang masih kosong pada ciri-cirinya!</p>
 			<p><center>Penulisan simbol untuk <b>Busur</b>: \[\widehat{AD}, \widehat{ACD}, \widehat{RTS}\]</center></p>
 			<img src="BUSUR.PNG" width="900px" height="300px" style="display: block;margin: auto;border-style: solid;border-color: #8e6bc5;">
 			<center><i><b>Gambar 5</b>: Busur</i></center>	
@@ -99,7 +192,7 @@
 				</ol>
 				<p><b><i>Keterangan:</b></i> Untuk selanjutnya, jika tidak disebutkan mayor atau minor, maka yang dimaksud adalah minor.</p>
 			<p><b>Jari-jari</b></p>
-			<p>Amatilah gambar 6 di bawah ini!</p>
+			<p>Untuk mengetahui contoh jari-jari pada lingkaran amatilah gambar 6 di bawah ini kemudian lengkapilah bagian yang masih kosong pada ciri-cirinya!</p>
 			<p><center>Penulisan simbol untuk <b>Jari-jari</b>: \[\overline{OD}\]</center></p>
 			<img src="JARI-JARI.png" class="gambar" width="300px" height="300px" style="display: block;margin: auto;border-style: solid;border-color: #8e6bc5;">
 			<center><i><b>Gambar 6</b>: Jari-jari</i></center>
@@ -109,17 +202,17 @@
 					<li>Menghubungkan titik pada lingkaran dengan titik <input type="text" id="Textjari3" value="" placeholder="....................." style="width: 50px;" class="input" oninput="jari3()">. <text id="demojari3"></text> </li><br>
 				</ol>
 			<p><b>Diameter</b></p>
-			<p>Amatilah gambar 7 di bawah ini!</p>
+			<p>Untuk mengetahui contoh diameter pada lingkaran amatilah gambar 7 di bawah ini kemudian lengkapilah bagian yang masih kosong pada ciri-cirinya!</p>
 			<p><center>Penulisan simbol untuk <b>Diameter</b>: \[\overline{BD}\]</center></p>
 			<img src="DIAMETER.png" class="gambar" width="300px" height="300px" style="display: block;margin: auto;border-style: solid;border-color: #8e6bc5;">
 			<center><i><b>Gambar 7</b>: Diameter</i></center>
 			<p>Dari pengamatan di atas diperoleh <b>Ciri-ciri</b> dari diameter, yaitu:
 				<ol style="color: white ;border: 3px double #8bb4d0; background-color: #8e6bc5; width: fit-content; padding: 30px;">
-					<li>Diameter pada gambar 7 yang berupa ruas.</li><br>
+					<li>Diameter pada gambar 7 yang berupa <input type="text" id="Textdiameter3" value="" placeholder="........................" style="width: 35px;" class="input" oninput="diameter3()">. <text id="demodiameter3"></text></li><br>
 					<li>Menghubungkan <input type="text" id="Textdiameter" value="" placeholder="........................" style="width: 35px;" class="input" oninput="diameter()"> titik pada lingkaran yaitu <i>BD</i>. <text id="demodiameter"></text> </li><br>
 					<li>Melalui titik pusat lingkaran yaitu titik <input type="text" id="Textdiameter2" value="" placeholder="........................" style="width: 30px;" class="input" oninput="diameter2()">. <text id="demodiameter2"></text></li><br></ol>
 			<p><b>Tali Busur</b></p>
-			<p>Amatilah gambar 8 di bawah ini!</p>
+			<p>Untuk mengetahui contoh tali busur pada lingkaran amatilah gambar 8 di bawah ini kemudian lengkapilah bagian yang masih kosong pada ciri-cirinya!</p>
 			<p><center>Penulisan simbol untuk <b>Tali Busur</b>: \[\overline{FE}, \overline{IR}, \overline{SU}\]</center></p>
 			<img src="TALI BUSUR.png" width="900px" height="300px" style="display: block;margin: auto;border-style: solid;border-color: #8e6bc5;">
 			<center><i><b>Gambar 8</b>: Tali Busur</i></center>
@@ -129,7 +222,7 @@
 					<li>Menghubungkan <input type="text" id="Texttalibusur" value="" placeholder="........................" style="width: 35px;" class="input" oninput="talibusur()"> <text id="demotalibusur"></text> titik pada lingkaran, bisa melalui titik <input type="text" id="Texttalibusur2" value="" placeholder="........................" style="width: 50px;" class="input" oninput="talibusur2()"> <text id="demotalibusur2"></text> ataupun tidak.</li><br>
 				</ol>
 			<p><b>Apotema</b></p>
-			<p>Amatilah gambar 9 di bawah ini!</p>
+			<p>Untuk mengetahui contoh apotema pada lingkaran amatilah gambar 9 di bawah ini kemudian lengkapilah bagian yang masih kosong pada ciri-cirinya!</p>
 			<p><center>Penulisan simbol untuk <b>Apotema</b>: \[\overline{OG}, \overline{PQ}\]</center></p>
 			<img src="APOTEMA.png" width="900px" height="300px" style="display: block;margin: auto;border-style: solid;border-color: #8e6bc5;"><br>
 			<center><i><b>Gambar 9</b>: Apotema</i></center>
@@ -322,5 +415,6 @@
 		</footer>
 		<script src="javascript1.js"></script>
 		<script src="unsurlingkarangaris.js"></script>
+		<script src="kalkulator.js"></script>
 	</body>
 	</html>

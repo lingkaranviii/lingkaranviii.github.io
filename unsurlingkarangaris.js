@@ -313,6 +313,21 @@ function busur() {
     }
     document.getElementById("demodiameter2").innerHTML = jawaban;
   }
+
+  function diameter3() {
+    var x = document.getElementById("Textdiameter3").value;
+    var jawaban;
+    if (x == "RUAS") {
+      jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+    } else if (x == "Ruas") {
+      jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+    } else if (x == "ruas") {
+      jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+    } else {
+      jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+    }
+    document.getElementById("demodiameter3").innerHTML = jawaban;
+  }
   
   function talibusur() {
     var x = document.getElementById("Texttalibusur").value;
