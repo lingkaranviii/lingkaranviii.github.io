@@ -70,6 +70,8 @@ function sudutpusat() {
     jawaban = "<img src='benar.png'  width='25px' height='25px'>"
   } else if (x == "sinar garis") {
     jawaban = "<img src='benar.png'  width='25px' height='25px'>"
+  } else if (x == "") {
+    jawaban = "";
   } else {
     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
   }
@@ -85,6 +87,8 @@ function sudutpusat2() {
     jawaban = "<img src='benar.png'  width='25px' height='25px'>"
   } else if (x == "jari-jari") {
     jawaban = "<img src='benar.png'  width='25px' height='25px'>"
+  } else if (x == "") {
+    jawaban = "";
   } else {
     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
   }
@@ -100,6 +104,8 @@ function sudutpusat3() {
     jawaban = "<img src='benar.png'  width='25px' height='25px'>"
   } else if (x == "pusat") {
     jawaban = "<img src='benar.png'  width='25px' height='25px'>"
+  } else if (x == "") {
+    jawaban = "";
   } else {
     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
   }

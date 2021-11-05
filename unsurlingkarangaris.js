@@ -21,32 +21,32 @@ function myFunction() {
     } else if (jawaban1!="" && jawaban2=="" && jawaban3!="") {
       document.getElementById("demo").innerHTML = "Jawabanmu masih kosong";
     } else if (jawaban1!="" && jawaban2!="" && jawaban3!="") {
-      if (jawaban1=="OD" && jawaban2=="OE" && jawaban3=="OF") {
+      if ((jawaban1=="OD" || jawaban1=="DO") && (jawaban2=="OE" || jawaban2=="EO") && (jawaban3=="OF" || jawaban3=="FO")) {
       document.getElementById("demo").innerHTML = "<b style='color: green'>Jawabanmu Benar</b>, <br><br> Pembahasan: <b>a. Jari-jari</b> <br><br> Dikarenakan <b>jari-jari</b> merupakan ruas yang menghubungkan titik pada lingkaran dengan titik pusat maka jari-jari yang terdapat pada gambar adalah \\[\\overline{OD}\\], \\[\\overline{OE}\\], dan \\[\\overline{OF}\\]";
       MathJax.typeset();
       }
       else if (jawaban1!="" && jawaban2!="" && jawaban3!="") {
-        if (jawaban1=="OD" && jawaban2=="OF" && jawaban3=="OE") {
+        if ((jawaban1=="OD" || jawaban1=="DO") && (jawaban2=="OF" || jawaban2=="FO") && (jawaban3=="OE" || jawaban3=="EO")){
         document.getElementById("demo").innerHTML = "<b style='color: green'>Jawabanmu Benar</b>, <br><br> Pembahasan: <b>a. Jari-jari</b> <br><br> Dikarenakan <b>jari-jari</b> merupakan ruas yang menghubungkan titik pada lingkaran dengan titik pusat maka jari-jari yang terdapat pada gambar adalah \\[\\overline{OD}\\], \\[\\overline{OE}\\], dan \\[\\overline{OF}\\]";
         MathJax.typeset();
         }
       else if (jawaban1!="" && jawaban2!="" && jawaban3!="") {
-        if (jawaban1=="OF" && jawaban2=="OD" && jawaban3=="OE") {
+        if ((jawaban1=="OF" || jawaban1=="FO") && (jawaban2=="OD" || jawaban2=="DO") && (jawaban3=="OE" || jawaban3=="EO")) {
         document.getElementById("demo").innerHTML = "<b style='color: green'>Jawabanmu Benar</b>, <br><br> Pembahasan: <b>a. Jari-jari</b> <br><br> Dikarenakan <b>jari-jari</b> merupakan ruas yang menghubungkan titik pada lingkaran dengan titik pusat maka jari-jari yang terdapat pada gambar adalah \\[\\overline{OD}\\], \\[\\overline{OE}\\], dan \\[\\overline{OF}\\]";
         MathJax.typeset();
         }
       else if (jawaban1!="" && jawaban2!="" && jawaban3!="") {
-        if (jawaban1=="OF" && jawaban2=="OE" && jawaban3=="OD") {
+        if ((jawaban1=="OF" || jawaban1=="FO") && (jawaban2=="OE" || jawaban2=="EO") && (jawaban3=="OD" || jawaban3=="DO")) {
         document.getElementById("demo").innerHTML = "<b style='color: green'>Jawabanmu Benar</b>, <br><br> Pembahasan: <b>a. Jari-jari</b> <br><br> Dikarenakan <b>jari-jari</b> merupakan ruas yang menghubungkan titik pada lingkaran dengan titik pusat maka jari-jari yang terdapat pada gambar adalah \\[\\overline{OD}\\], \\[\\overline{OE}\\], dan \\[\\overline{OF}\\]";
         MathJax.typeset();
         }
       else if (jawaban1!="" && jawaban2!="" && jawaban3!="") {
-        if (jawaban1=="OE" && jawaban2=="OF" && jawaban3=="OD") {
+        if ((jawaban1=="OE" || jawaban1=="EO") && (jawaban2=="OF" || jawaban2=="FO") && (jawaban3=="OD" || jawaban3=="DO")) {
         document.getElementById("demo").innerHTML = "<b style='color: green'>Jawabanmu Benar</b>, <br><br> Pembahasan: <b>a. Jari-jari</b> <br><br> Dikarenakan <b>jari-jari</b> merupakan ruas yang menghubungkan titik pada lingkaran dengan titik pusat maka jari-jari yang terdapat pada gambar adalah \\[\\overline{OD}\\], \\[\\overline{OE}\\], dan \\[\\overline{OF}\\]";
         MathJax.typeset();
         }
       else if (jawaban1!="" && jawaban2!="" && jawaban3!="") {
-        if (jawaban1=="OE" && jawaban2=="OD" && jawaban3=="OF") {
+        if ((jawaban1=="OE" || jawaban1=="EO") && (jawaban2=="OD" || jawaban2=="DO") && (jawaban3=="OF" || jawaban3=="FO")) {
         document.getElementById("demo").innerHTML = "<b style='color: green'>Jawabanmu Benar</b>, <br><br> Pembahasan: <b>a. Jari-jari</b> <br><br> Dikarenakan <b>jari-jari</b> merupakan ruas yang menghubungkan titik pada lingkaran dengan titik pusat maka jari-jari yang terdapat pada gambar adalah \\[\\overline{OD}\\], \\[\\overline{OE}\\], dan \\[\\overline{OF}\\]";
         MathJax.typeset();
         }
@@ -58,9 +58,9 @@ function myFunction() {
      function myFunction3() {
       var x = document.getElementById("myText3").value.split(' ').join('');
          var jawaban;
-         if (x == "DE") {
-           jawaban = "<b style='color: green'>Jawabanmu Benar</b>, <br><br> Pembahasan: <b>b. Diameter</b> <br><br> Dikarenakan <b>diameter</b> merupakan ruas yang menghubungkan dua titik pada lingkaran dan melalui titik pusat lingkaran maka diameter yang terdapat pada gambar adalah \\[\\overline{DE}\\]";
-         } else if (x =="") {
+         if (x == "DE" || x == "ED") {
+           jawaban = "<b style='color: green'>Jawabanmu Benar</b>, <br><br> Pembahasan: <b>b. Diameter</b> <br><br> Dikarenakan <b>diameter</b> merupakan ruas yang menghubungkan dua titik pada lingkaran dan melalui titik pusat lingkaran maka diameter yang terdapat pada gambar adalah \\[\\overline{DE}\\] atau \\[\\overline{ED}\\]";
+         } else if (x == "") {
            jawaban = "Silahkan masukkan jawaban, jawaban tidak boleh kosong"
          } else {
            jawaban = "<b style='color: red'>Jawabanmu salah</b>, silahkan coba lagi dan ingat gunakan huruf kapital";
@@ -80,12 +80,12 @@ function myFunction() {
       } else if (jawaban1=="" && jawaban2!="") {
         document.getElementById("demo").innerHTML = "Jawabanmu masih kosong";
       } else if (jawaban1!="" && jawaban2!="") {
-        if (jawaban1=="DE" && jawaban2=="EF") {
-        document.getElementById("demo").innerHTML = "<b style='color: green'>Jawabanmu Benar</b>, <br><br> Pembahasan: <b>c. Tali Busur</b> <br><br> Dikarenakan <b>tali busur</b> merupakan ruas garis yang menghubungkan dua titik pada lingkaran maka tali busur yang terdapat pada gambar adalah \\[\\overline{DE}\\] dan \\[\\overline{EF}\\]";
+        if ((jawaban1=="DE" || jawaban1=="ED") && (jawaban2=="EF" || jawaban2=="FE")) {
+        document.getElementById("demo").innerHTML = "<b style='color: green'>Jawabanmu Benar</b>, <br><br> Pembahasan: <b>c. Tali Busur</b> <br><br> Dikarenakan <b>tali busur</b> merupakan ruas garis yang menghubungkan dua titik pada lingkaran maka tali busur yang terdapat pada gambar adalah \\[\\overline{DE}\\] atau \\[\\overline{ED}\\] dan \\[\\overline{EF}\\] atau \\[\\overline{FE}\\]";
         MathJax.typeset();
         } else if (jawaban1!="" && jawaban2!="") {
-          if (jawaban1=="EF" && jawaban2=="DE") {
-          document.getElementById("demo").innerHTML = "<b style='color: green'>Jawabanmu Benar</b>, <br><br> Pembahasan: <b>c. Tali Busur</b> <br><br> Dikarenakan <b>tali busur</b> merupakan ruas garis yang menghubungkan dua titik pada lingkaran maka tali busur yang terdapat pada gambar adalah \\[\\overline{DE}\\] dan \\[\\overline{EF}\\]";
+          if ((jawaban1=="EF" || jawaban1=="FE") && (jawaban2=="DE" || jawaban2=="ED")) {
+          document.getElementById("demo").innerHTML = "<b style='color: green'>Jawabanmu Benar</b>, <br><br> Pembahasan: <b>c. Tali Busur</b> <br><br> Dikarenakan <b>tali busur</b> merupakan ruas garis yang menghubungkan dua titik pada lingkaran maka tali busur yang terdapat pada gambar adalah \\[\\overline{DE}\\] atau \\[\\overline{ED}\\] dan \\[\\overline{EF}\\] atau \\[\\overline{FE}\\]";
           MathJax.typeset();
           }
         else {
@@ -97,8 +97,8 @@ function myFunction() {
        function myFunction6() {
         var x = document.getElementById("myText6").value.split(' ').join('');
            var jawaban;
-           if (x == "OY") {
-             jawaban = "<b style='color: green'>Jawabanmu Benar</b>, <br><br> Pembahasan: <b>d. Apotema</b> <br><br> Dikarenakan <b>apotema</b> merupakan ruas garis yang menghubungkan titik pusat dengan satu titik di tali busur dan tegak lurus dengan tali busur maka apotema yang terdapat pada gambar adalah \\[\\overline{OY}\\]";
+           if (x == "OY" || x == "YO") {
+             jawaban = "<b style='color: green'>Jawabanmu Benar</b>, <br><br> Pembahasan: <b>d. Apotema</b> <br><br> Dikarenakan <b>apotema</b> merupakan ruas garis yang menghubungkan titik pusat dengan satu titik di tali busur dan tegak lurus dengan tali busur maka apotema yang terdapat pada gambar adalah \\[\\overline{OY}\\] atau \\[\\overline{YO}\\]";
            } else if (x =="") {
              jawaban = "Silahkan masukkan jawaban, jawaban tidak boleh kosong"
            } else {
@@ -199,12 +199,10 @@ function myFunction() {
 function busur() {
     var x = document.getElementById("Textbusur").value.split(' ').join('');
     var jawaban;
-    if (x == "LENGKUNG") {
+    if (x == "LENGKUNG" || x == "Lengkung" || x == "lengkung") {
       jawaban = "<img src='benar.png'  width='25px' height='25px'>";
-    } else if (x == "Lengkung") {
-      jawaban = "<img src='benar.png'  width='25px' height='25px'>";
-    } else if (x == "lengkung") {
-      jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+    } else if (x == "") {
+      jawaban = "";
     } else {
       jawaban = "<img src='salah.png'  width='25px' height='25px'>";
     }
@@ -214,12 +212,10 @@ function busur() {
   function busur2() {
     var x = document.getElementById("Textbusur2").value.split(' ').join('');
     var jawaban;
-    if (x == "MINOR") {
+    if (x == "MINOR" || x == "Minor" || x == "minor") {
       jawaban = "<img src='benar.png'  width='25px' height='25px'>";
-    } else if (x == "Minor") {
-      jawaban = "<img src='benar.png'  width='25px' height='25px'>";
-    } else if (x == "minor") {
-      jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+    } else if (x == "") {
+      jawaban = "";
     } else {
       jawaban = "<img src='salah.png'  width='25px' height='25px'>";
     }
@@ -229,12 +225,10 @@ function busur() {
   function busur3() {
     var x = document.getElementById("Textbusur3").value.split(' ').join('');
     var jawaban;
-    if (x == "MAYOR") {
+    if (x == "MAYOR" || x == "Mayor" || x == "mayor") {
       jawaban = "<img src='benar.png'  width='25px' height='25px'>";
-    } else if (x == "Mayor") {
-      jawaban = "<img src='benar.png'  width='25px' height='25px'>";
-    } else if (x == "mayor") {
-      jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+    } else if (x == "") {
+      jawaban = "";
     } else {
       jawaban = "<img src='salah.png'  width='25px' height='25px'>";
     }
@@ -244,12 +238,10 @@ function busur() {
   function busur4() {
     var x = document.getElementById("Textbusur4").value.split(' ').join('');
     var jawaban;
-    if (x == "SETENGAH") {
+    if (x == "SETENGAH" || x == "Setengah" || x == "setengah") {
       jawaban = "<img src='benar.png'  width='25px' height='25px'>";
-    } else if (x == "Setengah") {
-      jawaban = "<img src='benar.png'  width='25px' height='25px'>";
-    } else if (x == "setengah") {
-      jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+    } else if (x == "") {
+      jawaban = "";
     } else {
       jawaban = "<img src='salah.png'  width='25px' height='25px'>";
     }
@@ -259,12 +251,10 @@ function busur() {
   function jari2() {
     var x = document.getElementById("Textjari2").value.split(' ').join('');
     var jawaban;
-    if (x == "TITIK") {
+    if (x == "TITIK" || x == "Titik" || x == "titik") {
       jawaban = "<img src='benar.png'  width='25px' height='25px'>";
-    } else if (x == "Titik") {
-      jawaban = "<img src='benar.png'  width='25px' height='25px'>";
-    } else if (x == "titik") {
-      jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+    } else if (x == "") {
+      jawaban = "";
     } else {
       jawaban = "<img src='salah.png'  width='25px' height='25px'>";
     }
@@ -274,12 +264,10 @@ function busur() {
   function jari3() {
     var x = document.getElementById("Textjari3").value.split(' ').join('');
     var jawaban;
-    if (x == "PUSAT") {
+    if (x == "PUSAT" || x == "Pusat" || x == "pusat") {
       jawaban = "<img src='benar.png'  width='25px' height='25px'>";
-    } else if (x == "Pusat") {
-      jawaban = "<img src='benar.png'  width='25px' height='25px'>";
-    } else if (x == "pusat") {
-      jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+    } else if (x == "") {
+      jawaban = "";
     } else {
       jawaban = "<img src='salah.png'  width='25px' height='25px'>";
     }
@@ -289,12 +277,10 @@ function busur() {
   function diameter() {
     var x = document.getElementById("Textdiameter").value;
     var jawaban;
-    if (x == "DUA") {
+    if (x == "DUA" || x == "Dua" || x == "dua") {
       jawaban = "<img src='benar.png'  width='25px' height='25px'>";
-    } else if (x == "Dua") {
-      jawaban = "<img src='benar.png'  width='25px' height='25px'>";
-    } else if (x == "dua") {
-      jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+    } else if (x == "") {
+      jawaban = "";
     } else {
       jawaban = "<img src='salah.png'  width='25px' height='25px'>";
     }
@@ -304,10 +290,10 @@ function busur() {
   function diameter2() {
     var x = document.getElementById("Textdiameter2").value;
     var jawaban;
-    if (x == "O") {
+    if (x == "O" || x == "o") {
       jawaban = "<img src='benar.png'  width='25px' height='25px'>";
-    } else if (x == "o") {
-      jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+    } else if (x == "") {
+      jawaban = "";
     } else {
       jawaban = "<img src='salah.png'  width='25px' height='25px'>";
     }
@@ -317,12 +303,10 @@ function busur() {
   function diameter3() {
     var x = document.getElementById("Textdiameter3").value;
     var jawaban;
-    if (x == "RUAS") {
+    if (x == "RUAS" || x == "Ruas" || x == "ruas") {
       jawaban = "<img src='benar.png'  width='25px' height='25px'>";
-    } else if (x == "Ruas") {
-      jawaban = "<img src='benar.png'  width='25px' height='25px'>";
-    } else if (x == "ruas") {
-      jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+    } else if (x == "") {
+      jawaban = "";
     } else {
       jawaban = "<img src='salah.png'  width='25px' height='25px'>";
     }
@@ -332,12 +316,10 @@ function busur() {
   function talibusur() {
     var x = document.getElementById("Texttalibusur").value;
     var jawaban;
-    if (x == "DUA") {
+    if (x == "DUA" || x == "Dua" || x == "dua") {
       jawaban = "<img src='benar.png'  width='25px' height='25px'>";
-    } else if (x == "Dua") {
-      jawaban = "<img src='benar.png'  width='25px' height='25px'>";
-    } else if (x == "dua") {
-      jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+    } else if (x == "") {
+      jawaban = "";
     } else {
       jawaban = "<img src='salah.png'  width='25px' height='25px'>";
     }
@@ -347,27 +329,36 @@ function busur() {
   function talibusur2() {
     var x = document.getElementById("Texttalibusur2").value;
     var jawaban;
-    if (x == "PUSAT") {
+    if (x == "PUSAT" || x == "Pusat" || x == "pusat") {
       jawaban = "<img src='benar.png'  width='25px' height='25px'>";
-    } else if (x == "Pusat") {
-      jawaban = "<img src='benar.png'  width='25px' height='25px'>";
-    } else if (x == "pusat") {
-      jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+    } else if (x == "") {
+      jawaban = "";
     } else {
       jawaban = "<img src='salah.png'  width='25px' height='25px'>";
     }
     document.getElementById("demotalibusur2").innerHTML = jawaban;
   }
+
+  function talibusur3() {
+    var x = document.getElementById("Texttalibusur3").value;
+    var jawaban;
+    if (x == "RUAS GARIS" || x == "Ruas Garis" || x == "ruas garis") {
+      jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+    } else if (x == "") {
+      jawaban = "";
+    } else {
+      jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+    }
+    document.getElementById("demotalibusur3").innerHTML = jawaban;
+  }
   
   function apotema0() {
     var x = document.getElementById("Textapotema0").value;
     var jawaban;
-    if (x == "GARIS") {
+    if (x == "GARIS" || x == "Garis" || x == "garis") {
       jawaban = "<img src='benar.png'  width='25px' height='25px'>";
-    } else if (x == "Garis") {
-      jawaban = "<img src='benar.png'  width='25px' height='25px'>";
-    } else if (x == "garis") {
-      jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+    } else if (x == "") {
+      jawaban = "";
     } else {
       jawaban = "<img src='salah.png'  width='25px' height='25px'>";
     }
@@ -377,12 +368,10 @@ function busur() {
   function apotema() {
     var x = document.getElementById("Textapotema").value;
     var jawaban;
-    if (x == "TALI BUSUR") {
+    if (x == "TALI BUSUR" || x == "Tali Busur" || x == "tali busur") {
       jawaban = "<img src='benar.png'  width='25px' height='25px'>";
-    } else if (x == "Tali Busur") {
-      jawaban = "<img src='benar.png'  width='25px' height='25px'>";
-    } else if (x == "tali busur") {
-      jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+    } else if (x == "") {
+      jawaban = "";
     } else {
       jawaban = "<img src='salah.png'  width='25px' height='25px'>";
     }
@@ -392,12 +381,10 @@ function busur() {
   function apotema2() {
     var x = document.getElementById("Textapotema2").value;
     var jawaban;
-    if (x == "TALI BUSUR") {
+    if (x == "TALI BUSUR" || x == "Tali Busur" || x == "tali busur") {
       jawaban = "<img src='benar.png'  width='25px' height='25px'>";
-    } else if (x == "Tali Busur") {
-      jawaban = "<img src='benar.png'  width='25px' height='25px'>";
-    } else if (x == "tali busur") {
-      jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+    } else if (x == "") {
+      jawaban = "";
     } else {
       jawaban = "<img src='salah.png'  width='25px' height='25px'>";
     }

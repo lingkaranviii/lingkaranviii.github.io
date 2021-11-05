@@ -3,8 +3,8 @@
 function myFunction19() {
 	var x = document.getElementById("myText19").value.split(' ').join('');
     var jawaban;
-     if (x == "25,12") {
-      jawaban = "<b style='color: green'>Jawabanmu Benar</b>, <br><br> Pembahasan: <b>Keliling Piring</b> <br><br> Dikarenakan jari-jari piring tersebut diketahui \\[5\\,cm\\] dan \\[\\pi=3,14\\] maka kelilingnya, <br><br> \\[K=2 \\pi r\\] <br><br> \\[K=2×3,14×5\\] <br><br> \\[K=25,12\\,cm\\]";
+     if (x == "31,4") {
+      jawaban = "<b style='color: green'>Jawabanmu Benar</b>, <br><br> Pembahasan: <b>Keliling Piring</b> <br><br> Dikarenakan jari-jari piring tersebut diketahui \\[5\\,cm\\] dan \\[\\pi=3,14\\] maka kelilingnya, <br><br> \\[K=2 \\pi r\\] <br><br> \\[K=2×3,14×5\\] <br><br> \\[K=31,4\\,cm\\]";
     } else if (x =="") {
       jawaban = "Silahkan masukkan jawaban, jawaban tidak boleh kosong"
     } else {
@@ -33,6 +33,8 @@ function d1() {
   var jawaban;
   if (x == "12,2") {
     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+  } else if (x == "") {
+    jawaban = "";
   } else {
     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
   }
@@ -44,6 +46,8 @@ function k1() {
   var jawaban;
   if (x == "38,3") {
     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+  } else if (x == "") {
+    jawaban = "";
   } else {
     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
   }
@@ -55,6 +59,8 @@ function pi1() {
   var jawaban;
   if (x == "3,14") {
     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+  } else if (x == "") {
+    jawaban = "";
   } else {
     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
   }
@@ -66,6 +72,8 @@ function d2() {
   var jawaban;
   if (x == "9,3") {
     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+  } else if (x == "") {
+    jawaban = "";
   } else {
     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
   }
@@ -77,6 +85,8 @@ function k2() {
   var jawaban;
   if (x == "29,2") {
     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+  } else if (x == "") {
+    jawaban = "";
   } else {
     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
   }
@@ -88,6 +98,8 @@ function pi2() {
   var jawaban;
   if (x == "3,14") {
     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+  } else if (x == "") {
+    jawaban = "";
   } else {
     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
   }
@@ -99,6 +111,8 @@ function d3() {
   var jawaban;
   if (x == "4,8") {
     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+  } else if (x == "") {
+    jawaban = "";
   } else {
     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
   }
@@ -110,6 +124,8 @@ function k3() {
   var jawaban;
   if (x == "15,1") {
     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+  } else if (x == "") {
+    jawaban = "";
   } else {
     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
   }
@@ -121,6 +137,8 @@ function pi3() {
   var jawaban;
   if (x == "3,14") {
     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+  } else if (x == "") {
+    jawaban = "";
   } else {
     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
   }
@@ -132,6 +150,8 @@ function d4() {
   var jawaban;
   if (x == "7,1") {
     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+  } else if (x == "") {
+    jawaban = "";
   } else {
     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
   }
@@ -143,6 +163,8 @@ function k4() {
   var jawaban;
   if (x == "22,8") {
     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+  } else if (x == "") {
+    jawaban = "";
   } else {
     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
   }
@@ -154,6 +176,8 @@ function pi4() {
   var jawaban;
   if (x == "3,21") {
     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+  } else if (x == "") {
+    jawaban = "";
   } else {
     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
   }
@@ -165,6 +189,8 @@ function d5() {
   var jawaban;
   if (x == "5,3") {
     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+  } else if (x == "") {
+    jawaban = "";
   } else {
     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
   }
@@ -176,6 +202,8 @@ function k5() {
   var jawaban;
   if (x == "16,7") {
     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+  } else if (x == "") {
+    jawaban = "";
   } else {
     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
   }
@@ -187,6 +215,8 @@ function pi5() {
   var jawaban;
   if (x == "3,15") {
     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+  } else if (x == "") {
+    jawaban = "";
   } else {
     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
   }
@@ -198,6 +228,8 @@ function d6() {
   var jawaban;
   if (x == "5,4") {
     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+  } else if (x == "") {
+    jawaban = "";
   } else {
     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
   }
@@ -209,6 +241,8 @@ function k6() {
   var jawaban;
   if (x == "17") {
     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+  } else if (x == "") {
+    jawaban = "";
   } else {
     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
   }
@@ -220,6 +254,8 @@ function pi6() {
   var jawaban;
   if (x == "3,14") {
     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+  } else if (x == "") {
+    jawaban = "";
   } else {
     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
   }
@@ -231,6 +267,8 @@ function d7() {
   var jawaban;
   if (x == "3,3") {
     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+  } else if (x == "") {
+    jawaban = "";
   } else {
     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
   }
@@ -242,6 +280,8 @@ function k7() {
   var jawaban;
   if (x == "10,4") {
     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+  } else if (x == "") {
+    jawaban = "";
   } else {
     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
   }
@@ -253,6 +293,8 @@ function pi7() {
   var jawaban;
   if (x == "3,15") {
     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+  } else if (x == "") {
+    jawaban = "";
   } else {
     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
   }
@@ -264,6 +306,8 @@ function d8() {
   var jawaban;
   if (x == "3") {
     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+  } else if (x == "") {
+    jawaban = "";
   } else {
     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
   }
@@ -275,6 +319,8 @@ function k8() {
   var jawaban;
   if (x == "9,4") {
     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+  } else if (x == "") {
+    jawaban = "";
   } else {
     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
   }
@@ -286,6 +332,8 @@ function pi8() {
   var jawaban;
   if (x == "3,13") {
     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+  } else if (x == "") {
+    jawaban = "";
   } else {
     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
   }
@@ -297,6 +345,8 @@ function d9() {
   var jawaban;
   if (x == "2,3") {
     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+  } else if (x == "") {
+    jawaban = "";
   } else {
     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
   }
@@ -308,6 +358,8 @@ function k9() {
   var jawaban;
   if (x == "7,2") {
     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+  } else if (x == "") {
+    jawaban = "";
   } else {
     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
   }
@@ -319,6 +371,8 @@ function pi9() {
   var jawaban;
   if (x == "3,13") {
     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+  } else if (x == "") {
+    jawaban = "";
   } else {
     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
   }
@@ -330,6 +384,8 @@ function d10() {
   var jawaban;
   if (x == "2") {
     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+  } else if (x == "") {
+    jawaban = "";
   } else {
     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
   }
@@ -341,6 +397,8 @@ function k10() {
   var jawaban;
   if (x == "6,3") {
     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+  } else if (x == "") {
+    jawaban = "";
   } else {
     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
   }
@@ -352,6 +410,8 @@ function pi10() {
   var jawaban;
   if (x == "3,15") {
     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+  } else if (x == "") {
+    jawaban = "";
   } else {
     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
   }
@@ -363,6 +423,8 @@ function r1() {
   var jawaban;
   if (x == "31,48") {
     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+  } else if (x == "") {
+    jawaban = "";
   } else {
     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
   }
@@ -374,6 +436,8 @@ function r2() {
   var jawaban;
   if (x == "10") {
     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+  } else if (x == "") {
+    jawaban = "";
   } else {
     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
   }
@@ -385,6 +449,8 @@ function r3() {
   var jawaban;
   if (x == "3,148") {
     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+  } else if (x == "") {
+    jawaban = "";
   } else {
     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
   }
@@ -396,6 +462,8 @@ function ksmpl1() {
   var jawaban;
   if (x == "3,14") {
     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+  } else if (x == "") {
+    jawaban = "";
   } else {
     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
   }
@@ -407,6 +475,8 @@ function ksmpl2() {
   var jawaban;
   if (x == "7") {
     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+  } else if (x == "") {
+    jawaban = "";
   } else {
     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
   }
@@ -418,6 +488,8 @@ function ksmpl3() {
   var jawaban;
   if (x == "3,14") {
     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+  } else if (x == "") {
+    jawaban = "";
   } else {
     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
   }

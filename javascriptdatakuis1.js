@@ -344,6 +344,9 @@ dat.onreadystatechange = function () {
                 if(hasilakhir<=75){
                     let ulang = document.getElementById("ulang");
                     ulang.className = ulang.className.replace("hilang","");
+                } else if (hasilakhir>=75){
+                    let mtrslnjt = document.getElementById("mtrslnjt");
+                    mtrslnjt.className = mtrslnjt.className.replace("hilang","");
                 }
             } else {
                 alert('Masih Ada Soal Yang Belum Dijawab, Periksa Kembali . . . !');

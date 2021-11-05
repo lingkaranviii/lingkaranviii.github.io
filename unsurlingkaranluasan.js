@@ -11,11 +11,11 @@ function myFunction13() {
     } else if (jawaban1=="" && jawaban2!="") {
       document.getElementById("demo1").innerHTML = "Jawabanmu masih kosong";
     } else if (jawaban1!="" && jawaban2!="") {
-      if (jawaban1=="AOD" && jawaban2=="BOD") {
+      if ((jawaban1=="AOD" || jawaban1=="DOA") && (jawaban2=="BOD" || jawaban2=="DOB")) {
       document.getElementById("demo1").innerHTML = "<b style='color: green'>Jawabanmu Benar</b>, <br><br> Pembahasan: <b>a. Daerah Juring yang berukuran \\[90^{\\circ}\\]</b> <br><br> Dikarenakan <b>juring</b> merupakan daerah di dalam lingkaran yang dibatasi oleh dua jari-jari dan satu busur lingkaran dengan jari-jari yang membatasi memuat titik ujung busur lingkaran maka juring yang berukuran \\[90^{\\circ}\\] yang terdapat pada gambar adalah daerah \\[AOD\\] dan \\[BOD\\]";
       MathJax.typeset();
       } else if (jawaban1!="" && jawaban2!="") {
-        if (jawaban1=="BOD" && jawaban2=="AOD") {
+        if ((jawaban1=="BOD" || jawaban1=="DOB") && (jawaban2=="AOD" || jawaban2=="DOA")) {
         document.getElementById("demo1").innerHTML = "<b style='color: green'>Jawabanmu Benar</b>, <br><br> Pembahasan: <b>a. Daerah Juring yang berukuran \\[90^{\\circ}\\]</b> <br><br> Dikarenakan <b>juring</b> merupakan daerah di dalam lingkaran yang dibatasi oleh dua jari-jari dan satu busur lingkaran dengan jari-jari yang membatasi memuat titik ujung busur lingkaran maka juring yang berukuran \\[90^{\\circ}\\] yang terdapat pada gambar adalah daerah \\[AOD\\] dan \\[BOD\\]";
         MathJax.typeset();
         }
@@ -26,29 +26,18 @@ function myFunction13() {
      }
   
      function myFunction14() {
-      let jawaban1=document.getElementById("myText14").value.split(' ').join('');
-      let jawaban2=document.getElementById("myText142").value.split(' ').join('');
-      
-      if (jawaban1=="" && jawaban2=="") {
-        document.getElementById("demo1").innerHTML = "Silahkan masukkan jawaban, jawaban tidak boleh kosong";
-      } else if (jawaban1!="" && jawaban2=="") {
-        document.getElementById("demo1").innerHTML = "Jawabanmu masih kosong";
-      } else if (jawaban1=="" && jawaban2!="") {
-        document.getElementById("demo1").innerHTML = "Jawabanmu masih kosong";
-      } else if (jawaban1!="" && jawaban2!="") {
-        if (jawaban1=="AC" && jawaban2=="BD") {
-        document.getElementById("demo1").innerHTML = "<b style='color: green'>Jawabanmu Benar</b>, <br><br> Pembahasan: <b>b. Daerah Tembereng Minor</b> <br><br> Dikarenakan <b>tembereng</b> merupakan daerah di dalam lingkaran yang dibatasi oleh tali busur dan busur lingkaran maka tembereng minor yang terdapat pada gambar adalah daerah \\[AC\\] dan \\[BD\\]";
-        MathJax.typeset();
-        } else if (jawaban1!="" && jawaban2!="") {
-          if (jawaban1=="BD" && jawaban2=="AC") {
-          document.getElementById("demo1").innerHTML = "<b style='color: green'>Jawabanmu Benar</b>, <br><br> Pembahasan: <b>b. Daerah Tembereng Minor</b> <br><br> Dikarenakan <b>tembereng</b> merupakan daerah di dalam lingkaran yang dibatasi oleh tali busur dan busur lingkaran maka tembereng minor yang terdapat pada gambar adalah daerah \\[AC\\] dan \\[BD\\]";
-          MathJax.typeset();
-          }
-        else {
-          document.getElementById("demo1").innerHTML = "<b style='color: red'>Jawabanmu Salah</b>, silahkan coba lagi dan ingat gunakan huruf kapital";
-        }
-      } }
+      var x = document.getElementById("myText14").value.split(' ').join('');
+       var jawaban;
+       if (x == "6") {
+         jawaban = "<b style='color: green'>Jawabanmu Benar</b> <br><br> Pembahasan: <b>b. Jumlah daerah tembereng</b> <br><br> Dikarenakan ada daerah tembereng minor dan mayor yaitu tembereng \\[AC\\] minor dan \\[AC\\] mayor, tembereng \\[BD\\] minor dan \\[BD\\] mayor, dan 2 tembereng \\[AB\\] minor maka jumlah daerah tembereng ada 6.";
+       } else if (x =="") {
+         jawaban = "Silahkan masukkan jawaban, jawaban tidak boleh kosong"
+       } else {
+         jawaban = "<b style='color: red'>Jawabanmu Salah,</b> silahkan coba lagi!";
        }
+       document.getElementById("demo1").innerHTML = jawaban;
+       MathJax.typeset();
+      }
   
   function myFunction15() {
       var x = document.getElementById("myText15").value.split(' ').join('');
@@ -117,6 +106,8 @@ function myFunction13() {
       jawaban = "<img src='benar.png'  width='25px' height='25px'>";
     } else if (x == "jari-jari") {
       jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+    } else if (x == "") {
+      jawaban = "";
     } else {
       jawaban = "<img src='salah.png'  width='25px' height='25px'>";
     }
@@ -132,6 +123,8 @@ function myFunction13() {
       jawaban = "<img src='benar.png'  width='25px' height='25px'>";
     } else if (x == "busur") {
       jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+    } else if (x == "") {
+      jawaban = "";
     } else {
       jawaban = "<img src='salah.png'  width='25px' height='25px'>";
     }
@@ -147,10 +140,25 @@ function myFunction13() {
       jawaban = "<img src='benar.png'  width='25px' height='25px'>";
     } else if (x == "titik") {
       jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+    } else if (x == "") {
+      jawaban = "";
     } else {
       jawaban = "<img src='salah.png'  width='25px' height='25px'>";
     }
     document.getElementById("demojuring3").innerHTML = jawaban;
+  }
+
+  function juring4() {
+    var x = document.getElementById("Textjuring4").value.split(' ').join('');
+    var jawaban;
+    if (x == "DALAM" || x == "Dalam" || x == "dalam") {
+      jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+    } else if (x == "") {
+      jawaban = "";
+    } else {
+      jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+    }
+    document.getElementById("demojuring4").innerHTML = jawaban;
   }
 
   function tembereng() {
@@ -162,6 +170,8 @@ function myFunction13() {
       jawaban = "<img src='benar.png'  width='25px' height='25px'>";
     } else if (x == "daerah") {
       jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+    } else if (x == "") {
+      jawaban = "";
     } else {
       jawaban = "<img src='salah.png'  width='25px' height='25px'>";
     }
@@ -177,6 +187,8 @@ function myFunction13() {
       jawaban = "<img src='benar.png'  width='25px' height='25px'>";
     } else if (x == "tali busur") {
       jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+    } else if (x == "") {
+      jawaban = "";
     } else {
       jawaban = "<img src='salah.png'  width='25px' height='25px'>";
     }

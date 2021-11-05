@@ -12,13 +12,13 @@
 }, {
     "soal1": {
         "soal": "Perhatikan gambar di bawah ini <br> <img src='KUIS 1 1.png' width='256' height='280'> <br>Tali busur ditunjukkan oleh ruas garis . . . .",
-        "a": "a. \\[OP\\]",
-        "b": "b. \\[OQ\\]",
-        "c": "c. \\[OT\\]",
-        "d": "d. \\[RT\\]",
-        "e": "e. \\[RS\\]",
+        "a": "a. \\[OP\\] dan \\[OT\\]",
+        "b": "b. \\[OQ\\] dan \\[OP\\]",
+        "c": "c. \\[OT\\] dan \\[OR\\]",
+        "d": "d. \\[RT\\] dan \\[ST\\]",
+        "e": "e. \\[RS\\] dan \\[PQ\\]",
         "benar": "e",
-        "jwban": "e. \\[RS\\]"
+        "jwban": "e. \\[RS\\] dan \\[PQ\\]"
     }
 }, {
     "soal2": {
@@ -33,7 +33,7 @@
     }
 }, {
     "soal3": {
-        "soal": "Perhatikan gambar di bawah ini <br> <img src='KUIS 1 1.png' width='256' height='280'> <br>Panjang apotema pada lingkaran tersebut adalah . . . jika panjang tali busurnya \\[10\\,cm\\].",
+        "soal": "Perhatikan gambar di bawah ini <br> <img src='KUIS 1 1.png' width='256' height='280'> <br> Jika panjang tali busur \\[RS=10\\,cm\\], maka panjang apotema pada lingkaran tersebut adalah . . . .",
         "a": "a. \\[12\\,cm\\]",
         "b": "b. \\[11\\,cm\\]",
         "c": "c. \\[10\\,cm\\]",
@@ -66,7 +66,7 @@
     }
 }, {
     "soal6": {
-        "soal": "Perhatikan gambar di bawah ini <br> <img src='KUIS 1 6.png' width='230' height='320'> <br>Berdasarkan gambar di atas, maka \\[m\\angle MGK\\] . . . .",
+        "soal": "Perhatikan gambar di bawah ini <br> <img src='KUIS 1 6.png' width='230' height='320'> <br>Berdasarkan gambar di atas, maka \\[m\\angle HGK\\] . . . .",
         "a": "a. \\[160^{\\circ}\\]",
         "b": "b. \\[165^{\\circ}\\]",
         "c": "c. \\[170^{\\circ}\\]",
@@ -88,7 +88,7 @@
     }
 }, {
     "soal8": {
-        "soal": "Perhatikan gambar di bawah ini <br> <img src='KUIS 1 9.jpg' width='500' height='250'> <br>Diameter roda sepeda di bawah ini adalah \\[56\\,cm\\]. Jika roda sepeda tersebut berputar sebanyak \\[1700\\] kali, maka jarak yang dilintasi sepeda tersebut adalah . . . \\[km\\].",
+        "soal": "Perhatikan gambar di bawah ini <br> <img src='KUIS 1 9.jpg' width='500' height='250'> <br>Diameter roda sepeda di atas ini adalah \\[56\\,cm\\]. Jika roda sepeda tersebut berputar sebanyak \\[1700\\] kali, maka jarak yang dilintasi sepeda tersebut adalah . . . \\[km\\].",
         "a": "a. \\[2,31\\]",
         "b": "b. \\[2,53\\]",
         "c": "c. \\[2,99\\]",
@@ -99,7 +99,7 @@
     }
 }, {
     "soal9": {
-        "soal": "Luas sebuah jam dinding adalah . . . jika jari-jarinya \\[14\\,cm\\].",
+        "soal": "Jari-jari sebuah lingkaran diketahui \\[14\\,cm\\], maka luas lingkaran tersebut adalah . . . .",
         "a": "a. \\[616\\,cm^{2}\\]",
         "b": "b. \\[632\\,cm^{2}\\]",
         "c": "c. \\[651\\,cm^{2}\\]",
