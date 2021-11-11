@@ -4,7 +4,7 @@ function myFunction21() {
 	var x = document.getElementById("myText21").value.split(' ').join('');
      var jawaban;
      if (x == "32") {
-      jawaban = "<b style='color: green'>Jawabanmu Benar</b>, <br><br> Pembahasan: <b>a. Nilai</b> \\[x\\] <br><br> Dikarenakan \\[m\\angle LKM = 50^{\\circ}\\] dan \\[m\\angle LQM = (3x+4)^{\\circ}\\] dan sudut keliling \\[\\angle LKM\\] menghadap busur yang sama dengan sudut pusat \\[m\\angle LQM\\], maka: <br><br> \\[m\\angle LQM = 2×m\\angle LKM\\] <br><br> \\[(3x+4)^{\\circ}=2×50^{\\circ}\\] <br><br> \\[(3x+4)^{\\circ}=100^{\\circ}\\] <br><br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \\[3x^{\\circ}=100^{\\circ}-4^{\\circ}\\] <br><br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \\[3x^{\\circ}=96^{\\circ}\\] <br><br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \\[x=\\frac{96^{\\circ}}{3^{\\circ}}\\] <br><br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \\[x=32^{\\circ}\\]";
+      jawaban = "<b style='color: green'>Jawabanmu Benar</b>, <br><br> Pembahasan: <b>a. Nilai</b> \\[x\\] <br><br> Dikarenakan \\[m\\angle LKM = 50^{\\circ}\\] dan \\[m\\angle LQM = (3x+4)^{\\circ}\\] dan sudut keliling \\[\\angle LKM\\] menghadap busur yang sama dengan sudut pusat \\[m\\angle LQM\\], maka: <br><br> \\[m\\angle LQM = 2×m\\angle LKM\\] <br><br> \\[(3x+4)^{\\circ}=2×50^{\\circ}\\] <br><br> \\[(3x+4)^{\\circ}=100^{\\circ}\\] <br><br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \\[3x^{\\circ}=100^{\\circ}-4^{\\circ}\\] <br><br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \\[3x^{\\circ}=96^{\\circ}\\] <br><br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \\[x=\\frac{96^{\\circ}}{3^{\\circ}}\\] <br><br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \\[x=32\\]";
     } else if (x =="") {
       jawaban = "Silahkan masukkan jawaban, jawaban tidak boleh kosong"
     } else {
@@ -54,6 +54,229 @@ function myFunction24() {
     }
      document.getElementById("demo3").innerHTML = jawaban;
      MathJax.typeset();
+}
+
+/* mari mencoba isian */
+
+function myFunction31() {
+  var x = document.getElementById("myText31").value.split(' ').join('');
+   var jawaban;
+   if (x == "3") {
+     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+   } else if (x =="") {
+     jawaban = ""
+   } else {
+     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+   }
+   document.getElementById("demo31").innerHTML = jawaban;
+}
+
+function myFunction32() {
+  var x = document.getElementById("myText32").value.split(' ').join('');
+   var jawaban;
+   if (x == "4") {
+     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+   } else if (x =="") {
+     jawaban = ""
+   } else {
+     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+   }
+   document.getElementById("demo32").innerHTML = jawaban;
+}
+
+function myFunction33() {
+  var x = document.getElementById("myText33").value.split(' ').join('');
+   var jawaban;
+   if (x == "100") {
+     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+   } else if (x =="") {
+     jawaban = ""
+   } else {
+     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+   }
+   document.getElementById("demo33").innerHTML = jawaban;
+}
+
+function myFunction34() {
+  var x = document.getElementById("myText34").value.split(' ').join('');
+   var jawaban;
+   if (x == "3") {
+     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+   } else if (x =="") {
+     jawaban = ""
+   } else {
+     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+   }
+   document.getElementById("demo34").innerHTML = jawaban;
+}
+
+function myFunction35() {
+  var x = document.getElementById("myText35").value.split(' ').join('');
+   var jawaban;
+   if (x == "100") {
+     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+   } else if (x =="") {
+     jawaban = ""
+   } else {
+     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+   }
+   document.getElementById("demo35").innerHTML = jawaban;
+}
+
+function myFunction36() {
+  var x = document.getElementById("myText36").value.split(' ').join('');
+   var jawaban;
+   if (x == "4") {
+     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+   } else if (x =="") {
+     jawaban = ""
+   } else {
+     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+   }
+   document.getElementById("demo36").innerHTML = jawaban;
+}
+
+function myFunction37() {
+  var x = document.getElementById("myText37").value.split(' ').join('');
+   var jawaban;
+   if (x == "3") {
+     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+   } else if (x =="") {
+     jawaban = ""
+   } else {
+     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+   }
+   document.getElementById("demo37").innerHTML = jawaban;
+}
+
+function myFunction38() {
+  var x = document.getElementById("myText38").value.split(' ').join('');
+   var jawaban;
+   if (x == "96") {
+     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+   } else if (x =="") {
+     jawaban = ""
+   } else {
+     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+   }
+   document.getElementById("demo38").innerHTML = jawaban;
+}
+
+function myFunction39() {
+  var x = document.getElementById("myText39").value.split(' ').join('');
+   var jawaban;
+   if (x == "3") {
+     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+   } else if (x =="") {
+     jawaban = ""
+   } else {
+     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+   }
+   document.getElementById("demo39").innerHTML = jawaban;
+}
+
+function myFunction40() {
+  var x = document.getElementById("myText40").value.split(' ').join('');
+   var jawaban;
+   if (x == "32") {
+     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+   } else if (x =="") {
+     jawaban = ""
+   } else {
+     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+   }
+   document.getElementById("demo40").innerHTML = jawaban;
+}
+
+function myFunction41() {
+  var x = document.getElementById("myText41").value.split(' ').join('');
+   var jawaban;
+   if (x == "4") {
+     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+   } else if (x =="") {
+     jawaban = ""
+   } else {
+     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+   }
+   document.getElementById("demo41").innerHTML = jawaban;
+}
+
+function myFunction42() {
+  var x = document.getElementById("myText42").value.split(' ').join('');
+   var jawaban;
+   if (x == "96") {
+     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+   } else if (x =="") {
+     jawaban = ""
+   } else {
+     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+   }
+   document.getElementById("demo42").innerHTML = jawaban;
+}
+
+function myFunction43() {
+  var x = document.getElementById("myText43").value.split(' ').join('');
+   var jawaban;
+   if (x == "4") {
+     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+   } else if (x =="") {
+     jawaban = ""
+   } else {
+     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+   }
+   document.getElementById("demo43").innerHTML = jawaban;
+}
+
+function myFunction44() {
+  var x = document.getElementById("myText44").value.split(' ').join('');
+   var jawaban;
+   if (x == "180") {
+     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+   } else if (x =="") {
+     jawaban = ""
+   } else {
+     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+   }
+   document.getElementById("demo44").innerHTML = jawaban;
+}
+
+function myFunction45() {
+  var x = document.getElementById("myText45").value.split(' ').join('');
+   var jawaban;
+   if (x == "67") {
+     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+   } else if (x =="") {
+     jawaban = ""
+   } else {
+     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+   }
+   document.getElementById("demo45").innerHTML = jawaban;
+}
+
+function myFunction46() {
+  var x = document.getElementById("myText46").value.split(' ').join('');
+   var jawaban;
+   if (x == "180") {
+     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+   } else if (x =="") {
+     jawaban = ""
+   } else {
+     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+   }
+   document.getElementById("demo46").innerHTML = jawaban;
+}
+
+function myFunction47() {
+  var x = document.getElementById("myText47").value.split(' ').join('');
+   var jawaban;
+   if (x == "135") {
+     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+   } else if (x =="") {
+     jawaban = ""
+   } else {
+     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+   }
+   document.getElementById("demo47").innerHTML = jawaban;
 }
 
 /*Pertanyaan 5*/

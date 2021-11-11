@@ -88,7 +88,7 @@
     }
 }, {
     "soal8": {
-        "soal": "Perhatikan gambar di bawah ini <br> <img src='E 9.jpg' width='200' height='200'> <br>Besar sudut \\[VYX\\] adalah . . . jika besar sudut \\[VWX = 113^{\\circ}\\].",
+        "soal": "Perhatikan gambar di bawah ini <br> <img src='E 9.jpg' width='200' height='200'> <br>Jika besar sudut \\[VWX = 113^{\\circ}\\] maka besar sudut \\[VYX\\] adalah . . . .",
         "a": "a. \\[30^{\\circ}\\]",
         "b": "b. \\[45^{\\circ}\\]",
         "c": "c. \\[67^{\\circ}\\]",
@@ -121,7 +121,7 @@
     }
 }, {
     "soal11": {
-        "soal": "Luas juring suatu lingkaran adalah . . . jika sudut pusatnya \\[120^{\\circ}\\] dan jari-jarinya \\[6\\,cm\\].",
+        "soal": "Sudut pusat suatu lingkaran adalah \\[120^{\\circ}\\] dan jari-jarinya \\[6\\,cm\\], maka luas juring lingkaran tersebut adalah . . . ",
         "a": "a. \\[10,53\\,cm\\]",
         "b": "b. \\[11,21\\,cm\\]",
         "c": "c. \\[26,9\\,cm\\]",
@@ -176,7 +176,7 @@
     } 
 }, {
     "soal16": {
-        "soal": "Berdasarkan gambar di bawah, <br> <img src='E 17.jpg' width='256' height='120'> <br>Garis singgung persekutuan dalam kedua lingkaran tersebut adalah . . . jika jarak kedua lingkaran \\[1\\,cm\\].",
+        "soal": "Berdasarkan gambar di bawah, <br> <img src='E 17.jpg' width='256' height='120'> <br>Jika jarak kedua lingkaran \\[1\\,cm\\] maka garis singgung persekutuan dalam kedua lingkaran tersebut adalah . . . .",
         "a": "a. \\[14\\,cm\\]",
         "b": "b. \\[11\\,cm\\]",
         "c": "c. \\[8\\,cm\\]",
@@ -187,7 +187,7 @@
     } 
 }, {
     "soal17": {
-        "soal": "Jarak lingkaran \\[P\\] dan \\[Q\\] adalah . . . jika jari-jari lingkaran \\[P\\] dan \\[Q\\]  berturut-turut \\[5\\,cm\\] dan \\[3\\,cm\\] dengan jarak pusat kedua lingkaran tersebut adalah \\[10\\,cm\\].",
+        "soal": "Panjang jari-jari lingkaran \\[P\\] dan \\[Q\\]  berturut-turut \\[5\\,cm\\] dan \\[3\\,cm\\] dengan jarak pusat kedua lingkaran tersebut adalah \\[10\\,cm\\]. Jarak lingkaran \\[P\\] dan \\[Q\\] adalah . . . .",
         "a": "a. \\[2\\,cm\\]",
         "b": "b. \\[3\\,cm\\]",
         "c": "c. \\[4\\,cm\\]",
@@ -198,7 +198,7 @@
     } 
 },{
     "soal18": {
-        "soal": "Pada lingkaran \\[R\\] dan \\[S\\] yang memiliki jari-jari berturut-turut \\[6\\,cm\\] dan \\[3\\,cm\\], jarak pusat lingkaran \\[R\\] dan \\[S\\] tersebut adalah . . . jika garis singgung persekutuan dalamnya diketahui \\[12\\,cm\\].",
+        "soal": "Pada lingkaran \\[R\\] dan \\[S\\] yang memiliki panjang jari-jari berturut-turut \\[6\\,cm\\] dan \\[3\\,cm\\] dengan garis singgung persekutuan dalamnya diketahui \\[12\\,cm\\] maka jarak pusat lingkaran \\[R\\] dan \\[S\\] tersebut adalah . . . .",
         "a": "a. \\[15\\,cm\\]",
         "b": "b. \\[17\\,cm\\]",
         "c": "c. \\[20\\,cm\\]",

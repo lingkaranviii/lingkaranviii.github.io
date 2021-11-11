@@ -28,6 +28,86 @@ function myFunction20() {
      MathJax.typeset();
 }
 
+/* mari mencoba isian */
+
+function myFunction21() {
+  var x = document.getElementById("myText21").value.split(' ').join('');
+   var jawaban;
+   if (x == "2") {
+     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+   } else if (x =="") {
+     jawaban = ""
+   } else {
+     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+   }
+   document.getElementById("demo21").innerHTML = jawaban;
+}
+
+function myFunction22() {
+  var x = document.getElementById("myText22").value.split(' ').join('');
+   var jawaban;
+   if (x == "3,14") {
+     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+   } else if (x =="") {
+     jawaban = ""
+   } else {
+     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+   }
+   document.getElementById("demo22").innerHTML = jawaban;
+}
+
+function myFunction23() {
+  var x = document.getElementById("myText23").value.split(' ').join('');
+   var jawaban;
+   if (x == "5") {
+     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+   } else if (x =="") {
+     jawaban = ""
+   } else {
+     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+   }
+   document.getElementById("demo23").innerHTML = jawaban;
+}
+
+function myFunction24() {
+  var x = document.getElementById("myText24").value.split(' ').join('');
+   var jawaban;
+   if (x == "3,14") {
+     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+   } else if (x =="") {
+     jawaban = ""
+   } else {
+     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+   }
+   document.getElementById("demo24").innerHTML = jawaban;
+}
+
+function myFunction25() {
+  var x = document.getElementById("myText25").value.split(' ').join('');
+   var jawaban;
+   if (x == "5") {
+     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+   } else if (x =="") {
+     jawaban = ""
+   } else {
+     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+   }
+   document.getElementById("demo25").innerHTML = jawaban;
+}
+
+function myFunction26() {
+  var x = document.getElementById("myText26").value.split(' ').join('');
+   var jawaban;
+   if (x == "5") {
+     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+   } else if (x =="") {
+     jawaban = ""
+   } else {
+     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+   }
+   document.getElementById("demo26").innerHTML = jawaban;
+}
+
 function d1() {
   var x = document.getElementById("textd1").value;
   var jawaban;

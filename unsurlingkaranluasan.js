@@ -52,6 +52,34 @@ function myFunction13() {
        document.getElementById("demo1").innerHTML = jawaban;
        MathJax.typeset();
   }
+
+  /* mari mencoba isian */
+
+  function myFunction19() {
+    var x = document.getElementById("myText19").value.split(' ').join('');
+     var jawaban;
+     if (x == "DOB" || x == "BOD") {
+       jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+     } else if (x =="") {
+       jawaban = ""
+     } else {
+       jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+     }
+     document.getElementById("demo19").innerHTML = jawaban;
+  }
+
+  function myFunction20() {
+    var x = document.getElementById("myText20").value.split(' ').join('');
+     var jawaban;
+     if (x == "90") {
+       jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+     } else if (x =="") {
+       jawaban = ""
+     } else {
+       jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+     }
+     document.getElementById("demo20").innerHTML = jawaban;
+  }
   
   /*Pertanyaan 3*/
   

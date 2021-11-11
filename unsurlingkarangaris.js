@@ -194,6 +194,99 @@ function myFunction() {
        MathJax.typeset();
   }
 
+  /* mari mencoba isian */
+
+  function myFunction13() {
+    var x = document.getElementById("myText13").value.split(' ').join('');
+       var jawaban;
+       if (x == "10") {
+         jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+       } else if (x =="") {
+         jawaban = ""
+       } else {
+         jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+       }
+       document.getElementById("demo13").innerHTML = jawaban;
+  }
+
+  function myFunction14() {
+    var x = document.getElementById("myText14").value.split(' ').join('');
+       var jawaban;
+       if (x == "14") {
+         jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+       } else if (x =="") {
+         jawaban = ""
+       } else {
+         jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+       }
+       document.getElementById("demo14").innerHTML = jawaban;
+  }
+
+  function myFunction15() {
+    var x = document.getElementById("myText15").value.split(' ').join('');
+       var jawaban;
+       if (x == "10") {
+         jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+       } else if (x =="") {
+         jawaban = ""
+       } else {
+         jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+       }
+       document.getElementById("demo15").innerHTML = jawaban;
+  }
+
+  function myFunction16() {
+    var x = document.getElementById("myText16").value.split(' ').join('');
+       var jawaban;
+       if (x == "7") {
+         jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+       } else if (x =="") {
+         jawaban = ""
+       } else {
+         jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+       }
+       document.getElementById("demo16").innerHTML = jawaban;
+  }
+
+  function myFunction17() {
+    var x = document.getElementById("myText17").value.split(' ').join('');
+       var jawaban;
+       if (x == "100") {
+         jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+       } else if (x =="") {
+         jawaban = ""
+       } else {
+         jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+       }
+       document.getElementById("demo17").innerHTML = jawaban;
+  }
+
+  function myFunction18() {
+    var x = document.getElementById("myText18").value.split(' ').join('');
+       var jawaban;
+       if (x == "49") {
+         jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+       } else if (x =="") {
+         jawaban = ""
+       } else {
+         jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+       }
+       document.getElementById("demo18").innerHTML = jawaban;
+  }
+
+  function myFunction19() {
+    var x = document.getElementById("myText19").value.split(' ').join('');
+       var jawaban;
+       if (x == "51") {
+         jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+       } else if (x =="") {
+         jawaban = ""
+       } else {
+         jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+       }
+       document.getElementById("demo19").innerHTML = jawaban;
+  }
+
   /* SUBBAB 1 */
 
 function busur() {

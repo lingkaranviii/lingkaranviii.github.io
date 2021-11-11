@@ -413,6 +413,19 @@ a:hover {
     border-radius: 8px;
 }
 
+.mm{
+  margin-left: 2px;
+      float: left;
+      padding: 10px;
+      width: auto;
+      height: auto;
+      background-color: #d9c2fa;
+      border: 5px double #8e6bc5;
+      overflow: auto;
+      font-family: 'Bookman Old Style', serif;
+      border-radius: 8px;
+}
+
 mjx-container{
   display: inline-!important;
   margin: 0;
@@ -1181,6 +1194,7 @@ td {
     font-size: 3vw;
     border-radius: 8px;
   }
+  
 
   #demo, #demo1, #demo2, #demo3, #demo4, #demo5, #demo6 {
     font-size: 3vw;
