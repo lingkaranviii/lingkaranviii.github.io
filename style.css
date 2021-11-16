@@ -112,7 +112,7 @@ td {
   border-radius: 0px;
   color: black;
   text-align: left;
-  min-width: 50px;
+  min-width: 0px;
   width: max-content;
   font-family: 'Bookman Old Style', serif;
   font-size: 14px;
