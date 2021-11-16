@@ -282,7 +282,7 @@ function myFunction() {
        } else if (x =="") {
          jawaban = ""
        } else {
-         jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+         jawaban = "<img src='salah.png' width='25px' height='25px'>";
        }
        document.getElementById("demo19").innerHTML = jawaban;
   }
