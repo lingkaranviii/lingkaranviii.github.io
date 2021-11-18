@@ -127,12 +127,8 @@ function myFunction39() {
 function myFunction40() {
 	var x = document.getElementById("myText40").value.split(' ').join('');
      var jawaban;
-     if (x == "26,5") {
+     if ((x == "26,5") || (x == "26,51") || (x == "26,514")) {
        jawaban = "<b style='color: green'><center>Jawabanmu Benar,</center></b> <br><br> \\[p=j+(R+r)\\] <br><br> \\[p=7+(15+6)\\] <br><br> \\[p=7+21\\] <br><br> \\[p=28\\,cm\\] <br><br><br> \\[l^{2}=p^{2}-(R-r)^{2}\\] <br><br> \\[l=\\sqrt{p^{2}-(R-r)^{2}}\\] <br><br> \\[l=\\sqrt{p^{2}-(R-r)^{2}}\\] <br><br> \\[l=\\sqrt{28^{2}-(15-6)^{2}}\\] <br><br> \\[l=\\sqrt{784-81}\\] <br><br> \\[l=\\sqrt{703}\\] <br><br> \\[l=26,5\\,cm\\]";
-     } else if (x == "26,514") {
-       jawaban = "<b style='color: green'><center>Jawabanmu Benar,</center></b> <br><br> \\[p=j+(R+r)\\] <br><br> \\[p=7+(15+6)\\] <br><br> \\[p=7+21\\] <br><br> \\[p=28\\,cm\\] <br><br><br> \\[l^{2}=p^{2}-(R-r)^{2}\\] <br><br> \\[l=\\sqrt{p^{2}-(R-r)^{2}}\\] <br><br> \\[l=\\sqrt{p^{2}-(R-r)^{2}}\\] <br><br> \\[l=\\sqrt{28^{2}-(15-6)^{2}}\\] <br><br> \\[l=\\sqrt{784-81}\\] <br><br> \\[l=\\sqrt{703}\\] <br><br> \\[l=26,514\\,cm\\]";
-     } else if (x == "26,51") {
-        jawaban = "<b style='color: green'><center>Jawabanmu Benar,</center></b> <br><br> \\[p=j+(R+r)\\] <br><br> \\[p=7+(15+6)\\] <br><br> \\[p=7+21\\] <br><br> \\[p=28\\,cm\\] <br><br><br> \\[l^{2}=p^{2}-(R-r)^{2}\\] <br><br> \\[l=\\sqrt{p^{2}-(R-r)^{2}}\\] <br><br> \\[l=\\sqrt{p^{2}-(R-r)^{2}}\\] <br><br> \\[l=\\sqrt{28^{2}-(15-6)^{2}}\\] <br><br> \\[l=\\sqrt{784-81}\\] <br><br> \\[l=\\sqrt{703}\\] <br><br> \\[l=26,51\\,cm\\]";
      } else if (x =="") {
        jawaban = "<center>Silahkan masukkan jawaban, jawaban tidak boleh kosong</center>"
      } else {

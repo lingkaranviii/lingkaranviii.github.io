@@ -353,10 +353,8 @@ function myFunction34() {
 function myFunction35() {
 	var x = document.getElementById("myText35").value.split(' ').join('');
      var jawaban;
-     if (x == "136,89") {
-       jawaban = "<b style='color: green'><center>Jawabanmu Benar,</center></b> <br><br> Dikarenakan besar sudut pusat adalah \\[80^{\\circ}\\] dan luas lingkaran adalah \\[616\\,cm^{2}\\], maka: <br><br> \\[L_{juring}=\\frac{\\alpha}{360^{\\circ}}×Luas\\,Lingkaran\\] <br><br> \\[L_{juring}=\\frac{80^{\\circ}}{360^{\\circ}}×616\\] <br><br> \\[L_{juring}=136,89\\,cm\\]";
-     } else if (x == "136,9") {
-       jawaban = "<b style='color: green'><center>Jawabanmu Benar,</center></b> <br><br> Dikarenakan besar sudut pusat adalah \\[80^{\\circ}\\] dan luas lingkaran adalah \\[616\\,cm^{2}\\], maka: <br><br> \\[L_{juring}=\\frac{\\alpha}{360^{\\circ}}×Luas\\,Lingkaran\\] <br><br> \\[L_{juring}=\\frac{80^{\\circ}}{360^{\\circ}}×616\\] <br><br> \\[L_{juring}=136,89=136,9\\,cm\\]";
+     if ((x == "136,89") || (x == "136,88") || (x == "136,888")) {
+       jawaban = "<b style='color: green'><center>Jawabanmu Benar,</center></b> <br><br> Dikarenakan besar sudut pusat adalah \\[80^{\\circ}\\] dan luas lingkaran adalah \\[616\\,cm^{2}\\], maka: <br><br> \\[L_{juring}=\\frac{\\alpha}{360^{\\circ}}×Luas\\,Lingkaran\\] <br><br> \\[L_{juring}=\\frac{80^{\\circ}}{360^{\\circ}}×616\\] <br><br> \\[L_{juring}=136,89\\,cm^{2}\\]";
      } else if (x =="") {
        jawaban = "<center>Silahkan masukkan jawaban, jawaban tidak boleh kosong</center>";
      } else {
@@ -369,7 +367,7 @@ function myFunction35() {
 function myFunction36() {
 	var x = document.getElementById("myText36").value.split(' ').join('');
      var jawaban;
-     if (x == "19,56") {
+     if ((x == "19,56") || (x == "19,55") || (x == "19,555")) {
        jawaban = "<b style='color: green'><center>Jawabanmu Benar,</center></b> <br><br> Dikarenakan besar sudut pusat adalah \\[80^{\\circ}\\] dan keliling lingkaran adalah \\[88\\,cm\\], maka: <br><br> \\[Panjang\\,Busur=\\frac{\\alpha}{360^{\\circ}}×Keliling\\,Lingkaran\\] <br><br> \\[Panjang\\,Busur=\\frac{80^{\\circ}}{360^{\\circ}}×88\\] <br><br> \\[Panjang\\,Busur=19,56\\,cm\\]";
       } else if (x =="") {
         jawaban = "<center>Silahkan masukkan jawaban, jawaban tidak boleh kosong</center>";
