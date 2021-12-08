@@ -297,6 +297,30 @@ main{
   cursor: default !important;
 }
 
+.hidden {
+  display: block;
+}
+
+.full {
+  position: fixed;
+  z-index: 5;
+  top:0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: #8bb4d0;
+  text-align: center;
+  opacity: 0.9;
+}
+
+.full p {
+  display: inline-block !important;
+  font-size: 50px;
+  margin-top: 325px;
+  font-family: 'Bookman Old Style', serif;
+  color:black;
+}
+
 /*tampilan HP*/
 @media screen and (max-width: 992px){
 

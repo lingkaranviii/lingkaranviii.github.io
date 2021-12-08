@@ -13,14 +13,22 @@
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <style>
 	mjx-container {
-  display: inline-block !important;
-  margin: 0 !important;
-  heading: 4px 0px !important;
-}
+		display: inline-block !important;
+		margin: 0 !important;
+	}
+
+	.hilangg {
+		display: none;
+	}
 </style>
 <body>
 
 	<header></header>
+	<div id="bg" class="hilangg">
+		<div class="full hidden"><p>MOHON MAAF, HALAMAN TIDAK BISA DI AKSES</p><br>
+			<a href="index.html"><span>Halaman Utama</span></a>
+		</div>
+	</div>
 	
 	<!-- KONTEN-->
 	<main class="main" id="main">
@@ -819,5 +827,19 @@
 
 	<script src="javascriptkuis1awal.js"></script>
 	<script src="javascriptdatakuis3.js"></script>
+	<script>
+		var task = firebase.database().ref("kontrolkuis3/12347");
+		let bg = document.getElementById('bg')
+
+       task.orderByChild("hari").on("child_added", function(data){
+        //task.on("child_added", function (data) {
+            var taskvalue = data.val();
+			let cek = taskvalue
+			if(cek==1){
+				bg.classList.toggle("hilangg")
+			}
+			
+        });
+	</script>
 </body>
 </html>
