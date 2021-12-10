@@ -313,14 +313,10 @@ main{
   opacity: 0.9;
 }
 
-.full p {
+.full img {
   display: inline-block !important;
-  font-size: 50px;
-  margin-top: 325px;
-  font-family: 'Bookman Old Style', serif;
-  color:black;
+  margin-top: 200px;
 }
-
 
 /*tampilan HP*/
 @media screen and (max-width: 992px){
