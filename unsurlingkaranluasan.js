@@ -126,13 +126,9 @@ function myFunction13() {
   }
 
   function juring() {
-    var x = document.getElementById("Textjuring").value.split(' ').join('');
+    var x = document.getElementById("Textjuring").value.split(' ').join('').toLowerCase();
     var jawaban;
-    if (x == "JARI-JARI") {
-      jawaban = "<img src='benar.png'  width='25px' height='25px'>";
-    } else if (x == "Jari-jari") {
-      jawaban = "<img src='benar.png'  width='25px' height='25px'>";
-    } else if (x == "jari-jari") {
+    if (x == "jari-jari") {
       jawaban = "<img src='benar.png'  width='25px' height='25px'>";
     } else if (x == "") {
       jawaban = "";
@@ -143,13 +139,9 @@ function myFunction13() {
   }
 
   function juring2() {
-    var x = document.getElementById("Textjuring2").value.split(' ').join('');
+    var x = document.getElementById("Textjuring2").value.split(' ').join('').toLowerCase();
     var jawaban;
-    if (x == "BUSUR") {
-      jawaban = "<img src='benar.png'  width='25px' height='25px'>";
-    } else if (x == "Busur") {
-      jawaban = "<img src='benar.png'  width='25px' height='25px'>";
-    } else if (x == "busur") {
+    if (x == "busur") {
       jawaban = "<img src='benar.png'  width='25px' height='25px'>";
     } else if (x == "") {
       jawaban = "";
@@ -160,13 +152,9 @@ function myFunction13() {
   }
   
   function juring3() {
-    var x = document.getElementById("Textjuring3").value.split(' ').join('');
+    var x = document.getElementById("Textjuring3").value.split(' ').join('').toLowerCase();
     var jawaban;
-    if (x == "TITIK") {
-      jawaban = "<img src='benar.png'  width='25px' height='25px'>";
-    } else if (x == "Titik") {
-      jawaban = "<img src='benar.png'  width='25px' height='25px'>";
-    } else if (x == "titik") {
+    if (x == "titik") {
       jawaban = "<img src='benar.png'  width='25px' height='25px'>";
     } else if (x == "") {
       jawaban = "";
@@ -177,9 +165,9 @@ function myFunction13() {
   }
 
   function juring4() {
-    var x = document.getElementById("Textjuring4").value.split(' ').join('');
+    var x = document.getElementById("Textjuring4").value.split(' ').join('').toLowerCase();
     var jawaban;
-    if (x == "DALAM" || x == "Dalam" || x == "dalam") {
+    if (x == "dalam") {
       jawaban = "<img src='benar.png'  width='25px' height='25px'>";
     } else if (x == "") {
       jawaban = "";
@@ -190,13 +178,9 @@ function myFunction13() {
   }
 
   function tembereng() {
-    var x = document.getElementById("Texttembereng").value.split(' ').join('');
+    var x = document.getElementById("Texttembereng").value.split(' ').join('').toLowerCase();
     var jawaban;
-    if (x == "DAERAH") {
-      jawaban = "<img src='benar.png'  width='25px' height='25px'>";
-    } else if (x == "Daerah") {
-      jawaban = "<img src='benar.png'  width='25px' height='25px'>";
-    } else if (x == "daerah") {
+    if (x == "daerah") {
       jawaban = "<img src='benar.png'  width='25px' height='25px'>";
     } else if (x == "") {
       jawaban = "";
@@ -207,13 +191,9 @@ function myFunction13() {
   }
 
   function tembereng2() {
-    var x = document.getElementById("Texttembereng2").value;
+    var x = document.getElementById("Texttembereng2").value.toLowerCase();
     var jawaban;
-    if (x == "TALI BUSUR") {
-      jawaban = "<img src='benar.png'  width='25px' height='25px'>";
-    } else if (x == "Tali Busur") {
-      jawaban = "<img src='benar.png'  width='25px' height='25px'>";
-    } else if (x == "tali busur") {
+    if (x == "tali busur") {
       jawaban = "<img src='benar.png'  width='25px' height='25px'>";
     } else if (x == "") {
       jawaban = "";

@@ -17,12 +17,12 @@ label {
 }
 
 .mundur {
-    margin-left: 9.7% !important;
+    margin-left: 20.3% !important;
     display: inline-block;
 }
 
 .mundurr{
-    margin-left: 11.6% !important;
+    margin-left: 26.1% !important;
     display: inline-block;
 }
 
@@ -38,7 +38,7 @@ label {
     padding: 0px 10px;
 }
 
-.lanjut, .tmblUlang{
+.lanjut{
     background-color: #8e6bc5;
     color: white;
     padding: 10px 30px 10px 30px;
@@ -54,6 +54,19 @@ label {
 .lanjut:hover{
     background-color: #d9c2fa;
   color: black;
+}
+
+.tmblUlang{
+    background-color: #8e6bc5;
+    color: white;
+    padding: 5px;
+    border-radius: 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+    width: auto;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
 }
 
 .tmblUlang:hover{
@@ -121,11 +134,12 @@ label {
 .soal_nav:hover {
     cursor: pointer;
     background-color: #000e2a;
-    color: white;
+    color: white !important;
 }
 
 .belum {
     background-color: white;
+    color: #000e2a;
 }
 
 .fontsedang {
@@ -333,7 +347,7 @@ p{
     border: 10px solid #8e6bc5;
     border-radius: 10px;
     padding: 20px;
-    width: 50%;
+    width: 60%;
     text-align: justify;
     background-color: white;
 }
@@ -345,7 +359,7 @@ p{
 }
 
 .ket_ulang{
-    font-size: 20px;
+    font-size: 18px;
 }
 
 

@@ -368,7 +368,7 @@ function myFunction30() {
 /* SUBBAB 2 */
 
 function mm11() {
-  var x = document.getElementById("Textmm11").value.split(' ').join('');
+  var x = document.getElementById("Textmm11").value.split(' ').join('').toLowerCase();
   var jawaban;
   if (x == "keliling") {
     jawaban = "<img src='benar.png'  width='25px' height='25px'>"
@@ -381,7 +381,7 @@ function mm11() {
 }
 
 function mm12() {
-  var x = document.getElementById("Textmm12").value.split(' ').join('');
+  var x = document.getElementById("Textmm12").value.split(' ').join('').toLowerCase();
   var jawaban;
   if (x == "pusat") {
     jawaban = "<img src='benar.png'  width='25px' height='25px'>"
@@ -394,7 +394,7 @@ function mm12() {
 }
 
 function mm13() {
-  var x = document.getElementById("Textmm13").value.split(' ').join('');
+  var x = document.getElementById("Textmm13").value.split(' ').join('').toLowerCase();
   var jawaban;
   if (x == "CWD") {
     jawaban = "<img src='benar.png'  width='25px' height='25px'>"
@@ -407,7 +407,7 @@ function mm13() {
 }
 
 function mm14() {
-  var x = document.getElementById("Textmm14").value.split(' ').join('');
+  var x = document.getElementById("Textmm14").value.split(' ').join('').toLowerCase();
   var jawaban;
   if (x == "COD") {
     jawaban = "<img src='benar.png'  width='25px' height='25px'>"
@@ -420,7 +420,7 @@ function mm14() {
 }
 
 function mm15() {
-  var x = document.getElementById("Textmm15").value.split(' ').join('');
+  var x = document.getElementById("Textmm15").value.split(' ').join('').toLowerCase();
   var jawaban;
   if (x == "EYF") {
     jawaban = "<img src='benar.png'  width='25px' height='25px'>"
@@ -433,7 +433,7 @@ function mm15() {
 }
 
 function mm16() {
-  var x = document.getElementById("Textmm16").value.split(' ').join('');
+  var x = document.getElementById("Textmm16").value.split(' ').join('').toLowerCase();
   var jawaban;
   if (x == "EOF") {
     jawaban = "<img src='benar.png'  width='25px' height='25px'>"
@@ -446,7 +446,7 @@ function mm16() {
 }
 
 function mm17() {
-  var x = document.getElementById("Textmm17").value.split(' ').join('');
+  var x = document.getElementById("Textmm17").value.split(' ').join('').toLowerCase();
   var jawaban;
   if (x == "GJH") {
     jawaban = "<img src='benar.png'  width='25px' height='25px'>"
@@ -459,7 +459,7 @@ function mm17() {
 }
 
 function mm18() {
-  var x = document.getElementById("Textmm18").value.split(' ').join('');
+  var x = document.getElementById("Textmm18").value.split(' ').join('').toLowerCase();
   var jawaban;
   if (x == "GKH") {
     jawaban = "<img src='benar.png'  width='25px' height='25px'>"
@@ -472,7 +472,7 @@ function mm18() {
 }
 
 function mm19() {
-  var x = document.getElementById("Textmm19").value.split(' ').join('');
+  var x = document.getElementById("Textmm19").value.split(' ').join('').toLowerCase();
   var jawaban;
   if (x == "GOH") {
     jawaban = "<img src='benar.png'  width='25px' height='25px'>"

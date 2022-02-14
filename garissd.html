@@ -275,6 +275,35 @@
 				  <a class="nex" onclick="plusSlides(1)">❯</a>
 						  
 					</div>
+
+					<div class="dot-container">
+						<span class="dot" onclick="currentSlide(1)">1</span> 
+						<span class="dot" onclick="currentSlide(2)">2</span>
+						<span class="dot" onclick="currentSlide(3)">3</span>
+						<span class="dot" onclick="currentSlide(4)">4</span> 
+						<span class="dot" onclick="currentSlide(5)">5</span>
+						<span class="dot" onclick="currentSlide(6)">6</span>
+						<span class="dot" onclick="currentSlide(7)">7</span> 
+						<span class="dot" onclick="currentSlide(8)">8</span>
+						<span class="dot" onclick="currentSlide(9)">9</span>
+						<span class="dot" onclick="currentSlide(10)">10</span> 
+						<span class="dot" onclick="currentSlide(11)">11</span>
+						<span class="dot" onclick="currentSlide(12)">12</span>
+						<span class="dot" onclick="currentSlide(13)">13</span> 
+						<span class="dot" onclick="currentSlide(14)">14</span>
+						<span class="dot" onclick="currentSlide(15)">15</span>
+						<span class="dot" onclick="currentSlide(16)">16</span> 
+						<span class="dot" onclick="currentSlide(17)">17</span>
+						<span class="dot" onclick="currentSlide(18)">18</span>
+						<span class="dot" onclick="currentSlide(19)">19</span> 
+						<span class="dot" onclick="currentSlide(20)">20</span>
+						<span class="dot" onclick="currentSlide(21)">21</span>
+						<span class="dot" onclick="currentSlide(22)">22</span> 
+						<span class="dot" onclick="currentSlide(23)">23</span>
+						<span class="dot" onclick="currentSlide(24)">24</span>
+						<span class="dot" onclick="currentSlide(25)">25</span>
+					  </div>
+					<br>
 			<br>
 			<center><img src="GSPD.png" width="500px" height="225px" style="border-style: solid;border-color: #8e6bc5;"></center>
 			<center><i><b>Gambar 25</b>: Garis Singgung Persekutuan Dalam</i></center><br>
@@ -352,14 +381,15 @@
 					</tr>
 				</table>
 			</div><br>
-			<button class="tujuan tujuan1" style="font-size: 14px;">Klik untuk melihat Petunjuk Soal</button>
-				<div id="tujuan1" class="hilang">
+			<button class="tujuan" style="font-size: 14px;">Klik untuk melihat Petunjuk Soal</button>
+				<div id="tujuan" class="hilang">
 					<ol>
 					<center><b>Petunjuk Pengerjaan Soal:</b><br></center>
 					<li>Perhatikan gambar pada soal, apabila terdapat gambar pada soal</li><br>
 					<li>Baca dan pahami soal sebelum menjawabnya</li><br>
 					<li>Masukkan jawabanmu pada kolom jawaban seperti ini <img src="kolom jawaban.PNG" class="imgt"></li><br>
-					<li>Ketika ingin memeriksa jawaban yang sudah diisi maka silakan klik tombol <img src="tombol periksa.PNG" class="imgt"></li><br><br>
+					<li>Ketika ingin memeriksa jawaban yang sudah diisi maka silakan klik tombol <img src="tombol periksa.PNG" class="imgt"></li><br>
+					<li>Pembahasan jawaban akan ditampilkan jika jawabanmu benar</li><br><br>
 				</ol>
 				</div>
 			<p>Diketahui jarak antara lingkaran \[A\] dan \[B\] adalah \[3\,cm\]. Lingkaran \[A\] dan \[B\] memiliki jari-jari berturut-turut \[8\,cm\] dan \[4\,cm\]. Maka berapakah panjang garis singgung persekutuan dalam kedua lingkaran tersebut?</p>
@@ -383,15 +413,16 @@
 			<div class="subsubbab"><center>Pertanyaan</center></div>
 
 			<div class="slideshow-container">                 
-				<button class="tujuan tujuan2" style="font-size: 14px;">Klik untuk melihat Petunjuk Soal</button><br>
-			  <div id="tujuan2" class="hilang">
+				<button class="tujuan tujuan1" style="font-size: 14px;">Klik untuk melihat Petunjuk Soal</button><br>
+			  <div id="tujuan1" class="hilang">
 				<ol>
 				  <center><b>Petunjuk Pengerjaan Soal:</b><br></center>
 				  <li>Perhatikan gambar pada soal, apabila terdapat gambar pada soal</li><br>
 				  <li>Baca dan pahami soal sebelum menjawabnya</li><br>
 				  <li>Masukkan jawabanmu pada kolom jawaban seperti ini <img src="kolom jawaban.PNG" class="imgt"></li><br>
 				  <li>Ketika ingin memeriksa jawaban yang sudah diisi maka silakan klik tombol <img src="tombol periksa.PNG" class="imgt"></li><br>
-				  <li>Tekan tombol 1,2, dan 3 di bawah soal atau tombol <img src="pre.PNG" width="20px" height="20px" class="imgt"> dan <img src="nex.PNG" width="20px" height="20px" class="imgt"> untuk mengganti ke nomor soal selanjutnya</li><br><br>
+				  <li>Tekan tombol 1,2, dan 3 di bawah soal atau tombol <img src="pre.PNG" width="20px" height="20px" class="imgt"> dan <img src="nex.PNG" width="20px" height="20px" class="imgt"> untuk mengganti ke nomor soal selanjutnya</li><br>
+				  <li>Pembahasan jawaban akan ditampilkan jika jawabanmu benar</li><br><br>
 			   </ol>
 			  </div>
 				  <div class="mySlides2">
@@ -425,19 +456,18 @@
 						  
 						  <div class="dot-container">
 							<b class="no">Nomor Soal: &nbsp;</b><br>
-							<span class="dot" onclick="currentSlide2(1)">1</span> 
-							<span class="dot" onclick="currentSlide2(2)">2</span>
-							<span class="dot" onclick="currentSlide2(3)">3</span>
+							<span class="dot2" onclick="currentSlide2(1)">1</span> 
+							<span class="dot2" onclick="currentSlide2(2)">2</span>
+							<span class="dot2" onclick="currentSlide2(3)">3</span>
 						  </div>
 						<br>
 		</section>
 		<footer>
 			<div id="footer">
-			  <a href="garissl.html" class="previous"><img src="previous.png" width="25px" height="25px"></a>
-			  <a href="rangkuman4.html" class="next"><img src="next.png" width="25px" height="25px"></a>
+			  <a href="garissl.html" class="previous"><img src="sebelumnya.png" width="100px" height="25px"></a>
+			  <a href="rangkuman4.html" class="next"><img src="selanjutnya.png" width="100px" height="25px"></a>
 		  </div>
 		</footer>
-		<script src="javascript1.js"></script>
 		<script src="garissd.js"></script>
 		<script src="kalkulator.js"></script>
 	</body>

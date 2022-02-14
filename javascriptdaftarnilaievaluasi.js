@@ -15,7 +15,7 @@ window.onload = function () {
 }
 
 function readlah() {
-    var task = firebase.database().ref("evaluasi/");
+    var task = firebase.database().ref("evaluasi1/");
     let tmp = document.querySelector('.disini');
     tmp.innerHTML = "";
     kelasnya = document.getElementById('kelas');

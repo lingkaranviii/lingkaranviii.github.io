@@ -20,21 +20,21 @@ let kelasfix = '';
 selanjutnya.addEventListener('click', function () {
     let cek = 0;
     if (namanya.value == "") {
-        if (namanya.className.indexOf('tt_salah') == -1) {
-            namanya.className += ' tt_salah';
+        if (namanya.className.indexOf('salah') == -1) {
+            namanya.className += ' salah';
         }
     } else {
-        namanya.className = namanya.className.replace('tt_salah', '');
+        namanya.className = namanya.className.replace('salah', '');
         cek += 1;
 
     }
 
     if (kelasnya.value == "0") {
-        if (kelasnya.className.indexOf('tt_salah') == -1) {
-            kelasnya.className += ' tt_salah';
+        if (kelasnya.className.indexOf('salah') == -1) {
+            kelasnya.className += ' salah';
         }
     } else {
-        kelasnya.className = kelasnya.className.replace('tt_salah', '');
+        kelasnya.className = kelasnya.className.replace('salah', '');
         if (kelasnya.value == "1") {
             kelasfix = "8A";
         } else if (kelasnya.value == "2") {
@@ -46,11 +46,11 @@ selanjutnya.addEventListener('click', function () {
     }
 
     if (sekolah.value == "0") {
-        if (sekolah.className.indexOf('tt_salah') == -1) {
-            sekolah.className += ' tt_salah';
+        if (sekolah.className.indexOf('salah') == -1) {
+            sekolah.className += ' salah';
         }
     } else {
-        sekolah.className = sekolah.className.replace('tt_salah', '');
+        sekolah.className = sekolah.className.replace('salah', '');
         if (sekolah.value == "1") {
             sekolahfix = "SMP Negeri Banjarmasin";
         }
@@ -78,7 +78,6 @@ window.onload = function () {
 
     document.getElementById('kiri').className += ' hilang';
     document.getElementById('kanan').className += ' hilang';
-
 
 }
 
@@ -341,10 +340,10 @@ dat.onreadystatechange = function () {
                 let datanya = document.querySelector('.dataaa');
                 datanya.className = datanya.className.replace('hilang', '');
 
-                if(hasilakhir<=75){
+                if(hasilakhir<=70){
                     let ulang = document.getElementById("ulang");
                     ulang.className = ulang.className.replace("hilang","");
-                } else if (hasilakhir>=75){
+                } else if (hasilakhir>=70){
                     let mtrslnjt = document.getElementById("mtrslnjt");
                     mtrslnjt.className = mtrslnjt.className.replace("hilang","");
                 }

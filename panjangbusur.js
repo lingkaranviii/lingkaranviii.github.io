@@ -511,8 +511,8 @@ function lj5() {
 }
 
 function pb6() {
-  let jawaban1=document.getElementById("textpb11").value;
-  let jawaban2=document.getElementById("textpb12").value;
+  let jawaban1=document.getElementById("textpb11").value.toLowerCase();
+  let jawaban2=document.getElementById("textpb12").value.toLowerCase();
       
     if (jawaban1=="panjang busur" && jawaban2=="keliling lingkaran") {
       document.getElementById("demopb6").innerHTML = "<img src='benar.png'  width='25px' height='25px'>";
@@ -524,8 +524,8 @@ function pb6() {
 }
 
 function lj6() {
-  let jawaban1=document.getElementById("textlj11").value;
-  let jawaban2=document.getElementById("textlj12").value;
+  let jawaban1=document.getElementById("textlj11").value.toLowerCase();
+  let jawaban2=document.getElementById("textlj12").value.toLowerCase();
       
     if (jawaban1=="luas juring" && jawaban2=="luas lingkaran") {
       document.getElementById("demolj6").innerHTML = "<img src='benar.png'  width='25px' height='25px'>";

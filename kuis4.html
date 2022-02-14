@@ -6,7 +6,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="csskuis1awal.css">
 	<link rel="stylesheet" type="text/css" href="datakuis1.css">
-	<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 </head>
 <!-- mathjax -->
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
@@ -24,29 +23,81 @@
 <body>
 
 	<header></header>
-	<div id="bg" class="hilangg">
-		<div class="full hidden"><img src="kalimatkontrol.png" style="width: 800px; height: 200px;"><br>
-			<a href="index.html" class="kembali"><span>Kembali ke Halaman Utama</span></a>
-		</div>
-	</div>
 	
 	<!-- KONTEN-->
 	<main class="main" id="main">
 
 		<!-- BADAN KONTEN-->
-		<div class="konten">
+		<section>
+			<ul><li><a class="nav"><center><img src="nav.png" width="30px" height="30px"></center></a></li></ul>
+		 	 <nav id="nav">
+			  <div class="button-nav">
+			<button class="dropbtn dropdown-btn" onclick="ftampil()">A. Mengenal Lingkaran
+			  <i class="fa fa-caret-down"></i>
+			</button>
+  
+			<div class="dropdown-content dropdown-container">
+			  <a href="materii.html">1. Mengenal Lingkaran</a>
+			  <a href="unsurlingkarangaris.html">2. Unsur-unsur lingkaran yang berupa garis dan ciri-cirinya</a>
+			  <a href="unsurlingkaranluasan.html">3. Unsur-unsur lingkaran yang berupa luasan dan ciri-cirinya</a>
+			  <a href="kelilingdanluas.html">4. Keliling dan luas lingkaran</a>
+			  <a href="rangkuman1.html">Rangkuman</a>
+			  <a href="kuis1awal.html">Kuis 1</a>
+			</div>
+  
+			<button class="dropbtn dropdown-btn" onclick="ftampil()">B. Sudut Pusat dan Sudut Keliling
+			  <i class="fa fa-caret-down"></i>
+			</button>
+  
+			<div class="dropdown-content dropdown-container">
+			  <a href="sudutpk.html">Sudut Pusat dan Sudut Keliling</a>
+			  <a href="rangkuman2.html">Rangkuman</a>
+			  <a href="kuis2.html">Kuis 2</a>
+			</div>
+  
+			<button class="dropbtn dropdown-btn" onclick="ftampil()">C. Panjang Busur dan Luas Juring
+			  <i class="fa fa-caret-down"></i>
+			</button>
+  
+			<div class="dropdown-content dropdown-container">
+			  <a href="panjangbusur.html">Panjang Busur dan Luas Juring</a>
+			  <a href="rangkuman3.html">Rangkuman</a>
+			  <a href="kuis3.html">Kuis 3</a>
+			</div>
+  
+			 <button class="dropbutton dropdown-btn active" onclick="ftampil()">D. Garis Singgung Lingkaran
+				<i class="fa fa-caret-down"></i>
+			</button>
+  
+			 <div class="dropdown-content dropdown-containerr">
+			   <a href="garissl.html">1. Garis singgung persekutuan luar dua lingkaran</a>
+			   <a href="garissd.html">2. Garis singgung persekutuan dalam dua lingkaran</a>
+			   <a href="rangkuman4.html">Rangkuman</a>
+			   <a href="kuis4.html" class="hvr">Kuis 4</a>
+			  </div>
+  
+			<button class="button" button onclick="location.href='evaluasi1.html'">Evaluasi</button>
+  
+			</div>
+			</nav>
+		  <div class="konten1">
+			  <div id="bg" class="hilangg">
+				  <div class="full hidden"><img src="kalimatkontrol.png" style="width: 800px; height: 200px;"><br>
+				  </div>
+			  </div>
 			<div class="isi" id="data">
 					<span class="judul" style="color: white;">Kuis 4 | D. Garis Singgung Lingkaran</span><br>
 				<hr><br>
-				<div class="petunjuk">
-					<div class="kliktunjuk"><a href="#tjk1" onclick="tjk1('tjk1')"> Petunjuk (klik untuk menyembunyikan petunjuk)<br></a></div>
-      				<div class="tjk1" id="tjk1">
+				<div class="kiri1">
+					<div class="kliktunjuk"> Petunjuk<br></div>
+      				<div class="tjk1">
       					<ol>
       						<li>Kuis ini terdiri dari 10 soal pilihan ganda.</li>
       						<li>Setiap soal memiliki bobot poin sebanyak 10 poin.</li>
       						<li>Silahkan lengkapi data diri Anda pada form yang telah disediakan.</li>
-      						<li>Tekan "Mulai Kuis" jika Anda sudah melengkapi data diri.</li>
-      						<li>Ketika sudah memulai Kuis, Anda tidak bisa kembali ke halaman materi.</li>
+      						<li>Tekan tombol "Mulai Kuis" jika Anda sudah melengkapi data diri.</li>
+      						<li>Ketika sudah memulai Kuis, maka jawablah soal dengan benar.</li>
+							<li>Tekan tombol "Selesai" jika Anda sudah menjawab semua soal.</li>
       					</ol>
 			        </div>
 				</div>
@@ -78,9 +129,6 @@
                             <br>
                             <br>
 							<center>
-								<a href="garissl.html" class="kembali">
-									Kembali Ke Materi
-								</a>
 								<div class="lanjut">
 									Mulai Kuis
 								</div>
@@ -734,7 +782,7 @@
 			<div class="dataaa hilang" id="halskor">
 				<div class="skornya">
 					<center>
-						<span class="judul" style="color: white;">Kuis 4</span>
+						<span class="judul" style="color: white;">Kuis 4 | D. Garis Singgung Lingkaran</span>
 						<br>
 						<br>
 
@@ -808,10 +856,17 @@
 						</table>
 						<br>
 						<div id="ulang" class="ket_ulang hilang" style="color: white;">
-							Jika nilaimu masih kurang dari 75, silahkan tekan tombol "Ulang" di bawah ini untuk remedial<br>
-							<div class="tmblUlang"><a href="">Ulang</a></div>
+							<b style="background-color: red; padding: 3px;">Nilaimu masih kurang dari 70</b>, silahkan tekan tombol "<b>Ulang Kuis</b>" di bawah ini untuk remedial atau tekan tombol "<b>Ulang Materi</b>" untuk mempelajari kembali materi sebelumnya!<br>
+							<div class="tmblUlang">
+								<a href="kuis4.html">Ulang Kuis</a></div>
+							<div class="tmblUlang">
+								<a href="garissl.html">Ulang Materi</a></div><br>
 						</div>
-						<div id="mtrslnjt" class="tmblUlang hilang"><a href="evaluasi.html">Evaluasi</a></div>
+						<div id="mtrslnjt" class="ket_ulang hilang" style="color: white;">
+							<b style="background-color: green; padding: 3px;">Nilaimu sudah lebih dari atau sama dangan 70</b>, silahkan tekan tombol "<b>Evaluasi</b>" di bawah ini untuk mengerjakan evaluasi!<br>
+							<div class="tmblUlang" style="font-size: 18px;">
+								<a href="evaluasi1.html">Evaluasi</a></div>
+						</div>
 					</center>
 				</div>
 			</div>

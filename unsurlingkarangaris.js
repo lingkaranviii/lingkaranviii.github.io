@@ -290,9 +290,9 @@ function myFunction() {
   /* SUBBAB 1 */
 
 function busur() {
-    var x = document.getElementById("Textbusur").value.split(' ').join('');
+    var x = document.getElementById("Textbusur").value.split(' ').join('').toLowerCase();
     var jawaban;
-    if (x == "LENGKUNG" || x == "Lengkung" || x == "lengkung") {
+    if (x == "lengkung") {
       jawaban = "<img src='benar.png'  width='25px' height='25px'>";
     } else if (x == "") {
       jawaban = "";
@@ -303,9 +303,9 @@ function busur() {
   } 
 
   function busur2() {
-    var x = document.getElementById("Textbusur2").value.split(' ').join('');
+    var x = document.getElementById("Textbusur2").value.split(' ').join('').toLowerCase();
     var jawaban;
-    if (x == "MINOR" || x == "Minor" || x == "minor") {
+    if (x == "minor") {
       jawaban = "<img src='benar.png'  width='25px' height='25px'>";
     } else if (x == "") {
       jawaban = "";
@@ -316,9 +316,9 @@ function busur() {
   } 
   
   function busur3() {
-    var x = document.getElementById("Textbusur3").value.split(' ').join('');
+    var x = document.getElementById("Textbusur3").value.split(' ').join('').toLowerCase();
     var jawaban;
-    if (x == "MAYOR" || x == "Mayor" || x == "mayor") {
+    if (x == "mayor") {
       jawaban = "<img src='benar.png'  width='25px' height='25px'>";
     } else if (x == "") {
       jawaban = "";
@@ -329,9 +329,9 @@ function busur() {
   } 
 
   function busur4() {
-    var x = document.getElementById("Textbusur4").value.split(' ').join('');
+    var x = document.getElementById("Textbusur4").value.split(' ').join('').toLowerCase();
     var jawaban;
-    if (x == "SETENGAH" || x == "Setengah" || x == "setengah") {
+    if (x == "setengah") {
       jawaban = "<img src='benar.png'  width='25px' height='25px'>";
     } else if (x == "") {
       jawaban = "";
@@ -342,9 +342,9 @@ function busur() {
   } 
 
   function jari2() {
-    var x = document.getElementById("Textjari2").value.split(' ').join('');
+    var x = document.getElementById("Textjari2").value.split(' ').join('').toLowerCase();
     var jawaban;
-    if (x == "TITIK" || x == "Titik" || x == "titik") {
+    if (x == "titik") {
       jawaban = "<img src='benar.png'  width='25px' height='25px'>";
     } else if (x == "") {
       jawaban = "";
@@ -355,9 +355,9 @@ function busur() {
   }
 
   function jari3() {
-    var x = document.getElementById("Textjari3").value.split(' ').join('');
+    var x = document.getElementById("Textjari3").value.split(' ').join('').toLowerCase();
     var jawaban;
-    if (x == "PUSAT" || x == "Pusat" || x == "pusat") {
+    if (x == "pusat") {
       jawaban = "<img src='benar.png'  width='25px' height='25px'>";
     } else if (x == "") {
       jawaban = "";
@@ -368,9 +368,9 @@ function busur() {
   }
   
   function diameter() {
-    var x = document.getElementById("Textdiameter").value;
+    var x = document.getElementById("Textdiameter").value.toLowerCase();
     var jawaban;
-    if (x == "DUA" || x == "Dua" || x == "dua") {
+    if (x == "dua") {
       jawaban = "<img src='benar.png'  width='25px' height='25px'>";
     } else if (x == "") {
       jawaban = "";
@@ -381,9 +381,9 @@ function busur() {
   }
 
   function diameter2() {
-    var x = document.getElementById("Textdiameter2").value;
+    var x = document.getElementById("Textdiameter2").value.toLowerCase();
     var jawaban;
-    if (x == "O" || x == "o") {
+    if (x == "o") {
       jawaban = "<img src='benar.png'  width='25px' height='25px'>";
     } else if (x == "") {
       jawaban = "";
@@ -394,9 +394,9 @@ function busur() {
   }
 
   function diameter3() {
-    var x = document.getElementById("Textdiameter3").value;
+    var x = document.getElementById("Textdiameter3").value.toLowerCase();
     var jawaban;
-    if (x == "RUAS" || x == "Ruas" || x == "ruas") {
+    if (x == "ruas") {
       jawaban = "<img src='benar.png'  width='25px' height='25px'>";
     } else if (x == "") {
       jawaban = "";
@@ -407,9 +407,9 @@ function busur() {
   }
   
   function talibusur() {
-    var x = document.getElementById("Texttalibusur").value;
+    var x = document.getElementById("Texttalibusur").value.toLowerCase();
     var jawaban;
-    if (x == "DUA" || x == "Dua" || x == "dua") {
+    if (x == "dua") {
       jawaban = "<img src='benar.png'  width='25px' height='25px'>";
     } else if (x == "") {
       jawaban = "";
@@ -420,9 +420,9 @@ function busur() {
   }
 
   function talibusur2() {
-    var x = document.getElementById("Texttalibusur2").value;
+    var x = document.getElementById("Texttalibusur2").value.toLowerCase();
     var jawaban;
-    if (x == "PUSAT" || x == "Pusat" || x == "pusat") {
+    if (x == "pusat") {
       jawaban = "<img src='benar.png'  width='25px' height='25px'>";
     } else if (x == "") {
       jawaban = "";
@@ -433,9 +433,9 @@ function busur() {
   }
 
   function talibusur3() {
-    var x = document.getElementById("Texttalibusur3").value;
+    var x = document.getElementById("Texttalibusur3").value.toLowerCase();
     var jawaban;
-    if (x == "RUAS GARIS" || x == "Ruas Garis" || x == "ruas garis") {
+    if (x == "ruas garis") {
       jawaban = "<img src='benar.png'  width='25px' height='25px'>";
     } else if (x == "") {
       jawaban = "";
@@ -446,9 +446,9 @@ function busur() {
   }
   
   function apotema0() {
-    var x = document.getElementById("Textapotema0").value;
+    var x = document.getElementById("Textapotema0").value.toLowerCase();
     var jawaban;
-    if (x == "GARIS" || x == "Garis" || x == "garis") {
+    if (x == "garis") {
       jawaban = "<img src='benar.png'  width='25px' height='25px'>";
     } else if (x == "") {
       jawaban = "";
@@ -459,9 +459,9 @@ function busur() {
   }
   
   function apotema() {
-    var x = document.getElementById("Textapotema").value;
+    var x = document.getElementById("Textapotema").value.toLowerCase();
     var jawaban;
-    if (x == "TALI BUSUR" || x == "Tali Busur" || x == "tali busur") {
+    if (x == "tali busur") {
       jawaban = "<img src='benar.png'  width='25px' height='25px'>";
     } else if (x == "") {
       jawaban = "";
@@ -472,9 +472,9 @@ function busur() {
   }
 
   function apotema2() {
-    var x = document.getElementById("Textapotema2").value;
+    var x = document.getElementById("Textapotema2").value.toLowerCase();
     var jawaban;
-    if (x == "TALI BUSUR" || x == "Tali Busur" || x == "tali busur") {
+    if (x == "tali busur") {
       jawaban = "<img src='benar.png'  width='25px' height='25px'>";
     } else if (x == "") {
       jawaban = "";

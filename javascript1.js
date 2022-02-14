@@ -23,6 +23,8 @@ var x2 = document.getElementById("tujuan1");
 var xx2= document.querySelector('.tujuan1');
 var x3 = document.getElementById("tujuan2");
 var xx3= document.querySelector('.tujuan2');
+var x5 = document.getElementById("tujuan3");
+var xx5= document.querySelector('.tujuan3');
 
 xx1.addEventListener("click",function(){
   x1.classList.toggle("hilang");
@@ -32,6 +34,9 @@ xx2.addEventListener("click",function(){
 });
 xx3.addEventListener("click",function(){
   x3.classList.toggle("hilang");
+});
+xx5.addEventListener("click",function(){
+  x5.classList.toggle("hilang");
 });
 
 var slideIndex = 1;
@@ -55,10 +60,10 @@ function showSlides(n) {
       slides[i].style.display = "none";  
   }
   for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
+      dots[i].className = dots[i].className.replace(" active1", "");
   }
   slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
+  dots[slideIndex-1].className += " active1";
 }
 
 var slideIndex = 1;
@@ -82,20 +87,16 @@ function showSlides2(n) {
       slides2[i2].style.display = "none";  
   }
   for (i2 = 0; i2 < dots2.length; i2++) {
-      dots2[i2].className = dots2[i2].className.replace(" active", "");
+      dots2[i2].className = dots2[i2].className.replace(" active3", "");
   }
   slides2[slideIndex-1].style.display = "block";  
-  dots2[slideIndex-1].className += " active";
+  dots2[slideIndex-1].className += " active3";
 }
 
 function sudutpusat() {
-  var x = document.getElementById("Textsudutpusat").value;
+  var x = document.getElementById("Textsudutpusat").value.toLowerCase();
   var jawaban;
-  if (x == "SINAR GARIS") {
-    jawaban = "<img src='benar.png'  width='25px' height='25px'>"
-  } else if (x == "Sinar Garis") {
-    jawaban = "<img src='benar.png'  width='25px' height='25px'>"
-  } else if (x == "sinar garis") {
+  if (x == "sinar garis") {
     jawaban = "<img src='benar.png'  width='25px' height='25px'>"
   } else if (x == "") {
     jawaban = "";
@@ -106,13 +107,9 @@ function sudutpusat() {
 }
 
 function sudutpusat2() {
-  var x = document.getElementById("Textsudutpusat2").value;
+  var x = document.getElementById("Textsudutpusat2").value.toLowerCase();
   var jawaban;
-  if (x == "JARI-JARI") {
-    jawaban = "<img src='benar.png'  width='25px' height='25px'>"
-  } else if (x == "Jari-jari") {
-    jawaban = "<img src='benar.png'  width='25px' height='25px'>"
-  } else if (x == "jari-jari") {
+  if (x == "jari-jari" || x == "jari jari") {
     jawaban = "<img src='benar.png'  width='25px' height='25px'>"
   } else if (x == "") {
     jawaban = "";
@@ -123,13 +120,9 @@ function sudutpusat2() {
 }
 
 function sudutpusat3() {
-  var x = document.getElementById("Textsudutpusat3").value;
+  var x = document.getElementById("Textsudutpusat3").value.toLowerCase();
   var jawaban;
-  if (x == "PUSAT") {
-    jawaban = "<img src='benar.png'  width='25px' height='25px'>"
-  } else if (x == "Pusat") {
-    jawaban = "<img src='benar.png'  width='25px' height='25px'>"
-  } else if (x == "pusat") {
+  if (x == "pusat") {
     jawaban = "<img src='benar.png'  width='25px' height='25px'>"
   } else if (x == "") {
     jawaban = "";

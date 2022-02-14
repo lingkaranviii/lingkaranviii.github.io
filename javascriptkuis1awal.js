@@ -16,6 +16,13 @@ function ftampil(){
         });
     }
   }
+
+var x1 = document.getElementById("nav");
+var xx1= document.querySelector('.nav');
+
+xx1.addEventListener("click",function(){
+  x1.classList.toggle("hilang");
+});
   
   function dafis(){
     let dafis = document.getElementById("dafis");
