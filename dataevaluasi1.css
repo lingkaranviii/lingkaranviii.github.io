@@ -160,6 +160,11 @@ label {
     color: white;
 }
 
+.aktif {
+    background-color: #000e2a;
+    color: white; 
+}
+
 .selesai {
     margin-top: 15px;
     font-size: 20px;

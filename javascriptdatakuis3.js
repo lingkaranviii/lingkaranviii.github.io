@@ -212,6 +212,7 @@ dat.onreadystatechange = function () {
         }
 
         let bg_pertanyaan = document.getElementsByClassName("bg_pertanyaan");
+        let soal_nav = document.querySelectorAll(".soal_nav");
         
         //fungsi tombol lanjut
         let lanjut = document.querySelectorAll(".nav_selanjut");
@@ -222,7 +223,11 @@ dat.onreadystatechange = function () {
                         bg_pertanyaan[y+1].className = bg_pertanyaan[y+1].className.replace("hilang","");
                         bg_pertanyaan[y].className += " hilang";
                     }
-                    console.log(bg_pertanyaan[y+1]);       
+                    console.log(bg_pertanyaan[y+1]);
+                    if(soal_nav[y].className.indexOf('aktif') != -1){
+                        soal_nav[y].className = soal_nav[y].className.replace("aktif","");
+                        soal_nav[y+1].className += " aktif";
+                    }       
                 }
             })
         }
@@ -236,12 +241,16 @@ dat.onreadystatechange = function () {
                         bg_pertanyaan[y-1].className = bg_pertanyaan[y-1].className.replace("hilang","");
                         bg_pertanyaan[y].className += " hilang";
                     }
+                    if(soal_nav[y].className.indexOf('aktif') != -1){
+                        soal_nav[y].className = soal_nav[y].className.replace("aktif","");
+                        soal_nav[y-1].className += " aktif";
+                    }
                 }
             })
         }
 
         //navigasi soal
-        let soal_nav = document.querySelectorAll(".soal_nav");
+        
         for(let y=0; y<soal_nav.length; y++){
             soal_nav[y].addEventListener('click', function(){
                 for(let u=0; u<bg_pertanyaan.length; u++){
@@ -342,7 +351,7 @@ dat.onreadystatechange = function () {
                 let datanya = document.querySelector('.dataaa');
                 datanya.className = datanya.className.replace('hilang', '');
 
-                if(hasilakhir<=70){
+                if(hasilakhir<70){
                     let ulang = document.getElementById("ulang");
                     ulang.className = ulang.className.replace("hilang","");
                 } else if (hasilakhir>=70){
