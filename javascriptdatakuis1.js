@@ -20,37 +20,37 @@ let kelasfix = '';
 selanjutnya.addEventListener('click', function () {
     let cek = 0;
     if (namanya.value == "") {
-        if (namanya.className.indexOf('salah') == -1) {
-            namanya.className += ' salah';
+        if (namanya.className.indexOf('tt_salah') == -1) {
+            namanya.className += ' tt_salah';
         }
     } else {
-        namanya.className = namanya.className.replace('salah', '');
+        namanya.className = namanya.className.replace('tt_salah', '');
         cek += 1;
 
     }
 
     if (kelasnya.value == "0") {
-        if (kelasnya.className.indexOf('salah') == -1) {
-            kelasnya.className += ' salah';
+        if (kelasnya.className.indexOf('tt_salah') == -1) {
+            kelasnya.className += ' tt_salah';
         }
     } else {
-        kelasnya.className = kelasnya.className.replace('salah', '');
+        kelasnya.className = kelasnya.className.replace('tt_salah', '');
         if (kelasnya.value == "1") {
             kelasfix = "8A";
         } else if (kelasnya.value == "2") {
             kelasfix = "8B";
         } else if (kelasnya.value == "3") {
             kelasfix = "8C";
-        }
+        } 
         cek += 1;
     }
 
     if (sekolah.value == "0") {
-        if (sekolah.className.indexOf('salah') == -1) {
-            sekolah.className += ' salah';
+        if (sekolah.className.indexOf('tt_salah') == -1) {
+            sekolah.className += ' tt_salah';
         }
     } else {
-        sekolah.className = sekolah.className.replace('salah', '');
+        sekolah.className = sekolah.className.replace('tt_salah', '');
         if (sekolah.value == "1") {
             sekolahfix = "SMP Negeri Banjarmasin";
         }
@@ -79,6 +79,7 @@ window.onload = function () {
     document.getElementById('kiri').className += ' hilang';
     document.getElementById('kanan').className += ' hilang';
 
+
 }
 
 // -----------------------------------------------------------------------------------------
@@ -94,7 +95,7 @@ dat.onreadystatechange = function () {
     salahh = 0;
 
     if (dat.readyState == 4 && dat.status == 200) {
-        // tangkap apapun responsnya tangkap,lalu diubah ke objeck
+        // tankap apapun responsnya tangkap,lalu diubah ke objeck
         let data = JSON.parse(this.responseText);
         // melihat data 
         // console.log(data);
@@ -115,6 +116,7 @@ dat.onreadystatechange = function () {
 
         for (let i = 0; i < cek.length; i++) {
             let nilai = cek[i];
+
             let soaldata = data[nilai]["soal" + nilai]["soal"];
             let jwb0 = data[nilai]["soal" + nilai]["a"];
             let jwb1 = data[nilai]["soal" + nilai]["b"];
