@@ -250,7 +250,6 @@ dat.onreadystatechange = function () {
         }
 
         //navigasi soal
-        
         for(let y=0; y<soal_nav.length; y++){
             soal_nav[y].addEventListener('click', function(){
                 for(let u=0; u<bg_pertanyaan.length; u++){
@@ -259,6 +258,12 @@ dat.onreadystatechange = function () {
                     }
                 }
                 bg_pertanyaan[y].className = bg_pertanyaan[y].className.replace("hilang","");
+                for(let x=0; x<soal_nav.length; x++){
+                    if(soal_nav[x].className.indexOf('aktif') != -1){
+                        soal_nav[x].classList.toggle('aktif');
+                    }
+                }
+                soal_nav[y].classList.toggle('aktif');
             })
         }
         
@@ -266,7 +271,7 @@ dat.onreadystatechange = function () {
         let soall = document.querySelectorAll(".soall");
 
         for(let y=0; y<soall.length; y++){
-            soall[y].addEventListener('click',function(){
+            soall[y].addEventListener('click',function(){ 
                 let pilih = document.querySelectorAll(".bg_pilihan input");
                 for(let j=0; j<pilih.length; j++){
                     pilih[j].addEventListener('click',function(){

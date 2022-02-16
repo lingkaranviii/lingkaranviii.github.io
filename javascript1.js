@@ -97,11 +97,11 @@ function sudutpusat() {
   var x = document.getElementById("Textsudutpusat").value.toLowerCase();
   var jawaban;
   if (x == "sinar garis") {
-    jawaban = "<img src='benar.png'  width='25px' height='25px'>"
+    jawaban = "<img class='ikon2' src='benar.png'  width='25px' height='25px'>"
   } else if (x == "") {
     jawaban = "";
   } else {
-    jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+    jawaban = "<img class='ikon2' src='salah.png'  width='25px' height='25px'>";
   }
   document.getElementById("demosudutpusat").innerHTML = jawaban;
 }
@@ -110,11 +110,11 @@ function sudutpusat2() {
   var x = document.getElementById("Textsudutpusat2").value.toLowerCase();
   var jawaban;
   if (x == "jari-jari" || x == "jari jari") {
-    jawaban = "<img src='benar.png'  width='25px' height='25px'>"
+    jawaban = "<img class='ikon2' src='benar.png'  width='25px' height='25px'>"
   } else if (x == "") {
     jawaban = "";
   } else {
-    jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+    jawaban = "<img class='ikon2' src='salah.png'  width='25px' height='25px'>";
   }
   document.getElementById("demosudutpusat2").innerHTML = jawaban;
 }
@@ -123,11 +123,11 @@ function sudutpusat3() {
   var x = document.getElementById("Textsudutpusat3").value.toLowerCase();
   var jawaban;
   if (x == "pusat") {
-    jawaban = "<img src='benar.png'  width='25px' height='25px'>"
+    jawaban = "<img class='ikon2' src='benar.png'  width='25px' height='25px'>"
   } else if (x == "") {
     jawaban = "";
   } else {
-    jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+    jawaban = "<img class='ikon2' src='salah.png'  width='25px' height='25px'>";
   }
   document.getElementById("demosudutpusat3").innerHTML = jawaban;
 }

@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="csskuis1awal.css">
 	<link rel="stylesheet" type="text/css" href="datakuis1.css">
+	<link rel="stylesheet" type="text/css" href="kalkulator.css">
 </head>
 <!-- mathjax -->
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
@@ -31,7 +32,9 @@
 
 		<!-- BADAN KONTEN-->
 		<section>
-			<ul><li><a class="nav"><center><img src="nav.png" width="30px" height="30px"></center></a></li></ul>
+			<ul>
+				<li><a class="nav"><center><img src="nav.png" width="30px" height="30px"></center></a></li>
+			</ul>
 		  <nav id="nav">
 			  <div class="button-nav">
 			<button class="dropbtn dropdown-btn active" onclick="ftampil()">A. Mengenal Lingkaran
@@ -772,7 +775,8 @@
 						<div class="ket fontsedang">
 							Keterangan :<br>
 							<span class="belum">Putih</span> = Belum dijawab<br>
-							<span class="sudah">Ungu</span> = Sudah dijawab
+							<span class="sudah">Ungu</span> = Sudah dijawab<br>
+							<span class="aktif">Biru</span> = Posisi<br>
 						</div>
 					</div>
 				</div>
@@ -884,6 +888,7 @@
 
 	<script src="javascriptkuis1awal.js"></script>
 	<script src="javascriptdatakuis1.js"></script>
+	<script src="kalkulator.js"></script>
 	<script>
 		var task = firebase.database().ref("kontrolkuis1/12345");
 		let bg = document.getElementById('bg')

@@ -778,7 +778,7 @@ li mjx-container{
 
 #paplikasi {
   width: 100%;
-  height: 1450px;
+  height: 1500px;
   text-align: left;
   padding: 7px 10px;
   color: black;
@@ -805,9 +805,20 @@ li mjx-container{
   height: 155px;
   text-align: left;
   padding: 7px 10px;
-  color: white;
-  background-color: #8e6bc5;
-  border: 5px dotted #8bb4d0;
+  color: black;
+  border: 5px dotted #8e6bc5;
+  border-radius: 8px;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+#info1 {
+  width: 100%;
+  height: auto;
+  text-align: left;
+  padding: 7px 10px;
+  color: black;
+  border: 5px dotted #8e6bc5;
   border-radius: 8px;
   margin-top: 10px;
   font-size: 16px;
@@ -818,9 +829,8 @@ li mjx-container{
   height: 170px;
   text-align: left;
   padding: 7px 10px;
-  color: white;
-  background-color: #8e6bc5;
-  border: 5px dotted #8bb4d0;
+  color: black;
+  border: 5px dotted #8e6bc5;
   border-radius: 8px;
   margin-top: 10px;
   font-size: 16px;
@@ -970,6 +980,7 @@ mjx-math {
   }
 
   li {
+    margin-left: 3vw;
     font-size: 3vw;
   }
 
@@ -1069,6 +1080,26 @@ mjx-math {
 
   img{
     width: 100%;
+    height: auto;
+  }
+
+  .imgs{
+    width: 60%;
+    height: auto;
+  }
+
+  .ikon1{
+    width: 5%;
+    height: auto;
+  }
+
+  .ikon2{
+    width: 30%;
+    height: auto;
+  }
+
+  .ikon3{
+    width: 10%;
     height: auto;
   }
 
@@ -1285,6 +1316,17 @@ td {
   padding: 0px 15px 0px 15px;
 }
 
+#tujuan3, #tujuan4, #tujuan5 {
+  width: 100%;
+  height: 645px;
+  text-align: left;
+  color: white;
+  background-color: #8e6bc5;
+  border: 3px dotted #8bb4d0;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
 .petunjuk{
   font-size: 3vw;
   
@@ -1304,11 +1346,32 @@ td {
 
 p{
   padding: 10px;
-  font-size: small;
+  font-size: revert;
 }
 
-.pre, .nex{
-  top:73%;
+.pre, .nex {
+  cursor: pointer;
+  position: absolute;
+  top: 73%;
+  width: auto;
+  margin-top: -30px;
+  padding: 15px;
+  color: #8bb4d0;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 8px;
+  user-select: none;
+}
+
+.nex {
+  position: absolute;
+  right: 0;
+  border-radius: 8px;
+}
+
+.pre:hover, .nex:hover {
+  background-color: #8bb4d0;
+  color: #000e2a;
 }
 
 .windows{
@@ -1337,7 +1400,7 @@ p{
   background: #8bb4d0;
 }
 
-.dot {
+.dot, .dot2 {
   cursor: pointer;
   color: white;
   height: 37px;
@@ -1345,9 +1408,19 @@ p{
   margin-top: 3px;
   text-align: center;
   font-size: 3vw;
-  background-color: #000e2a;
+  background-color: #4d7a99;
   border-radius: 35%;
   display: inline-block;
   transition: background-color 0.6s ease;
 }
+
+.active {
+  background-color: #000e2a;
+  color: white;
+}
+
+.button-nav .active1 .active3 {
+  background-color: #000e2a;
+}
+
 }

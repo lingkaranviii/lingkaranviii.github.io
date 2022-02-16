@@ -258,6 +258,12 @@ dat.onreadystatechange = function () {
                     }
                 }
                 bg_pertanyaan[y].className = bg_pertanyaan[y].className.replace("hilang","");
+                for(let x=0; x<soal_nav.length; x++){
+                    if(soal_nav[x].className.indexOf('aktif') != -1){
+                        soal_nav[x].classList.toggle('aktif');
+                    }
+                }
+                soal_nav[y].classList.toggle('aktif');
             })
         }
         
