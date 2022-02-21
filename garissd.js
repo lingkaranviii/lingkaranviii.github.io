@@ -191,7 +191,7 @@ function myFunction42() {
      } else {
        jawaban = "<b style='color: red'><center>Jawabanmu Salah,</b> silahkan coba lagi!</center>";
      }
-     document.getElementById("demo42").innerHTML = jawaban;
+     document.getElementById("demo42a").innerHTML = jawaban;
      MathJax.typeset();
 }
 
@@ -205,7 +205,7 @@ function myFunction43() {
      } else {
        jawaban = "<b style='color: red'><center>Jawabanmu Salah,</b> silahkan coba lagi!</center>";
      }
-     document.getElementById("demo43").innerHTML = jawaban;
+     document.getElementById("demo43a").innerHTML = jawaban;
      MathJax.typeset();
 }
 
@@ -219,6 +219,6 @@ function myFunction44() {
      } else {
        jawaban = "<b style='color: red'><center>Jawabanmu Salah,</b> silahkan coba lagi!</center>";
      }
-     document.getElementById("demo44").innerHTML = jawaban;
+     document.getElementById("demo44a").innerHTML = jawaban;
      MathJax.typeset();
 }

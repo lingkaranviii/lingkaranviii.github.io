@@ -291,7 +291,7 @@ function myFunction25() {
     } else {
       jawaban = "<b style='color: red'><center>Jawabanmu Salah,</b> silahkan coba lagi!</center>";
      }
-     document.getElementById("demo25").innerHTML = jawaban;
+     document.getElementById("demo25a").innerHTML = jawaban;
      MathJax.typeset();
 }
 
@@ -305,7 +305,7 @@ function myFunction26() {
     } else {
       jawaban = "<b style='color: red'><center>Jawabanmu Salah,</b> silahkan coba lagi!</center>";
      }
-     document.getElementById("demo26").innerHTML = jawaban;
+     document.getElementById("demo26a").innerHTML = jawaban;
      MathJax.typeset();
 }
 

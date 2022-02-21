@@ -154,7 +154,7 @@ label {
 
 .aktif {
     background-color: #000e2a;
-    color: white; 
+    color: white;
 }
 
 .selesai {
@@ -340,10 +340,10 @@ p{
 }
 
 .t_hasil {
-    border: 10px solid #8e6bc5;
-    border-radius: 10px;
-    padding: 20px;
-    width: 60%;
+    border: 3px solid #8e6bc5;
+    border-radius: 25px;
+    padding: 10px;
+    width: 55%;
     text-align: justify;
     background-color: white;
 }

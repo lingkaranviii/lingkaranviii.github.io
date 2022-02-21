@@ -332,7 +332,7 @@ function myFunction33() {
      } else {
        jawaban = "<b style='color: red'><center>Jawabanmu Salah,</b> silahkan coba lagi!</center>";
      }
-     document.getElementById("demo33").innerHTML = jawaban;
+     document.getElementById("demo33a").innerHTML = jawaban;
      MathJax.typeset();
 }
 
@@ -346,7 +346,7 @@ function myFunction34() {
      } else {
        jawaban = "<b style='color: red'><center>Jawabanmu Salah,</b> silahkan coba lagi!</center>";
      }
-     document.getElementById("demo34").innerHTML = jawaban;
+     document.getElementById("demo34a").innerHTML = jawaban;
      MathJax.typeset();
 }
 
@@ -360,7 +360,7 @@ function myFunction35() {
      } else {
        jawaban = "<b style='color: red'><center>Jawabanmu Salah,</b> silahkan coba lagi!</center>";
      }
-     document.getElementById("demo35").innerHTML = jawaban;
+     document.getElementById("demo35a").innerHTML = jawaban;
      MathJax.typeset();
 }
 
@@ -374,7 +374,7 @@ function myFunction36() {
       } else {
         jawaban = "<b style='color: red'><center>Jawabanmu Salah,</b> silahkan coba lagi!</center>";
      }
-     document.getElementById("demo36").innerHTML = jawaban;
+     document.getElementById("demo36a").innerHTML = jawaban;
      MathJax.typeset();
 }
 

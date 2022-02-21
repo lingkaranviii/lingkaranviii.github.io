@@ -128,7 +128,7 @@ function myFunction() {
       var x = document.getElementById("myText8").value.split(' ').join('');
        var jawaban;
        if (x == "15") {
-         jawaban = "<b style='color: green'><center>Jawabanmu Benar,</center></b> <br><br> \\[r=\\frac{1}{2}d\\] <br><br> \\[r=\\frac{1}{2}30\\] <br><br> \\[r=15 \\, cm\\]";
+         jawaban = "<b style='color: green; background-color: white;'><center>Jawabanmu Benar,</center></b> <br><br> \\[r=\\frac{1}{2}d\\] <br><br> \\[r=\\frac{1}{2}30\\] <br><br> \\[r=15 \\, cm\\]";
        } else if (x =="") {
          jawaban = "<center>Silahkan masukkan jawaban, jawaban tidak boleh kosong</center>"
        } else {

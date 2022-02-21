@@ -392,7 +392,7 @@ a:hover {
   }
   
   .button-nav .button:hover {
-    background-color: #8bb4d0;
+    background-color: #000e2a;
     
   }
 
@@ -902,6 +902,13 @@ li mjx-container{
   background-color: #000e2a;
 }
 
+#demo8, #demo9, #demo10, #demo11, #demo12, #demo16a, #demo17a, #demo18a, #demo25a, #demo26a, #demo27, #demo28, #demo29, #demo30, #demo33a, #demo34a, #demo35a, #demo36a, #demo38a, #demo39a, #demo40a, #demo42a, #demo43a, #demo44a  {
+  width: 100%;
+  background: #ba98f0;
+  border-radius: 8px;
+  padding: 10px;
+}
+
 .imgs{
   margin-left: -25px;
 }
@@ -1026,7 +1033,6 @@ mjx-math {
     background-color: #8e6bc5;
     font-family: 'Bookman Old Style', serif;
     padding: 2.5px;
-    padding-top: 10px;
     height: 80px;
     text-align: center;
     text-decoration: none;
