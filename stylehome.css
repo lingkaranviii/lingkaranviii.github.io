@@ -6,9 +6,13 @@ body {
     background-color: #000e2a;
 }
 
+.headerindexhp {
+	width: 1350px;
+	height: 300px;
+}
+
 .ki-kd{
 	text-align: center;
-	background-color: #000e2a;
 	height: 275px;
 	width: 250px;
 	float: left;
@@ -18,7 +22,6 @@ body {
 
 .materi{
 	text-align: center;
-	background-color: #000e2a;
 	height: 275px;
 	width: 250px;
 	float: left;
@@ -28,7 +31,6 @@ body {
 
 .tentang{
 	text-align: center;
-	background-color: #000e2a;
 	height: 275px;
 	width: 250px;
 	float: left;
@@ -36,29 +38,63 @@ body {
 	margin-top: 50px;
 }
 
+.kikd {
+	width: 250px;
+	height: 250px;
+}
+
+.materii {
+	width: 250px;
+	height: 250px;
+}
+
+.tentangg {
+	width: 250px;
+	height: 250px;
+}
+
 /* Mobile layout*/
 @media (max-width: 992px) {
+	.headerindexhp {
+		width: 1350px;
+		height: 450px;
+	}
+
 	.ki-kd {
 		text-align: center;
-    	background-color: #000e2a;
     	float: left;
-    	margin-left: 575px;
+    	margin-left: 460px;
     	margin-top: 70px;
 	}
 
 	.materi {
 		text-align: center;
-    	background-color: #000e2a;
     	float: left;
-    	margin-left: 575px;
+    	margin-left: 460px;
     	margin-top: 70px;
 	}
 
 	.tentang {
 		text-align: center;
-    	background-color: #000e2a;
     	float: left;
-    	margin-left: 575px;
+    	margin-left: 460px;
     	margin-top: 70px;
+	}
+
+	.kikd {
+		width: 500px;
+		height: 500px;
+	}
+	
+	.materii {
+		width: 500px;
+		height: 500px;
+		margin-top: 200px;
+	}
+	
+	.tentangg {
+		width: 500px;
+		height: 500px;
+		margin-top: 450px;
 	}
 }

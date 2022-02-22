@@ -361,6 +361,30 @@ p{
 
 /*TAMPILAN HP*/
 @media screen and (max-width: 992px){
+    .nav_selanjut {
+        background-color: #8e6bc5;
+        width: 56%;
+        padding: 5px;
+        text-align: center;
+        margin-top: 20px;
+        border-radius: 10px;
+        cursor: pointer;
+        display: inline-block;
+        margin-right: 5px;
+      }
+      
+      .nav_sebelum {
+        background-color: #8bb4d0;
+        width: 56%;
+        padding: 5px;
+        text-align: center;
+        margin-top: 20px;
+        border-radius: 10px;
+        cursor: pointer;
+        display: inline-block;
+        margin-right: 5px;
+      }
+
     .data_diri{
         width: 85%;
         text-align: left;
@@ -415,7 +439,7 @@ p{
         border-radius: 5px;
     }
     .soal_nav {
-        width: 10%;
+        width: 14%;
         height: 20%;
         margin-left: 8.5%;
     }
@@ -457,6 +481,7 @@ p{
         font-size: 14px;
     }
     .ket_hasil{
+        width: 127px;
         font-size: 14px;
     }
     .skornya{
