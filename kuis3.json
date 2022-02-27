@@ -1,6 +1,6 @@
 [{
     "soal0": {
-        "soal": "Perhatikan gambar di bawah ini <br> <img src='KUIS 3 1.png' width='225' height='225'> <br>Jika panjang busur \\[CD = 40\\,cm\\], maka panjang busur \\[AB\\] adalah . . . .",
+        "soal": "Perhatikan gambar di bawah ini <br> <img src='KUIS 3 1.png' width='300' height='300'> <br>Jika panjang busur \\[CD = 40\\,cm\\], maka panjang busur \\[AB\\] adalah . . . .",
         "a": "a. \\[100\\,cm\\]",
         "b": "b. \\[110\\,cm\\]",
         "c": "c. \\[120\\,cm\\]",
@@ -11,7 +11,7 @@
     }
 }, {
     "soal1": {
-        "soal": "Perhatikan gambar di bawah ini <br> <img src='KUIS 3 2.png' width='239' height='241'> <br>Pada gambar di atas, jika luas juring \\[DOE\\] adalah \\[50\\,cm^{2}\\], maka luas juring \\[EOF\\] adalah . . . .",
+        "soal": "Perhatikan gambar di bawah ini <br> <img src='KUIS 3 2.png' width='300' height='300'> <br>Pada gambar di atas, jika luas juring \\[DOE\\] adalah \\[50\\,cm^{2}\\], maka luas juring \\[EOF\\] adalah . . . .",
         "a": "a. \\[80\\,cm^{2}\\]",
         "b": "b. \\[85\\,cm^{2}\\]",
         "c": "c. \\[90\\,cm^{2}\\]",
@@ -34,7 +34,7 @@
     }
 }, {
     "soal3": {
-        "soal": "Perhatikan gambar di bawah ini <br> <img src='KUIS 3 3.png' width='225' height='220'> <br>Jika panjang busur \\[ST = 10\\,cm\\], panjang busur \\[TU = 40\\,cm\\], dan luas juring \\[SOT = 55\\,cm^{2}\\], Maka luas juring \\[TOU\\] adalah . . . .",
+        "soal": "Perhatikan gambar di bawah ini <br> <img src='KUIS 3 3.png' width='300' height='300'> <br>Jika panjang busur \\[ST = 10\\,cm\\], panjang busur \\[TU = 40\\,cm\\], dan luas juring \\[SOT = 55\\,cm^{2}\\], Maka luas juring \\[TOU\\] adalah . . . .",
         "a": "a. \\[230\\,cm^{2}\\]",
         "b": "b. \\[220\\,cm^{2}\\]",
         "c": "c. \\[210\\,cm^{2}\\]",
@@ -46,17 +46,17 @@
 }, {
     "soal4": {
         "soal": "Panjang busur lingkaran yang sudut pusatnya \\[90^{\\circ}\\] dan berdiameter \\[14\\,cm\\] adalah . . . .",
-        "a": "a. \\[14\\,cm\\]",
-        "b": "b. \\[10,1\\,cm\\]",
-        "c": "c. \\[15,3\\,cm\\]",
+        "a": "a. \\[15,3\\,cm\\]",
+        "b": "b. \\[14\\,cm\\]",
+        "c": "c. \\[12,5\\,cm\\]",
         "d": "d. \\[11\\,cm\\]",
-        "e": "e. \\[12,5\\,cm\\]",
+        "e": "e. \\[10,1\\,cm\\]",
         "benar": "d",
         "jwban": "d. \\[11\\,cm\\]"
     }
 }, {
     "soal5": {
-        "soal": "Perhatikan gambar di bawah ini <br> <img src='KUIS 3 4.png' width='225' height='219'> <br>Pada gambar di atas, besar sudut \\[AOB = 60^{\\circ}\\] dan panjang jari-jari \\[0A = 16\\,cm\\]. Maka panjang busur \\[AB\\] adalah . . . .",
+        "soal": "Perhatikan gambar di bawah ini <br> <img src='KUIS 3 4.png' width='300' height='300'> <br>Pada gambar di atas, besar sudut \\[AOB = 60^{\\circ}\\] dan panjang jari-jari \\[0A = 16\\,cm\\]. Maka panjang busur \\[AB\\] adalah . . . .",
         "a": "a. \\[9,14\\,cm\\]",
         "b": "b. \\[10\\,cm\\]",
         "c": "c. \\[14,61\\,cm\\]",
@@ -89,7 +89,7 @@
     }
 }, {
     "soal8": {
-        "soal": "Perhatikan gambar di bawah ini <br> <img src='KUIS 3 5.png' width='227' height='225'> <br>Panjang busur \\[RS = 25\\,cm\\], panjang busur \\[ST = 65\\,cm\\], dan besar sudut \\[ROS = 35^{\\circ}\\]. Berarti besar sudut \\[SOT\\] adalah . . . .",
+        "soal": "Perhatikan gambar di bawah ini <br> <img src='KUIS 3 5.png' width='300' height='300'> <br>Panjang busur \\[RS = 25\\,cm\\], panjang busur \\[ST = 65\\,cm\\], dan besar sudut \\[ROS = 35^{\\circ}\\]. Berarti besar sudut \\[SOT\\] adalah . . . .",
         "a": "a. \\[122,5^{\\circ}\\]",
         "b": "b. \\[115,2^{\\circ}\\]",
         "c": "c. \\[97^{\\circ}\\]",

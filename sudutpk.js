@@ -368,7 +368,7 @@ function myFunction30() {
 /* SUBBAB 2 */
 
 function mm11() {
-  var x = document.getElementById("Textmm11").value.split(' ').join('').toLowerCase();
+  var x = document.getElementById("Textmm11").value.toLowerCase();
   var jawaban;
   if (x == "keliling") {
     jawaban = "<img src='benar.png'  width='25px' height='25px'>"
@@ -381,7 +381,7 @@ function mm11() {
 }
 
 function mm12() {
-  var x = document.getElementById("Textmm12").value.split(' ').join('').toLowerCase();
+  var x = document.getElementById("Textmm12").value.toLowerCase();
   var jawaban;
   if (x == "pusat") {
     jawaban = "<img src='benar.png'  width='25px' height='25px'>"
@@ -394,9 +394,9 @@ function mm12() {
 }
 
 function mm13() {
-  var x = document.getElementById("Textmm13").value.split(' ').join('').toLowerCase();
+  var x = document.getElementById("Textmm13").value.toLowerCase();
   var jawaban;
-  if (x == "CWD") {
+  if (x == "cwd") {
     jawaban = "<img src='benar.png'  width='25px' height='25px'>"
   } else if ( x == "") {
     jawaban = "";
@@ -407,9 +407,9 @@ function mm13() {
 }
 
 function mm14() {
-  var x = document.getElementById("Textmm14").value.split(' ').join('').toLowerCase();
+  var x = document.getElementById("Textmm14").value.toLowerCase();
   var jawaban;
-  if (x == "COD") {
+  if (x == "cod") {
     jawaban = "<img src='benar.png'  width='25px' height='25px'>"
   } else if ( x == "") {
     jawaban = "";
@@ -420,9 +420,9 @@ function mm14() {
 }
 
 function mm15() {
-  var x = document.getElementById("Textmm15").value.split(' ').join('').toLowerCase();
+  var x = document.getElementById("Textmm15").value.toLowerCase();
   var jawaban;
-  if (x == "EYF") {
+  if (x == "eyf") {
     jawaban = "<img src='benar.png'  width='25px' height='25px'>"
   } else if ( x == "") {
     jawaban = "";
@@ -433,9 +433,9 @@ function mm15() {
 }
 
 function mm16() {
-  var x = document.getElementById("Textmm16").value.split(' ').join('').toLowerCase();
+  var x = document.getElementById("Textmm16").value.toLowerCase();
   var jawaban;
-  if (x == "EOF") {
+  if (x == "eof") {
     jawaban = "<img src='benar.png'  width='25px' height='25px'>"
   } else if ( x == "") {
     jawaban = "";
@@ -446,9 +446,9 @@ function mm16() {
 }
 
 function mm17() {
-  var x = document.getElementById("Textmm17").value.split(' ').join('').toLowerCase();
+  var x = document.getElementById("Textmm17").value.toLowerCase();
   var jawaban;
-  if (x == "GJH") {
+  if (x == "gjh") {
     jawaban = "<img src='benar.png'  width='25px' height='25px'>"
   } else if ( x == "") {
     jawaban = "";
@@ -459,9 +459,9 @@ function mm17() {
 }
 
 function mm18() {
-  var x = document.getElementById("Textmm18").value.split(' ').join('').toLowerCase();
+  var x = document.getElementById("Textmm18").value.toLowerCase();
   var jawaban;
-  if (x == "GKH") {
+  if (x == "gkh") {
     jawaban = "<img src='benar.png'  width='25px' height='25px'>"
   } else if ( x == "") {
     jawaban = "";
@@ -472,9 +472,9 @@ function mm18() {
 }
 
 function mm19() {
-  var x = document.getElementById("Textmm19").value.split(' ').join('').toLowerCase();
+  var x = document.getElementById("Textmm19").value.toLowerCase();
   var jawaban;
-  if (x == "GOH") {
+  if (x == "goh") {
     jawaban = "<img src='benar.png'  width='25px' height='25px'>"
   } else if ( x == "") {
     jawaban = "";

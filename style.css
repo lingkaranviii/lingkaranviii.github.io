@@ -190,6 +190,23 @@ ol {
   padding-inline-start: 40px;
 }
 
+.isian1 {
+  color: white ;
+  border: 3px double #8bb4d0; 
+  background-color: #8e6bc5; 
+  width: fit-content; 
+  padding: 8px;
+}
+
+.usl {
+  color: white ;
+  border: 5px double #8bb4d0; 
+  border-radius: 8px; 
+  background-color: #8e6bc5; 
+  width: fit-content; 
+  padding: 8px;
+}
+
 .pertanyaan {
   border: none;
   color: white;
@@ -978,6 +995,7 @@ mjx-math {
     height: auto;
     border: 5px double #8bb4d0;
     overflow: auto;
+    font-size: 3vw;
   }
 
   body {
@@ -996,7 +1014,7 @@ mjx-math {
     border-radius: 8px;
     margin-top: 10px;
     font-family: 'Bookman Old Style', serif;
-    font-size: 3vw;
+    font-size: 4vw;
     font-weight: bold;
   }
 
@@ -1028,7 +1046,7 @@ mjx-math {
 
   li {
     margin-left: 3vw;
-    font-size: 3vw;
+    font-size: 4vw;
   }
 
   .tulisan {
@@ -1040,7 +1058,7 @@ mjx-math {
   }
 
   mjx-math {
-    font-size: 3vw;
+    font-size: 4vw;
   }
 
   nav {
@@ -1220,6 +1238,29 @@ mjx-math {
   font-size: 2.5vw;
 }
 
+.isian1 {
+  color: white ;
+  border: 3px double #8bb4d0; 
+  background-color: #8e6bc5; 
+  width: fit-content; 
+  padding: 2vw;
+  font-size: 4vw;
+}
+
+.usl {
+  color: white ;
+  border: 5px double #8bb4d0; 
+  border-radius: 8px; 
+  background-color: #8e6bc5; 
+  width: fit-content; 
+  padding: 8px;
+  margin-left: -3%;
+}
+
+.textdibox {
+  font-size: 4vw;
+}
+
 td {
   background-color: #8e6bc5;
   border: none;
@@ -1351,14 +1392,14 @@ td {
 }
 
 #tujuan1 {
-  height: 450px;
+  height: 510px;
   font-size: 2.5vw;
   padding: 0px 15px 0px 15px;
 }
 
 #tujuan2 {
-  height: 625px;
-  font-size: 2.5vw;
+  height: 510px;
+  font-size: 4vw;
   padding: 0px 15px 0px 15px;
 }
 
@@ -1392,7 +1433,7 @@ td {
 
 p{
   padding: 10px;
-  font-size: revert;
+  font-size: 2vw;
 }
 
 .pre, .nex {
@@ -1468,5 +1509,4 @@ p{
 .button-nav .active1 .active3 {
   background-color: #000e2a;
 }
-
 }
