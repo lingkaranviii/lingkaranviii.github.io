@@ -62,11 +62,11 @@ function myFunction31() {
   var x = document.getElementById("myText31").value.split(' ').join('');
    var jawaban;
    if (x == "3") {
-     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+     jawaban = "<img class='ikon1' src='benar.png'  width='25px' height='25px'>";
    } else if (x =="") {
      jawaban = ""
    } else {
-     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+     jawaban = "<img class='ikon1' src='salah.png'  width='25px' height='25px'>";
    }
    document.getElementById("demo31").innerHTML = jawaban;
 }
@@ -75,11 +75,11 @@ function myFunction32() {
   var x = document.getElementById("myText32").value.split(' ').join('');
    var jawaban;
    if (x == "4") {
-     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+     jawaban = "<img class='ikon1' src='benar.png'  width='25px' height='25px'>";
    } else if (x =="") {
      jawaban = ""
    } else {
-     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+     jawaban = "<img class='ikon1' src='salah.png'  width='25px' height='25px'>";
    }
    document.getElementById("demo32").innerHTML = jawaban;
 }
@@ -88,11 +88,11 @@ function myFunction33() {
   var x = document.getElementById("myText33").value.split(' ').join('');
    var jawaban;
    if (x == "100") {
-     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+     jawaban = "<img class='ikon1' src='benar.png'  width='25px' height='25px'>";
    } else if (x =="") {
      jawaban = ""
    } else {
-     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+     jawaban = "<img class='ikon1' src='salah.png'  width='25px' height='25px'>";
    }
    document.getElementById("demo33").innerHTML = jawaban;
 }
@@ -101,11 +101,11 @@ function myFunction34() {
   var x = document.getElementById("myText34").value.split(' ').join('');
    var jawaban;
    if (x == "3") {
-     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+     jawaban = "<img class='ikon1' src='benar.png'  width='25px' height='25px'>";
    } else if (x =="") {
      jawaban = ""
    } else {
-     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+     jawaban = "<img class='ikon1' src='salah.png'  width='25px' height='25px'>";
    }
    document.getElementById("demo34").innerHTML = jawaban;
 }
@@ -114,11 +114,11 @@ function myFunction35() {
   var x = document.getElementById("myText35").value.split(' ').join('');
    var jawaban;
    if (x == "100") {
-     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+     jawaban = "<img class='ikon1' src='benar.png'  width='25px' height='25px'>";
    } else if (x =="") {
      jawaban = ""
    } else {
-     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+     jawaban = "<img class='ikon1' src='salah.png'  width='25px' height='25px'>";
    }
    document.getElementById("demo35").innerHTML = jawaban;
 }
@@ -127,11 +127,11 @@ function myFunction36() {
   var x = document.getElementById("myText36").value.split(' ').join('');
    var jawaban;
    if (x == "4") {
-     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+     jawaban = "<img class='ikon1' src='benar.png'  width='25px' height='25px'>";
    } else if (x =="") {
      jawaban = ""
    } else {
-     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+     jawaban = "<img class='ikon1' src='salah.png'  width='25px' height='25px'>";
    }
    document.getElementById("demo36").innerHTML = jawaban;
 }
@@ -140,11 +140,11 @@ function myFunction37() {
   var x = document.getElementById("myText37").value.split(' ').join('');
    var jawaban;
    if (x == "3") {
-     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+     jawaban = "<img class='ikon1' src='benar.png'  width='25px' height='25px'>";
    } else if (x =="") {
      jawaban = ""
    } else {
-     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+     jawaban = "<img class='ikon1' src='salah.png'  width='25px' height='25px'>";
    }
    document.getElementById("demo37").innerHTML = jawaban;
 }
@@ -153,11 +153,11 @@ function myFunction38() {
   var x = document.getElementById("myText38").value.split(' ').join('');
    var jawaban;
    if (x == "96") {
-     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+     jawaban = "<img class='ikon1' src='benar.png'  width='25px' height='25px'>";
    } else if (x =="") {
      jawaban = ""
    } else {
-     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+     jawaban = "<img class='ikon1' src='salah.png'  width='25px' height='25px'>";
    }
    document.getElementById("demo38").innerHTML = jawaban;
 }
@@ -166,11 +166,11 @@ function myFunction39() {
   var x = document.getElementById("myText39").value.split(' ').join('');
    var jawaban;
    if (x == "3") {
-     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+     jawaban = "<img class='ikon1' src='benar.png'  width='25px' height='25px'>";
    } else if (x =="") {
      jawaban = ""
    } else {
-     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+     jawaban = "<img class='ikon1' src='salah.png'  width='25px' height='25px'>";
    }
    document.getElementById("demo39").innerHTML = jawaban;
 }
@@ -179,11 +179,11 @@ function myFunction40() {
   var x = document.getElementById("myText40").value.split(' ').join('');
    var jawaban;
    if (x == "32") {
-     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+     jawaban = "<img class='ikon1' src='benar.png'  width='25px' height='25px'>";
    } else if (x =="") {
      jawaban = ""
    } else {
-     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+     jawaban = "<img class='ikon1' src='salah.png'  width='25px' height='25px'>";
    }
    document.getElementById("demo40").innerHTML = jawaban;
 }
@@ -192,11 +192,11 @@ function myFunction41() {
   var x = document.getElementById("myText41").value.split(' ').join('');
    var jawaban;
    if (x == "4") {
-     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+     jawaban = "<img class='ikon1' src='benar.png'  width='25px' height='25px'>";
    } else if (x =="") {
      jawaban = ""
    } else {
-     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+     jawaban = "<img class='ikon1' src='salah.png'  width='25px' height='25px'>";
    }
    document.getElementById("demo41").innerHTML = jawaban;
 }
@@ -205,11 +205,11 @@ function myFunction42() {
   var x = document.getElementById("myText42").value.split(' ').join('');
    var jawaban;
    if (x == "96") {
-     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+     jawaban = "<img class='ikon1' src='benar.png'  width='25px' height='25px'>";
    } else if (x =="") {
      jawaban = ""
    } else {
-     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+     jawaban = "<img class='ikon1' src='salah.png'  width='25px' height='25px'>";
    }
    document.getElementById("demo42").innerHTML = jawaban;
 }
@@ -218,11 +218,11 @@ function myFunction43() {
   var x = document.getElementById("myText43").value.split(' ').join('');
    var jawaban;
    if (x == "4") {
-     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+     jawaban = "<img class='ikon1' src='benar.png'  width='25px' height='25px'>";
    } else if (x =="") {
      jawaban = ""
    } else {
-     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+     jawaban = "<img class='ikon1' src='salah.png'  width='25px' height='25px'>";
    }
    document.getElementById("demo43").innerHTML = jawaban;
 }
@@ -231,11 +231,11 @@ function myFunction44() {
   var x = document.getElementById("myText44").value.split(' ').join('');
    var jawaban;
    if (x == "180") {
-     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+     jawaban = "<img class='ikon1' src='benar.png'  width='25px' height='25px'>";
    } else if (x =="") {
      jawaban = ""
    } else {
-     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+     jawaban = "<img class='ikon1' src='salah.png'  width='25px' height='25px'>";
    }
    document.getElementById("demo44").innerHTML = jawaban;
 }
@@ -244,11 +244,11 @@ function myFunction45() {
   var x = document.getElementById("myText45").value.split(' ').join('');
    var jawaban;
    if (x == "67") {
-     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+     jawaban = "<img class='ikon1' src='benar.png'  width='25px' height='25px'>";
    } else if (x =="") {
      jawaban = ""
    } else {
-     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+     jawaban = "<img class='ikon1' src='salah.png'  width='25px' height='25px'>";
    }
    document.getElementById("demo45").innerHTML = jawaban;
 }
@@ -257,11 +257,11 @@ function myFunction46() {
   var x = document.getElementById("myText46").value.split(' ').join('');
    var jawaban;
    if (x == "180") {
-     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+     jawaban = "<img class='ikon1' src='benar.png'  width='25px' height='25px'>";
    } else if (x =="") {
      jawaban = ""
    } else {
-     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+     jawaban = "<img class='ikon1' src='salah.png'  width='25px' height='25px'>";
    }
    document.getElementById("demo46").innerHTML = jawaban;
 }
@@ -270,11 +270,11 @@ function myFunction47() {
   var x = document.getElementById("myText47").value.split(' ').join('');
    var jawaban;
    if (x == "135") {
-     jawaban = "<img src='benar.png'  width='25px' height='25px'>";
+     jawaban = "<img class='ikon1' src='benar.png'  width='25px' height='25px'>";
    } else if (x =="") {
      jawaban = ""
    } else {
-     jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+     jawaban = "<img class='ikon1' src='salah.png'  width='25px' height='25px'>";
    }
    document.getElementById("demo47").innerHTML = jawaban;
 }
@@ -371,11 +371,11 @@ function mm11() {
   var x = document.getElementById("Textmm11").value.toLowerCase();
   var jawaban;
   if (x == "keliling") {
-    jawaban = "<img src='benar.png'  width='25px' height='25px'>"
+    jawaban = "<img class='ikon1' src='benar.png'  width='25px' height='25px'>"
   } else if ( x == "") {
     jawaban = "";
   } else {
-    jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+    jawaban = "<img class='ikon1' src='salah.png'  width='25px' height='25px'>";
   }
   document.getElementById("demomm11").innerHTML = jawaban;
 }
@@ -384,11 +384,11 @@ function mm12() {
   var x = document.getElementById("Textmm12").value.toLowerCase();
   var jawaban;
   if (x == "pusat") {
-    jawaban = "<img src='benar.png'  width='25px' height='25px'>"
+    jawaban = "<img class='ikon1' src='benar.png'  width='25px' height='25px'>"
   } else if ( x == "") {
     jawaban = "";
   } else {
-    jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+    jawaban = "<img class='ikon1' src='salah.png'  width='25px' height='25px'>";
   }
   document.getElementById("demomm12").innerHTML = jawaban;
 }
@@ -397,11 +397,11 @@ function mm13() {
   var x = document.getElementById("Textmm13").value.toLowerCase();
   var jawaban;
   if (x == "cwd") {
-    jawaban = "<img src='benar.png'  width='25px' height='25px'>"
+    jawaban = "<img class='ikon1' src='benar.png'  width='25px' height='25px'>"
   } else if ( x == "") {
     jawaban = "";
   } else {
-    jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+    jawaban = "<img class='ikon1' src='salah.png'  width='25px' height='25px'>";
   }
   document.getElementById("demomm13").innerHTML = jawaban;
 }
@@ -410,11 +410,11 @@ function mm14() {
   var x = document.getElementById("Textmm14").value.toLowerCase();
   var jawaban;
   if (x == "cod") {
-    jawaban = "<img src='benar.png'  width='25px' height='25px'>"
+    jawaban = "<img class='ikon1' src='benar.png'  width='25px' height='25px'>"
   } else if ( x == "") {
     jawaban = "";
   } else {
-    jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+    jawaban = "<img class='ikon1' src='salah.png'  width='25px' height='25px'>";
   }
   document.getElementById("demomm14").innerHTML = jawaban;
 }
@@ -423,11 +423,11 @@ function mm15() {
   var x = document.getElementById("Textmm15").value.toLowerCase();
   var jawaban;
   if (x == "eyf") {
-    jawaban = "<img src='benar.png'  width='25px' height='25px'>"
+    jawaban = "<img class='ikon1' src='benar.png'  width='25px' height='25px'>"
   } else if ( x == "") {
     jawaban = "";
   } else {
-    jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+    jawaban = "<img class='ikon1' src='salah.png'  width='25px' height='25px'>";
   }
   document.getElementById("demomm15").innerHTML = jawaban;
 }
@@ -436,11 +436,11 @@ function mm16() {
   var x = document.getElementById("Textmm16").value.toLowerCase();
   var jawaban;
   if (x == "eof") {
-    jawaban = "<img src='benar.png'  width='25px' height='25px'>"
+    jawaban = "<img class='ikon1' src='benar.png'  width='25px' height='25px'>"
   } else if ( x == "") {
     jawaban = "";
   } else {
-    jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+    jawaban = "<img class='ikon1' src='salah.png'  width='25px' height='25px'>";
   }
   document.getElementById("demomm16").innerHTML = jawaban;
 }
@@ -449,11 +449,11 @@ function mm17() {
   var x = document.getElementById("Textmm17").value.toLowerCase();
   var jawaban;
   if (x == "gjh") {
-    jawaban = "<img src='benar.png'  width='25px' height='25px'>"
+    jawaban = "<img class='ikon1' src='benar.png'  width='25px' height='25px'>"
   } else if ( x == "") {
     jawaban = "";
   } else {
-    jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+    jawaban = "<img class='ikon1' src='salah.png'  width='25px' height='25px'>";
   }
   document.getElementById("demomm17").innerHTML = jawaban;
 }
@@ -462,11 +462,11 @@ function mm18() {
   var x = document.getElementById("Textmm18").value.toLowerCase();
   var jawaban;
   if (x == "gkh") {
-    jawaban = "<img src='benar.png'  width='25px' height='25px'>"
+    jawaban = "<img class='ikon1' src='benar.png'  width='25px' height='25px'>"
   } else if ( x == "") {
     jawaban = "";
   } else {
-    jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+    jawaban = "<img class='ikon1' src='salah.png'  width='25px' height='25px'>";
   }
   document.getElementById("demomm18").innerHTML = jawaban;
 }
@@ -475,11 +475,11 @@ function mm19() {
   var x = document.getElementById("Textmm19").value.toLowerCase();
   var jawaban;
   if (x == "goh") {
-    jawaban = "<img src='benar.png'  width='25px' height='25px'>"
+    jawaban = "<img class='ikon1' src='benar.png'  width='25px' height='25px'>"
   } else if ( x == "") {
     jawaban = "";
   } else {
-    jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+    jawaban = "<img class='ikon1' src='salah.png'  width='25px' height='25px'>";
   }
   document.getElementById("demomm19").innerHTML = jawaban;
 }
@@ -488,11 +488,11 @@ function mm20() {
   var x = document.getElementById("Textmm20").value.split(' ').join('');
   var jawaban;
   if (x == "90") {
-    jawaban = "<img src='benar.png'  width='25px' height='25px'>"
+    jawaban = "<img class='ikon1' src='benar.png'  width='25px' height='25px'>"
   } else if ( x == "") {
     jawaban = "";
   } else {
-    jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+    jawaban = "<img class='ikon1' src='salah.png'  width='25px' height='25px'>";
   }
   document.getElementById("demomm20").innerHTML = jawaban;
 }
@@ -501,11 +501,11 @@ function mm21() {
   var x = document.getElementById("Textmm21").value.split(' ').join('');
   var jawaban;
   if (x == "45") {
-    jawaban = "<img src='benar.png'  width='25px' height='25px'>"
+    jawaban = "<img class='ikon1' src='benar.png'  width='25px' height='25px'>"
   } else if ( x == "") {
     jawaban = "";
   } else {
-    jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+    jawaban = "<img class='ikon1' src='salah.png'  width='25px' height='25px'>";
   }
   document.getElementById("demomm21").innerHTML = jawaban;
 }
@@ -514,11 +514,11 @@ function mm22() {
   var x = document.getElementById("Textmm22").value.split(' ').join('');
   var jawaban;
   if (x == "135") {
-    jawaban = "<img src='benar.png'  width='25px' height='25px'>"
+    jawaban = "<img class='ikon1' src='benar.png'  width='25px' height='25px'>"
   } else if ( x == "") {
     jawaban = "";
   } else {
-    jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+    jawaban = "<img class='ikon1' src='salah.png'  width='25px' height='25px'>";
   }
   document.getElementById("demomm22").innerHTML = jawaban;
 }
@@ -527,11 +527,11 @@ function mm23() {
   var x = document.getElementById("Textmm23").value.split(' ').join('');
   var jawaban;
   if (x == "67,5") {
-    jawaban = "<img src='benar.png'  width='25px' height='25px'>"
+    jawaban = "<img class='ikon1' src='benar.png'  width='25px' height='25px'>"
   } else if ( x == "") {
     jawaban = "";
   } else {
-    jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+    jawaban = "<img class='ikon1' src='salah.png'  width='25px' height='25px'>";
   }
   document.getElementById("demomm23").innerHTML = jawaban;
 }
@@ -540,11 +540,11 @@ function mm24() {
   var x = document.getElementById("Textmm24").value.split(' ').join('');
   var jawaban;
   if (x == "70") {
-    jawaban = "<img src='benar.png'  width='25px' height='25px'>"
+    jawaban = "<img class='ikon1' src='benar.png'  width='25px' height='25px'>"
   } else if ( x == "") {
     jawaban = "";
   } else {
-    jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+    jawaban = "<img class='ikon1' src='salah.png'  width='25px' height='25px'>";
   }
   document.getElementById("demomm24").innerHTML = jawaban;
 }
@@ -553,11 +553,11 @@ function mm25() {
   var x = document.getElementById("Textmm25").value.split(' ').join('');
   var jawaban;
   if (x == "35") {
-    jawaban = "<img src='benar.png'  width='25px' height='25px'> <br><br>Jadi, besar masing-masing sudut keliling pada pizza tersebut adalah \\[m\\angle CWD = 45^{\\circ}\\], \\[m\\angle EYF = 67,5^{\\circ}\\], dan \\[m\\angle GJH = m\\angle GKH = 35^{\\circ}\\]."
+    jawaban = "<img class='ikon1' src='benar.png'  width='25px' height='25px'> <br><br>Jadi, besar masing-masing sudut keliling pada pizza tersebut adalah \\[m\\angle CWD = 45^{\\circ}\\], \\[m\\angle EYF = 67,5^{\\circ}\\], dan \\[m\\angle GJH = m\\angle GKH = 35^{\\circ}\\]."
   } else if ( x == "") {
     jawaban = "";
   } else {
-    jawaban = "<img src='salah.png'  width='25px' height='25px'>";
+    jawaban = "<img class='ikon1' src='salah.png'  width='25px' height='25px'>";
   }
   document.getElementById("demomm25").innerHTML = jawaban;
   MathJax.typeset();

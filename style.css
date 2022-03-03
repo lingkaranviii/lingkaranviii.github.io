@@ -532,6 +532,14 @@ li mjx-container{
     border: 3px solid green;
   }
 
+  .input{
+    width: 50px;
+  }
+
+  .inputt{
+    width: 40px;
+  }
+
 .hilang{
   display:none;
   }
@@ -970,6 +978,10 @@ li mjx-container{
   margin-left: -25px;
 }
 
+.imgb{
+  margin-left: -25px;
+}
+
 .boxhijau{
   border: 3px solid green;
 }
@@ -1055,6 +1067,10 @@ mjx-math {
 
   .tulisan1 {
     font-size: 3vw;
+  }
+
+  .tulisanli {
+    font-size: 2vw;
   }
 
   mjx-math {
@@ -1152,6 +1168,11 @@ mjx-math {
     height: auto;
   }
 
+  .imgb{
+    width: 100%;
+    margin-left: 0%;
+  }
+
   .ikon1{
     width: 5%;
     height: auto;
@@ -1167,8 +1188,15 @@ mjx-math {
     height: auto;
   }
 
+  .inputt {
+    height: 50px;
+    width: 70px !important;
+    font-size: 3vw;
+    background-color: white;
+  }
+
   .gambar {
-    width: 300px;
+    width: 400px;
   }
 
   .gambar1 {
@@ -1176,7 +1204,7 @@ mjx-math {
   }
 
   #boxkecil, #boxkecil1, #boxkecil3 {
-    width: 100%;
+    width: fit-content;
     height: auto;
     text-align: left;
     font-size: 13px;
@@ -1199,9 +1227,25 @@ mjx-math {
   border-radius: 8px;
 }
 
+#boxkecil4, #boxkecil5 {
+  width: auto;
+  height: auto;
+  text-align: left;
+  padding: 7px 10px;
+  color: white;
+  background-color: #8e6bc5;
+  border: 3px dotted #8bb4d0;
+  border-radius: 8px;
+}
+
+.rangkuman {
+  margin-right: 20vw;
+  margin-bottom: 3vw;
+}
+
 #rangkuman1 {
   width: 100%;
-  height: auto;
+  height: 200vw;
   text-align: left;
   padding: 7px 10px;
   color: white;
@@ -1213,8 +1257,8 @@ mjx-math {
 }
 
 #rangkuman2 {
-  width: 100%;
-  height: auto;
+  width: fit-content;
+  height: 145vw;
   text-align: left;
   padding: 7px 10px;
   color: white;
@@ -1226,8 +1270,8 @@ mjx-math {
 }
 
 #rangkuman3 {
-  width: 100%;
-  height: auto;
+  width: fit-content;
+  height: 100vw;
   text-align: left;
   padding: 7px 10px;
   color: white;
@@ -1261,6 +1305,22 @@ mjx-math {
   font-size: 4vw;
 }
 
+.ciriciri {
+  height: 70vw;
+}
+
+.ciriciri2 {
+  height: 25vw;
+}
+
+.ciriciri3 {
+  height: 36vw;
+}
+
+.ciriciri4 {
+  height: 30vw;
+}
+
 td {
   background-color: #8e6bc5;
   border: none;
@@ -1270,8 +1330,52 @@ td {
   min-width: 50px;
   width: max-content;
   font-family: 'Bookman Old Style', serif;
+  font-size: 4vw;
+  font-weight: bold;
+}
+
+.td1 {
+  background-color: #d9c2fa;
+  border-radius: 0px;
+  border: 3px solid #8e6bc5;
+  color: black;
+  text-align: left;
+  min-width: 50px;
+  width: max-content;
+  font-family: 'Bookman Old Style', serif;
   font-size: 3vw;
   font-weight: bold;
+}
+
+.td2 {
+  background-color: #8e6bc5;
+  border-radius: 0px;
+  border: 3px solid #8bb4d0;
+  color: white;
+  text-align: left;
+  min-width: 50px;
+  width: max-content;
+  font-family: 'Bookman Old Style', serif;
+  font-size: 3vw;
+  font-weight: bold;
+}
+
+.td3 {
+  min-width: 50px;
+  width: max-content;
+  font-family: 'Bookman Old Style', serif;
+  font-size: 3vw;
+  font-weight: bold;
+}
+
+.td4 {
+  background-color: #d9c2fa;
+  border-radius: 0px;
+  color: black;
+  text-align: center;
+  min-width: 0px;
+  width: max-content;
+  font-size: 2vw;
 }
 
 .pj {
@@ -1309,8 +1413,8 @@ td {
 }
 
 .input{
-  height: 40px;
-  width: 60px !important;
+  height: 50px;
+  width: 150px !important;
   font-size: 3vw;
   background-color: white;
 }
@@ -1385,27 +1489,19 @@ td {
   font-size: 3vw !important;
 }
 
-#tujuan {
-  height: 410px;
-  font-size: 3vw;
-  padding: 0px 15px 0px 15px;
+.tujuanli {
+  font-size: 2vw !important;
 }
 
-#tujuan1 {
-  height: 510px;
-  font-size: 2.5vw;
-  padding: 0px 15px 0px 15px;
-}
-
-#tujuan2 {
-  height: 510px;
+#tujuan2, #tujuan1, #tujuan {
+  height: 70vw;
   font-size: 4vw;
   padding: 0px 15px 0px 15px;
 }
 
 #tujuan3, #tujuan4, #tujuan5 {
   width: 100%;
-  height: 645px;
+  height: 80vw;
   text-align: left;
   color: white;
   background-color: #8e6bc5;
@@ -1461,6 +1557,8 @@ p{
   color: #000e2a;
 }
 
+
+
 .windows{
   display: none;
 }
@@ -1501,12 +1599,26 @@ p{
   transition: background-color 0.6s ease;
 }
 
+.dot:hover, .dot2:hover {
+  background-color: #000e2a;
+}
+
 .active {
   background-color: #000e2a;
   color: white;
 }
 
-.button-nav .active1 .active3 {
+.button-nav, .active1, .active3 {
   background-color: #000e2a;
+}
+
+mjx-container {
+  display: inline-!important;
+  margin: 0;
+  padding: 0;
+}
+
+li mjx-container{
+  display: inline-!important;
 }
 }
