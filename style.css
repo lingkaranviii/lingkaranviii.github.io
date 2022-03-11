@@ -799,7 +799,7 @@ li mjx-container{
   background-color: #8e6bc5;
   border: 3px dotted #8bb4d0;
   border-radius: 8px;
-  margin-left: 50px;
+  margin-left: 20px;
 }
 
 #rangkuman1 {
@@ -899,6 +899,11 @@ li mjx-container{
   border-radius: 8px;
   margin-top: 10px;
   font-size: 16px;
+}
+
+.geogebra{
+  width: 500px;
+  height: 500px;
 }
 
 .slideshow-container {
@@ -1201,6 +1206,11 @@ mjx-math {
 
   .gambar1 {
     width: 100px;
+  }
+
+  .geogebra{
+    width: 80vw;
+    height: 80vw;
   }
 
   #boxkecil, #boxkecil1, #boxkecil3 {
