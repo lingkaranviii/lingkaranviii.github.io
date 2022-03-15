@@ -25,6 +25,8 @@ var x3 = document.getElementById("tujuan2");
 var xx3= document.querySelector('.tujuan2');
 var x5 = document.getElementById("tujuan3");
 var xx5= document.querySelector('.tujuan3');
+var x6 = document.getElementById("tujuan4");
+var xx6= document.querySelector('.tujuan4');
 
 xx1.addEventListener("click",function(){
   x1.classList.toggle("hilang");
@@ -37,6 +39,9 @@ xx3.addEventListener("click",function(){
 });
 xx5.addEventListener("click",function(){
   x5.classList.toggle("hilang");
+});
+xx6.addEventListener("click",function(){
+  x6.classList.toggle("hilang");
 });
 
 var slideIndex = 1;
@@ -130,4 +135,17 @@ function sudutpusat3() {
     jawaban = "<img class='ikon1' src='salah.png'  width='25px' height='25px'>";
   }
   document.getElementById("demosudutpusat3").innerHTML = jawaban;
+}
+
+function sudutpusat4() {
+  var x = document.getElementById("Textsudutpusat4").value.toLowerCase();
+  var jawaban;
+  if (x == "kecil") {
+    jawaban = "<img class='ikon1' src='benar.png'  width='25px' height='25px'>"
+  } else if (x == "") {
+    jawaban = "";
+  } else {
+    jawaban = "<img class='ikon1' src='salah.png'  width='25px' height='25px'>";
+  }
+  document.getElementById("demosudutpusat4").innerHTML = jawaban;
 }

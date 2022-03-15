@@ -396,7 +396,7 @@ function busur() {
   function diameter3() {
     var x = document.getElementById("Textdiameter3").value.toLowerCase();
     var jawaban;
-    if (x == "ruas") {
+    if (x == "ruas garis") {
       jawaban = "<img class='ikon1' src='benar.png'  width='25px' height='25px'>";
     } else if (x == "") {
       jawaban = "";
