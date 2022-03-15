@@ -25,8 +25,6 @@ var x3 = document.getElementById("tujuan2");
 var xx3= document.querySelector('.tujuan2');
 var x5 = document.getElementById("tujuan3");
 var xx5= document.querySelector('.tujuan3');
-var x6 = document.getElementById("tujuan4");
-var xx6= document.querySelector('.tujuan4');
 
 xx1.addEventListener("click",function(){
   x1.classList.toggle("hilang");
@@ -39,9 +37,6 @@ xx3.addEventListener("click",function(){
 });
 xx5.addEventListener("click",function(){
   x5.classList.toggle("hilang");
-});
-xx6.addEventListener("click",function(){
-  x6.classList.toggle("hilang");
 });
 
 var slideIndex = 1;
