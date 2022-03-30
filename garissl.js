@@ -89,6 +89,321 @@ function showSlides2(n) {
   dots2[slideIndex-1].className += " active3";
 }
 
+/*Rumus */
+function rumus1() {
+  var x = document.getElementById("Textrumus1").value.split(' ').join('').toLowerCase();
+  var jawaban;
+  if (x == "pq") {
+    jawaban = "<img class='ikon1' src='benar.png'  width='25px' height='25px'>"
+  } else if ( x == "") {
+    jawaban = "";
+  } else {
+    jawaban = "<img class='ikon1' src='salah.png'  width='25px' height='25px'>";
+  }
+  document.getElementById("demorumus1").innerHTML = jawaban;
+}
+
+function rumus2() {
+  var x = document.getElementById("Textrumus2").value.split(' ').join('').toLowerCase();
+  var jawaban;
+  if (x == "pc") {
+    jawaban = "<img class='ikon1' src='benar.png'  width='25px' height='25px'>"
+  } else if ( x == "") {
+    jawaban = "";
+  } else {
+    jawaban = "<img class='ikon1' src='salah.png'  width='25px' height='25px'>";
+  }
+  document.getElementById("demorumus2").innerHTML = jawaban;
+}
+
+function rumus3() {
+  var x = document.getElementById("Textrumus3").value.split(' ').join('').toLowerCase();
+  var jawaban;
+  if (x == "pq") {
+    jawaban = "<img class='ikon1' src='benar.png'  width='25px' height='25px'>"
+  } else if ( x == "") {
+    jawaban = "";
+  } else {
+    jawaban = "<img class='ikon1' src='salah.png'  width='25px' height='25px'>";
+  }
+  document.getElementById("demorumus3").innerHTML = jawaban;
+}
+
+function rumus4() {
+  var x = document.getElementById("Textrumus4").value.split(' ').join('');
+  var jawaban;
+  if (x == "r") {
+    jawaban = "<img class='ikon1' src='benar.png'  width='25px' height='25px'>"
+  } else if ( x == "") {
+    jawaban = "";
+  } else {
+    jawaban = "<img class='ikon1' src='salah.png'  width='25px' height='25px'>";
+  }
+  document.getElementById("demorumus4").innerHTML = jawaban;
+}
+
+function rumus5() {
+  var x = document.getElementById("Textrumus5").value.split(' ').join('');
+  var jawaban;
+  if (x == "R") {
+    jawaban = "<img class='ikon1' src='benar.png'  width='25px' height='25px'>"
+  } else if ( x == "") {
+    jawaban = "";
+  } else {
+    jawaban = "<img class='ikon1' src='salah.png'  width='25px' height='25px'>";
+  }
+  document.getElementById("demorumus5").innerHTML = jawaban;
+}
+
+function rumus6() {
+  var x = document.getElementById("Textrumus6").value.split(' ').join('');
+  var jawaban;
+  if (x == "r") {
+    jawaban = "<img class='ikon1' src='benar.png'  width='25px' height='25px'>"
+  } else if ( x == "") {
+    jawaban = "";
+  } else {
+    jawaban = "<img class='ikon1' src='salah.png'  width='25px' height='25px'>";
+  }
+  document.getElementById("demorumus6").innerHTML = jawaban;
+}
+
+/*Mari Menanya*/
+function mm1() {
+  var x = document.getElementById("Textmm1").value.split(' ').join('').toLowerCase();
+  var jawaban;
+  if (x == "ab") {
+    jawaban = "<img class='ikon1' src='benar.png'  width='25px' height='25px'>"
+  } else if ( x == "") {
+    jawaban = "";
+  } else {
+    jawaban = "<img class='ikon1' src='salah.png'  width='25px' height='25px'>";
+  }
+  document.getElementById("demomm1").innerHTML = jawaban;
+}
+
+function mm2() {
+  var x = document.getElementById("Textmm2").value.split(' ').join('');
+  var jawaban;
+  if (x == "r") {
+    jawaban = "<img class='ikon1' src='benar.png'  width='25px' height='25px'>"
+  } else if ( x == "") {
+    jawaban = "";
+  } else {
+    jawaban = "<img class='ikon1' src='salah.png'  width='25px' height='25px'>";
+  }
+  document.getElementById("demomm2").innerHTML = jawaban;
+}
+
+function mm3() {
+  var x = document.getElementById("Textmm3").value.split(' ').join('').toLowerCase();
+  var jawaban;
+  if (x == "p") {
+    jawaban = "<img class='ikon1' src='benar.png'  width='25px' height='25px'>"
+  } else if ( x == "") {
+    jawaban = "";
+  } else {
+    jawaban = "<img class='ikon1' src='salah.png'  width='25px' height='25px'>";
+  }
+  document.getElementById("demomm3").innerHTML = jawaban;
+}
+
+function mm4() {
+  var x = document.getElementById("Textmm4").value.split(' ').join('');
+  var jawaban;
+  if (x == "R") {
+    jawaban = "<img class='ikon1' src='benar.png'  width='25px' height='25px'>"
+  } else if ( x == "") {
+    jawaban = "";
+  } else {
+    jawaban = "<img class='ikon1' src='salah.png'  width='25px' height='25px'>";
+  }
+  document.getElementById("demomm4").innerHTML = jawaban;
+}
+
+function mm5() {
+  var x = document.getElementById("Textmm5").value.split(' ').join('').toLowerCase();
+  var jawaban;
+  if (x == "ab") {
+    jawaban = "<img class='ikon1' src='benar.png'  width='25px' height='25px'>"
+  } else if ( x == "") {
+    jawaban = "";
+  } else {
+    jawaban = "<img class='ikon1' src='salah.png'  width='25px' height='25px'>";
+  }
+  document.getElementById("demomm5").innerHTML = jawaban;
+}
+
+function mm6() {
+  var x = document.getElementById("Textmm6").value.split(' ').join('').toLowerCase();
+  var jawaban;
+  if (x == "bd") {
+    jawaban = "<img class='ikon1' src='benar.png'  width='25px' height='25px'>"
+  } else if ( x == "") {
+    jawaban = "";
+  } else {
+    jawaban = "<img class='ikon1' src='salah.png'  width='25px' height='25px'>";
+  }
+  document.getElementById("demomm6").innerHTML = jawaban;
+}
+
+function mm7() {
+  var x = document.getElementById("Textmm7").value.split(' ').join('').toLowerCase();
+  var jawaban;
+  if (x == "ab") {
+    jawaban = "<img class='ikon1' src='benar.png'  width='25px' height='25px'>"
+  } else if ( x == "") {
+    jawaban = "";
+  } else {
+    jawaban = "<img class='ikon1' src='salah.png'  width='25px' height='25px'>";
+  }
+  document.getElementById("demomm7").innerHTML = jawaban;
+}
+
+function mm8() {
+  var x = document.getElementById("Textmm8").value.split(' ').join('');
+  var jawaban;
+  if (x == "r") {
+    jawaban = "<img class='ikon1' src='benar.png'  width='25px' height='25px'>"
+  } else if ( x == "") {
+    jawaban = "";
+  } else {
+    jawaban = "<img class='ikon1' src='salah.png'  width='25px' height='25px'>";
+  }
+  document.getElementById("demomm6").innerHTML = jawaban;
+}
+
+function mm9() {
+  var x = document.getElementById("Textmm9").value.split(' ').join('');
+  var jawaban;
+  if (x == "15") {
+    jawaban = "<img class='ikon1' src='benar.png'  width='25px' height='25px'>"
+  } else if ( x == "") {
+    jawaban = "";
+  } else {
+    jawaban = "<img class='ikon1' src='salah.png'  width='25px' height='25px'>";
+  }
+  document.getElementById("demomm9").innerHTML = jawaban;
+}
+
+function mm10() {
+  var x = document.getElementById("Textmm10").value.split(' ').join('');
+  var jawaban;
+  if (x == "10") {
+    jawaban = "<img class='ikon1' src='benar.png'  width='25px' height='25px'>"
+  } else if ( x == "") {
+    jawaban = "";
+  } else {
+    jawaban = "<img class='ikon1' src='salah.png'  width='25px' height='25px'>";
+  }
+  document.getElementById("demomm10").innerHTML = jawaban;
+}
+
+function mm11() {
+  var x = document.getElementById("Textmm11").value.split(' ').join('').toLowerCase();
+  var jawaban;
+  if (x == "ac") {
+    jawaban = "<img class='ikon1' src='benar.png'  width='25px' height='25px'>"
+  } else if ( x == "") {
+    jawaban = "";
+  } else {
+    jawaban = "<img class='ikon1' src='salah.png'  width='25px' height='25px'>";
+  }
+  document.getElementById("demomm11").innerHTML = jawaban;
+}
+
+function mm12() {
+  var x = document.getElementById("Textmm12").value.split(' ').join('');
+  var jawaban;
+  if (x == "R") {
+    jawaban = "<img class='ikon1' src='benar.png'  width='25px' height='25px'>"
+  } else if ( x == "") {
+    jawaban = "";
+  } else {
+    jawaban = "<img class='ikon1' src='salah.png'  width='25px' height='25px'>";
+  }
+  document.getElementById("demomm12").innerHTML = jawaban;
+}
+
+function mm13() {
+  var x = document.getElementById("Textmm13").value.split(' ').join('');
+  var jawaban;
+  if (x == "15") {
+    jawaban = "<img class='ikon1' src='benar.png'  width='25px' height='25px'>"
+  } else if ( x == "") {
+    jawaban = "";
+  } else {
+    jawaban = "<img class='ikon1' src='salah.png'  width='25px' height='25px'>";
+  }
+  document.getElementById("demomm13").innerHTML = jawaban;
+}
+
+function mm14() {
+  var x = document.getElementById("Textmm14").value.split(' ').join('');
+  var jawaban;
+  if (x == "1") {
+    jawaban = "<img class='ikon1' src='benar.png'  width='25px' height='25px'>"
+  } else if ( x == "") {
+    jawaban = "";
+  } else {
+    jawaban = "<img class='ikon1' src='salah.png'  width='25px' height='25px'>";
+  }
+  document.getElementById("demomm14").innerHTML = jawaban;
+}
+
+function mm15() {
+  var x = document.getElementById("Textmm15").value.split(' ').join('');
+  var jawaban;
+  if (x == "225") {
+    jawaban = "<img class='ikon1' src='benar.png'  width='25px' height='25px'>"
+  } else if ( x == "") {
+    jawaban = "";
+  } else {
+    jawaban = "<img class='ikon1' src='salah.png'  width='25px' height='25px'>";
+  }
+  document.getElementById("demomm15").innerHTML = jawaban;
+}
+
+function mm16() {
+  var x = document.getElementById("Textmm16").value.split(' ').join('');
+  var jawaban;
+  if (x == "81") {
+    jawaban = "<img class='ikon1' src='benar.png'  width='25px' height='25px'>"
+  } else if ( x == "") {
+    jawaban = "";
+  } else {
+    jawaban = "<img class='ikon1' src='salah.png'  width='25px' height='25px'>";
+  }
+  document.getElementById("demomm16").innerHTML = jawaban;
+}
+
+function mm17() {
+  var x = document.getElementById("Textmm17").value.split(' ').join('');
+  var jawaban;
+  if (x == "144") {
+    jawaban = "<img class='ikon1' src='benar.png'  width='25px' height='25px'>"
+  } else if ( x == "") {
+    jawaban = "";
+  } else {
+    jawaban = "<img class='ikon1' src='salah.png'  width='25px' height='25px'>";
+  }
+  document.getElementById("demomm17").innerHTML = jawaban;
+}
+
+function mm18() {
+  var x = document.getElementById("Textmm18").value.split(' ').join('');
+  var jawaban;
+  if (x == "12") {
+    jawaban = "<img class='ikon1' src='benar.png'  width='25px' height='25px'><br><br>Jadi, panjang garis singgung perekutuan luar dua lingkaran tersebut adalah \\[CD = 12\\,cm\\]."
+  } else if ( x == "") {
+    jawaban = "";
+  } else {
+    jawaban = "<img class='ikon1' src='salah.png'  width='25px' height='25px'>";
+  }
+  document.getElementById("demomm18").innerHTML = jawaban;
+  MathJax.typeset();
+}
+
 /*Mari Mencoba 7*/
 
 function myFunction37() {

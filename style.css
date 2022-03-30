@@ -158,6 +158,17 @@ td {
   font-size: 14px;
 }
 
+.td31 {
+  background-color: #8e6bc5;
+  border-radius: 0px;
+  color: white;
+  text-align: left;
+  min-width: 0px;
+  width: max-content;
+  font-family: 'Bookman Old Style', serif;
+  font-size: 14px;
+}
+
 .td4 {
   background-color: #d9c2fa;
   border-radius: 0px;
@@ -544,7 +555,7 @@ li mjx-container{
   display:none;
   }
 
-.tujuan{
+.tujuan {
   background-color: #8e6bc5;
   font-family: 'Bookman Old Style', serif;
   border: none;
@@ -561,9 +572,27 @@ li mjx-container{
   min-width: 70px;
 }
 
-.tujuan:hover {background-color: #8bb4d0}
+.soal {
+  background-color: #8e6bc5;
+  font-family: 'Bookman Old Style', serif;
+  border: none;
+  color: white;
+  padding: 7px 10px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  min-width: 30px;
+}
 
-.tujuan:active {
+.tujuan:hover, .soal:hover {background-color: #8bb4d0}
+
+.tujuan:active, .soal:active {
   background-color: #8bb4d0;
   box-shadow: 0 5px #8e6bc5;
   transform: translateY(4px);
@@ -614,6 +643,26 @@ li mjx-container{
   border: 3px dotted #8bb4d0;
   border-radius: 8px;
   margin-top: 10px;
+}
+
+#soal, #soal1, #soal2, #soal3{
+  margin-left: 2px;
+  margin-bottom: 5px;
+  padding: 10px;
+  width: fit-content;
+  height: auto;
+  background-color: #d9c2fa;
+  border: 5px double #8e6bc5;
+  overflow: auto;
+  font-family: 'Bookman Old Style', serif;
+  border-radius: 8px;
+}
+
+.gambarr {
+  width: 100%;
+  background: #ba98f0;
+  border-radius: 8px;
+  padding: 10px;
 }
 
 /* #tujuan3 {
@@ -791,7 +840,7 @@ li mjx-container{
 }
 
 #boxkecil5 {
-  width: 380px;
+  width: fit-content;
   height: auto;
   text-align: left;
   padding: 7px 10px;
@@ -801,6 +850,258 @@ li mjx-container{
   border-radius: 8px;
   margin-left: 20px;
 }
+
+#boxkecil6 {
+  width: fit-content;
+  height: auto;
+  text-align: left;
+  padding: 7px 10px;
+  color: white;
+  background-color: #8e6bc5;
+  border: 3px dotted #8bb4d0;
+  border-radius: 8px;
+}
+
+.garis {
+  width: 80%;
+  height: 2px;
+  color: black;
+  border-bottom: 1px solid black;
+  margin-left: 20%;
+  position: relative;
+  top: 33px;
+}
+
+.garis1 {
+  width: 68%;
+  height: 2px;
+  color: black;
+  border-bottom: 1px solid black;
+  margin-left: 20%;
+  position: relative;
+  top: 33px;
+}
+
+.garis2 {
+  width: 57%;
+  height: 2px;
+  color: black;
+  border-bottom: 1px solid black;
+  margin-left: 20%;
+  position: relative;
+  top: 33px;
+}
+
+.garis3 {
+  width: 28%;
+  height: 2px;
+  color: black;
+  border-bottom: 1px solid black;
+  margin-left: 20%;
+  position: relative;
+  top: 33px;
+}
+
+.garis4 {
+  width: 24%;
+  height: 2px;
+  color: white;
+  border-bottom: 1px solid white;
+  margin-left: 13%;
+  position: relative;
+  top: 33px;
+}
+
+.garis5 {
+  width: 34%;
+  height: 2px;
+  color: white;
+  border-bottom: 1px solid white;
+  margin-left: 13%;
+  position: relative;
+  top: 33px;
+}
+
+.garis6 {
+  width: 32%;
+  height: 2px;
+  color: white;
+  border-bottom: 1px solid white;
+  margin-left: 13%;
+  position: relative;
+  top: 33px;
+}
+
+.garis7 {
+  width: 55%;
+  height: 2px;
+  color: white;
+  border-bottom: 1px solid white;
+  margin-left: 14%;
+  position: relative;
+  top: 33px;
+}
+
+.garis8 {
+  width: 46%;
+  height: 2px;
+  color: white;
+  border-bottom: 1px solid white;
+  margin-left: 14%;
+  position: relative;
+  top: 33px;
+}
+
+.garis9 {
+  width: 52%;
+  height: 2px;
+  color: white;
+  border-bottom: 1px solid white;
+  margin-left: 14%;
+  position: relative;
+  top: 33px;
+}
+
+.garis10 {
+  width: 31%;
+  height: 2px;
+  color: white;
+  border-bottom: 1px solid white;
+  margin-left: 14%;
+  position: relative;
+  top: 33px;
+}
+
+.garis11 {
+  width: 16%;
+  height: 2px;
+  color: white;
+  border-bottom: 1px solid white;
+  margin-left: 14%;
+  position: relative;
+  top: 33px;
+}
+
+.garis12 {
+  width: 80%;
+  height: 2px;
+  color: black;
+  border-bottom: 1px solid black;
+  margin-left: 20%;
+  position: relative;
+  top: 26px;
+}
+
+.garis13 {
+  width: 48%;
+  height: 2px;
+  color: black;
+  border-bottom: 1px solid black;
+  margin-left: 20%;
+  position: relative;
+  top: 26px;
+}
+
+.garis14 {
+  width: 27%;
+  height: 2px;
+  color: black;
+  border-bottom: 1px solid black;
+  margin-left: 20%;
+  position: relative;
+  top: 26px;
+}
+
+.garis14a {
+  width: 17%;
+  height: 2px;
+  color: black;
+  border-bottom: 1px solid black;
+  margin-left: 20%;
+  position: relative;
+  top: 26px;
+}
+
+.garis15 {
+  width: 50%;
+  height: 2px;
+  color: white;
+  border-bottom: 1px solid white;
+  margin-left: 13%;
+  position: relative;
+  top: 33px;
+}
+
+.garis16 {
+  width: 43%;
+  height: 2px;
+  color: white;
+  border-bottom: 1px solid white;
+  margin-left: 14%;
+  position: relative;
+  top: 33px;
+}
+
+.garis17 {
+  width: 49%;
+  height: 2px;
+  color: white;
+  border-bottom: 1px solid white;
+  margin-left: 14%;
+  position: relative;
+  top: 33px;
+}
+
+.garis18 {
+  width: 54%;
+  height: 2px;
+  color: white;
+  border-bottom: 1px solid white;
+  margin-left: 14%;
+  position: relative;
+  top: 33px;
+}
+
+.garis19 {
+  width: 52%;
+  height: 2px;
+  color: white;
+  border-bottom: 1px solid white;
+  margin-left: 14%;
+  position: relative;
+  top: 33px;
+}
+
+.garis20 {
+  width: 48%;
+  height: 2px;
+  color: white;
+  border-bottom: 1px solid white;
+  margin-left: 14%;
+  position: relative;
+  top: 33px;
+}
+
+.garis21 {
+  width: 42%;
+  height: 2px;
+  color: white;
+  border-bottom: 1px solid white;
+  margin-left: 14%;
+  position: relative;
+  top: 33px;
+}
+
+.garis22 {
+  width: 34%;
+  height: 2px;
+  color: white;
+  border-bottom: 1px solid white;
+  margin-left: 14%;
+  position: relative;
+  top: 33px;
+}
+
 
 #rangkuman1 {
   width: 100%;

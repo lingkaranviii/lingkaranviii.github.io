@@ -44,6 +44,28 @@ xx7.addEventListener("click",function(){
   x7.classList.toggle("hilang");
 });
 
+var y1 = document.getElementById("soal");
+var yy1= document.querySelector('.soal');
+var y2 = document.getElementById("soal1");
+var yy2= document.querySelector('.soal1');
+var y3 = document.getElementById("soal2");
+var yy3= document.querySelector('.soal2');
+var y4 = document.getElementById("soal3");
+var yy4= document.querySelector('.soal3');
+
+yy1.addEventListener("click",function(){
+  y1.classList.toggle("hilang");
+});
+yy2.addEventListener("click",function(){
+  y2.classList.toggle("hilang");
+});
+yy3.addEventListener("click",function(){
+  y3.classList.toggle("hilang");
+});
+yy4.addEventListener("click",function(){
+  y4.classList.toggle("hilang");
+});
+
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -96,6 +118,85 @@ function showSlides2(n) {
   }
   slides2[slideIndex-1].style.display = "block";  
   dots2[slideIndex-1].className += " active3";
+}
+
+/*rumus*/
+function r1() {
+  var x = document.getElementById("Textr1").value.toLowerCase();
+  var jawaban;
+  if (x == "keliling") {
+    jawaban = "<img class='ikon1' src='benar.png'  width='25px' height='25px'>"
+  } else if ( x == "") {
+    jawaban = "";
+  } else {
+    jawaban = "<img class='ikon1' src='salah.png'  width='25px' height='25px'>";
+  }
+  document.getElementById("demor1").innerHTML = jawaban;
+}
+
+function r2() {
+  var x = document.getElementById("Textr2").value.toLowerCase();
+  var jawaban;
+  if (x == "ros") {
+    jawaban = "<img class='ikon1' src='benar.png'  width='25px' height='25px'>"
+  } else if ( x == "") {
+    jawaban = "";
+  } else {
+    jawaban = "<img class='ikon1' src='salah.png'  width='25px' height='25px'>";
+  }
+  document.getElementById("demor2").innerHTML = jawaban;
+}
+
+function r3() {
+  var x = document.getElementById("Textr3").value.toLowerCase();
+  var jawaban;
+  if (x == "rts") {
+    jawaban = "<img class='ikon1' src='benar.png'  width='25px' height='25px'>"
+  } else if ( x == "") {
+    jawaban = "";
+  } else {
+    jawaban = "<img class='ikon1' src='salah.png'  width='25px' height='25px'>";
+  }
+  document.getElementById("demor3").innerHTML = jawaban;
+}
+
+function r4() {
+  var x = document.getElementById("Textr4").value.toLowerCase();
+  var jawaban;
+  if (x == "pusat") {
+    jawaban = "<img class='ikon1' src='benar.png'  width='25px' height='25px'>"
+  } else if ( x == "") {
+    jawaban = "";
+  } else {
+    jawaban = "<img class='ikon1' src='salah.png'  width='25px' height='25px'>";
+  }
+  document.getElementById("demor4").innerHTML = jawaban;
+}
+
+function r5() {
+  var x = document.getElementById("Textr5").value.toLowerCase();
+  var jawaban;
+  if (x == "rts") {
+    jawaban = "<img class='ikon1' src='benar.png'  width='25px' height='25px'>"
+  } else if ( x == "") {
+    jawaban = "";
+  } else {
+    jawaban = "<img class='ikon1' src='salah.png'  width='25px' height='25px'>";
+  }
+  document.getElementById("demor5").innerHTML = jawaban;
+}
+
+function r6() {
+  var x = document.getElementById("Textr6").value.toLowerCase();
+  var jawaban;
+  if (x == "ros") {
+    jawaban = "<img class='ikon1' src='benar.png'  width='25px' height='25px'>"
+  } else if ( x == "") {
+    jawaban = "";
+  } else {
+    jawaban = "<img class='ikon1' src='salah.png'  width='25px' height='25px'>";
+  }
+  document.getElementById("demor6").innerHTML = jawaban;
 }
 
 /*Mari Mencoba 5*/

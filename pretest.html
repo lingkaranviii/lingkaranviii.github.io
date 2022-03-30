@@ -4,8 +4,8 @@
 	<link rel="icon" type="image/png" href="L.png">
 	<title>Lingkaran</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="cssevaluasi1.css">
-	<link rel="stylesheet" type="text/css" href="dataevaluasi1.css">
+	<link rel="stylesheet" type="text/css" href="csspretest.css">
+	<link rel="stylesheet" type="text/css" href="datapretest.css">
 </head>
 <!-- mathjax -->
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
@@ -28,75 +28,19 @@
 	<main class="main" id="main">
 
 		<!-- BADAN KONTEN-->
-		<section>
-			<ul><li><a class="nav"><center><img src="nav.png" class="imgnkuis" width="30px" height="30px"></center></a></li></ul>
-		  	<nav id="nav">
-			  <div class="button-nav">
-			<button class="dropbtn dropdown-btn" onclick="ftampil()">A. Mengenal Lingkaran
-			  <i class="fa fa-caret-down"></i>
-			</button>
-  
-			<div class="dropdown-content dropdown-container">
-			  <a href="materii.html">1. Mengenal Lingkaran</a>
-			  <a href="unsurlingkarangaris.html">2. Unsur-unsur lingkaran yang berupa garis dan ciri-cirinya</a>
-			  <a href="unsurlingkaranluasan.html">3. Unsur-unsur lingkaran yang berupa luasan dan ciri-cirinya</a>
-			  <a href="kelilingdanluas.html">4. Keliling dan luas lingkaran</a>
-			  <a href="rangkuman1.html">Rangkuman</a>
-			  <a href="kuis1awal.html">Kuis 1</a>
-			</div>
-  
-			<button class="dropbtn dropdown-btn" onclick="ftampil()">B. Sudut Pusat dan Sudut Keliling
-			  <i class="fa fa-caret-down"></i>
-			</button>
-  
-			<div class="dropdown-content dropdown-container">
-			  <a href="sudutpk.html">Sudut Pusat dan Sudut Keliling</a>
-			  <a href="rangkuman2.html">Rangkuman</a>
-			  <a href="kuis2.html">Kuis 2</a>
-			</div>
-  
-			<button class="dropbtn dropdown-btn" onclick="ftampil()">C. Panjang Busur dan Luas Juring
-			  <i class="fa fa-caret-down"></i>
-			</button>
-  
-			<div class="dropdown-content dropdown-container">
-			  <a href="panjangbusur.html">Panjang Busur dan Luas Juring</a>
-			  <a href="rangkuman3.html">Rangkuman</a>
-			  <a href="kuis3.html">Kuis 3</a>
-			</div>
-  
-			 <button class="dropbutton dropdown-btn" onclick="ftampil()">D. Garis Singgung Lingkaran
-				<i class="fa fa-caret-down"></i>
-			</button>
-  
-			 <div class="dropdown-content dropdown-container">
-			   <a href="garissl.html">1. Garis singgung persekutuan luar dua lingkaran</a>
-			   <a href="garissd.html">2. Garis singgung persekutuan dalam dua lingkaran</a>
-			   <a href="rangkuman4.html">Rangkuman</a>
-			   <a href="kuis4.html">Kuis 4</a>
-			  </div>
-  
-			<button class="dropbtn dropdown-btn active" onclick="location.href='evaluasi1.html'">Evaluasi</button>
-  
-			</div>
-			</nav>
-		  <div class="konten1">
-			  <div id="bg" class="hilangg">
-				  <div class="full hidden"><img src="kalimatkontrol.png" style="width: 800px; height: 200px;"><br>
-				  </div>
-			  </div>
+        <div class="konten1">
 			<div class="isi" id="data">
-					<span class="judul" style="color: white;">Evaluasi</span><br>
+					<span class="judul" style="color: white;">Pretest</span><br>
 				<hr><br>
 				<div class="kiri1">
 					<div class="kliktunjuk">Petunjuk<br></div>
       				<div class="tjk1">
       					<ol>
-      						<li>Evaluasi ini terdiri dari 20 soal pilihan ganda.</li>
+      						<li>Pretest ini terdiri dari 20 soal pilihan ganda.</li>
       						<li>Setiap soal memiliki bobot poin sebanyak 5 poin.</li>
       						<li>Silahkan lengkapi data diri Anda pada form yang telah disediakan.</li>
-      						<li>Tekan tombol "Mulai Evaluasi" jika Anda sudah melengkapi data diri.</li>
-      						<li>Ketika sudah memulai Evaluasi, maka jawablah soal dengan benar.</li>
+      						<li>Tekan tombol "Mulai Pretest" jika Anda sudah melengkapi data diri.</li>
+      						<li>Ketika sudah memulai Pretest, maka jawablah soal dengan benar.</li>
 							<li>Tekan tombol "Selesai" jika Anda sudah menjawab semua soal.</li>
       					</ol>
 			        </div>
@@ -135,7 +79,7 @@
 						<br>
 						<center>
 							<div class="lanjut">
-								Mulai Evaluasi
+								Mulai Pretest
 							</div>
 						</center>
 					</div>	
@@ -146,7 +90,7 @@
 
 			<!--KONTEN KIRI-->
 			<div class="kiri" id="kiri">
-				<span class="judul">Evaluasi</span>
+				<span class="judul">Pretest</span>
 				<hr>
 
 				
@@ -1401,7 +1345,7 @@
 			<div class="dataaa hilang" id="halskor">
 				<div class="skornya">
 					<center>
-						<span class="judul" style="color: white;">Evaluasi</span>
+						<span class="judul" style="color: white;">Pretest</span>
 						<br>
 						<br>
 
@@ -1475,16 +1419,14 @@
 						</table>
 						<br>
 						<div id="ulang" class="ket_ulang hilang" style="color: white;">
-							<b style="background-color: red; padding: 3px;">Nilaimu masih kurang dari 75</b>, silahkan tekan tombol "<b>Ulang Evaluasi</b>" di bawah ini untuk remedial atau tekan tombol "<b>Ulang Materi</b>" untuk mempelajari kembali materi sebelumnya!<br>
+							Terima Kasih sudah mengerjakan soal pretest, selanjutnya silahkan pelajari materi<br>yang sudah disediakan dengan menekan tombol "<b>Masuk Materi</b>" di bawah ini<br>
 							<div class="tmblUlang">
-								<a href="evaluasi1.html">Ulang Evaluasi</a></div>
-							<div class="tmblUlang">
-								<a href="materii.html">Ulang Materi</a></div><br>
+								<a href="materii.html">Masuk Materi</a></div><br>
 						</div>
 						<div id="mtrslnjt" class="ket_ulang hilang" style="color: white;">
-							<b style="background-color: green; padding: 3px;">Nilaimu sudah lebih dari atau sama dengan 75</b>, silahkan tekan tombol "<b>Halaman Utama</b>" di bawah ini untuk kembali ke halaman utama!<br>
-							<div class="tmblUlang" style="font-size: 18px;">
-								<a href="index.html">Halaman Utama</a></div>
+							Terima Kasih sudah mengerjakan soal pretest, selanjutnya silahkan pelajari materi<br>yang sudah disediakan dengan menekan tombol "<b>Masuk Materi</b>" di bawah ini!<br>
+							<div class="tmblUlang">
+								<a href="materii.html">Masuk Materi</a></div><br>
 						</div>
 					</center>
 				</div>
@@ -1497,21 +1439,8 @@
     <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
 
 
-	<script src="javascriptevaluasi1.js"></script>
-	<script src="javascriptdataevaluasi1.js"></script>
-	<script>
-		var task = firebase.database().ref("kontrolevaluasi/12349");
-		let bg = document.getElementById('bg')
+	<script src="javascriptpretest.js"></script>
+	<script src="javascriptdatapretest.js"></script>
 
-       task.orderByChild("hari").on("child_added", function(data){
-        //task.on("child_added", function (data) {
-            var taskvalue = data.val();
-			let cek = taskvalue
-			if(cek==1){
-				bg.classList.toggle("hilangg")
-			}
-			
-        });
-	</script>
 </body>
 </html>

@@ -212,7 +212,7 @@
 					</tr>
 				</table>
 			</div>
-			<p>Bagaimanakah cara yang harus dilakukan untuk menemukan besar sudut pusat \[YCZ\] (\[m\angle YCZ\]) dan besar sudut pusat \[WCX\] (\[m\angle WCX\]) berdasarkan gambar di bawah ini.</p>
+			<p>Bagaimanakah cara yang harus dilakukan untuk menemukan luas tembereng BC berdasarkan gambar di bawah ini.</p>
 			<img src="MARI MENANYA 1.png" class="gambar" width="300px" height="300px" style="display: block;margin: auto;"><br>
 			<div class="bsubsubbab">
 				<table cellpadding="5">
@@ -230,24 +230,91 @@
 
 			<p>Untuk menyelesaikan permasalahan di atas lakukan prosedur berikut:</p>
 			<p><b>Langkah 1</b></p>
-			<p>Perhatikan besar sudut yang diketahui:</p>
-			<div id="boxkecil1">
-			<p style="color: white">\[Besar\,\,sudut\,\,setengah\,\,lingkaran =\] <input type="text" id="Textmm4" value="" placeholder="........" class="inputt" oninput="mm4()"> \[^{\circ}\] <text id="demomm4"></p>
-			<p style="color: white">\[m\angle VCY\,\,dan\,\,m\angle WCY\,\,merupakan\,\,sudut\,\,siku-siku\,\,yaitu\,\] <input type="text" id="Textmm5" value="" placeholder="........" class="inputt" oninput="mm5()"> \[^{\circ}\] <text id="demomm5"></p>
-			<p style="color: white">\[m\angle VCX=\] <input type="text" id="Textmm6" value="" placeholder="........" class="inputt" oninput="mm6()"> \[^{\circ}\] <text id="demomm6"> \[\,\,dan\,\,bertolak\,\,belakang\,\,dengan\,\,\angle WCZ\]</p>
+			<p>Perhatikan rumus di bawah ini:</p>
+			<div id="boxkecil6">
+			<p style="color: white">\[L_{juring}=\frac{Besar\,\,sudut}{360^\circ}×\pi×r^{2}\]</p>
+			<p style="color: white">\[L_{segitiga}=\frac{1}{2}×alas×tinggi\]</p>
+			<p style="color: white">\[L_{tembereng}=L_{juring}-L_{segitiga}\]</p>
 			</div>
 			<p><b>Langkah 2</b></p>
+			<p>Menyesuaikan:</p>
+			<div id="boxkecil6">
+			<p style="color: white">\[Besar\,\,sudut\,\,pusat=\] <input type="text" id="Textmm1" value="" placeholder="........" class="inputt" oninput="mm1()"> \[^{\circ}\] <text id="demomm1"></p>
+			<p style="color: white">\[Jari-jari=\] <input type="text" id="Textmm2" value="" placeholder="........" class="inputt" oninput="mm2()"> <text id="demomm2"></p><br>
+				<table cellpadding="2" style="border-spacing: 0px; border: none;">
+					<tr>
+						<td class="td31">\[L_{Juring}=\]</td>
+						<td class="td31"><center><input type="text" id="Textmm3" value="" placeholder="........" style="width: 25px;" class="inputt" oninput="mm3()"> \[^{\circ}\] <text id="demomm3"></text> <br><hr color="white" style="width: 40px; margin-left: 0px;"> <input type="text" id="Textmm4" value="" placeholder="........" style="width: 35px;" class="inputt" oninput="mm4()"> \[^{\circ}\] <text id="demomm4"></text></center></td>
+						<td class="td31">\[×\]</td>
+						<td class="td31"><center><input type="text" id="Textmm5" value="" placeholder="........" style="width: 25px;" class="inputt" oninput="mm5()"> <text id="demomm5"></text> <br><hr color="white" style="width: 25px; margin-left: 0px;"> <input type="text" id="Textmm6" value="" placeholder="........" style="width: 25px;" class="inputt" oninput="mm6()"> <text id="demomm6"></text> </center></td>
+						<td class="td31">\[×\] <input type="text" id="Textmm7" value="" placeholder="............" style="width: 25px;" class="inputt" oninput="mm7()"> \[^{2}\] <text id="demomm7"></text></td>
+					</tr>
+				</table>
+			<p style="color: white">\[L_{Segitiga}=\frac{1}{2}×\]<input type="text" id="Textmm8" value="" placeholder="........" style="width: 25px;" class="inputt" oninput="mm8()"> <text id="demomm8"></text>\[×\]<input type="text" id="Textmm9" value="" placeholder="........" style="width: 25px;" class="inputt" oninput="mm9()"> <text id="demomm9"></text></p>
+			</div>
+			<p><b>Langkah 3</b></p>
 			<p>Menyelesaikan:</p>
-			<div id="boxkecil">
-			<p style="color: white"><b><i>m∠YCZ</i></b></p>
-			<p style="color: white">\[m\angle YCZ=90^{\circ}-m\angle WCZ\]</p>
-			<p style="color: white">\[m\angle YCZ=90^{\circ}-\,\]<input type="text" id="Textmm7" value="" placeholder="........" class="inputt" oninput="mm7()"> \[^{\circ}\] <text id="demomm7"></p>
-			<p style="color: white">\[m\angle YCZ=\,\]<input type="text" id="Textmm8" value="" placeholder="........" class="inputt" oninput="mm8()"> \[^{\circ}\] <text id="demomm8"></p>
-			<p style="color: white"><b><i>m∠WCX</i></b></p>
-			<p style="color: white">\[m\angle WCX=180^{\circ}-m\angle VCX\]</p>
-			<p style="color: white">\[m\angle WCX=180^{\circ}-\,\]<input type="text" id="Textmm9" value="" placeholder="........" class="inputt" oninput="mm9()"> \[^{\circ}\] <text id="demomm9"></p>
-			<p style="color: white">\[m\angle WCX=\,\]<input type="text" id="Textmm10" value="" placeholder="........" class="inputt" oninput="mm10()"> \[^{\circ}\] <text id="demomm10"></p>
+			<div id="boxkecil6">
+			<p style="color: white;">\[Luas\,\,Juring:\]</p>
+			<p style="color: white;">\[L_{Juring}=\frac{Besar\,\,sudut}{360}^{\circ}×\pi×r^{2}\]</p>
+			<table cellpadding="2" style="border-spacing: 0px; border: none;">
+				<tr>
+					<td class="td31"><center>\[L_{Juring}=\]</center></td>
+					<td class="td31"><center><input type="text" id="Textmm10" value="" placeholder="........" style="width: 25px;" class="inputt" oninput="mm10()"> \[^{\circ}\] <text id="demomm10"></text><br><hr color="white" style="width: 40px; margin-left: 0px;"> <input type="text" id="Textmm11" value="" placeholder="........" style="width: 35px;" class="inputt" oninput="mm11()"> \[^{\circ}\] <text id="demomm11"></text></center></td>
+					<td class="td31"><center>\[×\]</center></td>
+					<td class="td31"><center>\[\frac{22}{7}\]</center></td>
+					<td class="td31">\[×\] <input type="text" id="Textmm12" value="" placeholder="............" style="width: 25px; margin-left: 5px;" class="inputt" oninput="mm12()"> <text id="demomm12"></text></td>
+					<td class="td31">\[×\] <input type="text" id="Textmm13" value="" placeholder="............" style="width: 25px;" class="inputt" oninput="mm13()"> <text id="demomm13"></text></td>
+				</tr>
+				<tr>
+					<td class="td31"><center>\[L_{Juring}=\]</center></td>
+					<td class="td31"><center>\[\frac{1}{4}\]</center></td>
+					<td class="td31"><center>\[×\]</center></td>
+					<td class="td31"><center><input type="text" id="Textmm14" value="" placeholder="........" style="width: 25px;" class="inputt" oninput="mm14()"> <text id="demomm14"></text> <br><hr color="white" style="width: 25px; margin-left: 5px;"> <input type="text" id="Textmm15" value="" placeholder="........" style="width: 25px;" class="inputt" oninput="mm15()"> <text id="demomm15"></text> </center></td>
+					<td class="td31"><center>\[×\] <input type="text" id="Textmm16" value="" placeholder="............" style="width: 35px;" class="inputt" oninput="mm16()"> <text id="demomm16"></text></center></td>
+				</tr>
+				<tr>
+					<td class="td31"><center>\[L_{Juring}=\]</center></td>
+					<td class="td31"><center><input type="text" id="Textmm17" value="" placeholder="........" style="width: 25px;" class="inputt" oninput="mm17()"> <text id="demomm17"></text> <br><hr color="white" style="width: 40px; margin-left: 0px;"><input type="text" id="Textmm18" value="" placeholder="........" style="width: 25px;" class="inputt" oninput="mm18()"> <text id="demomm18"></text></center></td>
+					<td class="td31"><center>\[×\]</center></td>
+					<td class="td31"><center><input type="text" id="Textmm19" value="" placeholder="............" style="width: 25px;" class="inputt" oninput="mm19()"> <text id="demomm19"></text></center></td>
+					<td class="td31">\[×\] <input type="text" id="Textmm20" value="" placeholder="............" style="width: 25px; margin-left: 5px;" class="inputt" oninput="mm20()"> <text id="demomm20"></text></td>
+				</tr>
+				<tr>
+					<td class="td31">\[L_{Juring}=\]</td>
+					<td class="td31"><center><input type="text" id="Textmm21" value="" placeholder="........" style="width: 25px;" class="inputt" oninput="mm21()"> <text id="demomm21"></text> <br><hr color="white" style="width: 40px; margin-left: 0px;"><input type="text" id="Textmm22" value="" placeholder="........" style="width: 25px;" class="inputt" oninput="mm22()"> <text id="demomm22"></text></center></td>
+					<td class="td31">\[×\]</td>
+					<td class="td31"><input type="text" id="Textmm23" value="" placeholder="............" style="width: 35px;" class="inputt" oninput="mm23()"> <text id="demomm23"></text></td>
+				</tr>
+			</table>
+			<p style="color: white;">\[L_{Juring}=\] <input type="text" id="Textmm24" value="" placeholder="............." style="width: 40px;" class="inputt" oninput="mm24()"></td>
+				<td class="td31"> \[cm^{2}\] <text id="demomm24"></text></p>
 			</div><br>
+			<div id="boxkecil6">
+				<p style="color: white;">\[Luas\,\,Segitiga:\]</p>
+				<p style="color: white;">\[L_{Segitiga}=\frac{1}{2}×alas×tinggi\]</p>
+				<table cellpadding="2" style="border-spacing: 0px; border: none;">
+					<tr>
+						<td class="td31"><center>\[L_{Segitiga}=\]</center></td>
+						<td class="td31"><center><input type="text" id="Textmm25" value="" placeholder="........" style="width: 25px;" class="inputt" oninput="mm25()"> <text id="demomm25"></text><br><hr color="white" style="width: 40px; margin-left: 0px;"> <input type="text" id="Textmm26" value="" placeholder="........" style="width: 25px;" class="inputt" oninput="mm26()"> <text id="demomm26"></text></center></td>
+						<td class="td31"><center>\[×\] <input type="text" id="Textmm27" value="" placeholder="............" style="width: 25px; margin-left: 5px;" class="inputt" oninput="mm27()"> <text id="demomm27"></text></center></td>
+						<td class="td31"><center>\[×\] <input type="text" id="Textmm28" value="" placeholder="............" style="width: 25px; margin-left: 5px;" class="inputt" oninput="mm28()"> <text id="demomm28"></text></center></td>
+					</tr>
+					<tr>
+						<td class="td31"><center>\[L_{Segitiga}=\]</center></td>
+						<td class="td31"><center><input type="text" id="Textmm29" value="" placeholder="........" style="width: 25px;" class="inputt" oninput="mm29()"> <text id="demomm29"></text><br><hr color="white" style="width: 40px; margin-left: 0px;"> <input type="text" id="Textmm30" value="" placeholder="........" style="width: 25px;" class="inputt" oninput="mm30()"> <text id="demomm30"></text></center></td>
+						<td class="td31"><center>\[×\] <input type="text" id="Textmm31" value="" placeholder="............" style="width: 35px; margin-left: 5px;" class="inputt" oninput="mm31()"> <text id="demomm31"></text></center></td>
+					</tr>
+				</table>
+				<p style="color: white;">\[L_{Segitiga}=\] <input type="text" id="Textmm32" value="" placeholder="............." style="width: 40px;" class="inputt" oninput="mm32()"></td>
+				<td class="td31"> \[cm^{2}\] <text id="demomm32"></text></p></div><br>
+				
+				<div id="boxkecil6">
+				<p style="color: white;">Ketika \[Luas\,\,Juring\] dan \[Luas\,\,Segitiga\]<br> sudah ditemukan, maka selanjutnya kita<br>dapat menghitung \[Luas\,\,Tembereng\]:</p>
+				<p style="color: white;">\[L_{Tembereng}=L_{Juring}-L_{Segitiga}\]</p>
+				<p style="color: white;">\[L_{Tembereng}=\] <input type="text" id="Textmm33" value="" placeholder="............." style="width: 40px;" class="inputt" oninput="mm33()"> <text id="demomm33"></text> \[-\] <input type="text" id="Textmm34" value="" placeholder="............." style="width: 40px;" class="inputt" oninput="mm34()"> <text id="demomm34"></text> </td></p>
+				<p style="color: white;">\[L_{Tembereng}=\] <input type="text" id="Textmm35" value="" placeholder="............." style="width: 40px;" class="inputt" oninput="mm35()"> \[cm^{2}\] <text id="demomm35"></text></p>
+				</div><br>
 			<div class="bsubsubbab">
 				<table cellpadding="5">
 					<tr>
@@ -317,24 +384,24 @@
 			  </div>
 				  <div class="mySlides">
 					<p>Berdasarkan gambar di bawah, tentukan:</p>
-					<center><img src="PERTANYAAN 2.png" width="300px" height="300px" style="display: block;margin: auto;" class="imgs"></center>
-				  	<p class="tulisan">a. Nilai \[x\],  <input type="text" id="myText16" value="" placeholder=".........." style="width: 40px;" class="inputt"></p>
+					<center><img src="PERTANYAAN 2 2.png" width="300px" height="300px" style="display: block;margin: auto;" class="imgs"></center>
+				  	<p class="tulisan">a. Luas Segitiga \[BAC\],  <input type="text" id="myText16" value="" placeholder=".........." style="width: 40px;" class="inputt"> \[cm^{2}\]</p>
 					<button onclick="myFunction16()" class="pj">Periksa Jawaban</button>
 					<p id="demo16a"></p>
 				  </div>
 				  
 				  <div class="mySlides">
 					<p>Berdasarkan gambar di bawah, tentukan:</p>
-					<center><img src="PERTANYAAN 2.png" width="300px" height="300px" style="display: block;margin: auto;" class="imgs"></center>
-				  	<p class="tulisan">b. \[m\angle IGE\],  <input type="text" id="myText17" value="" placeholder=".........." style="width: 40px;" class="inputt"> °</p>
+					<center><img src="PERTANYAAN 2 2.png" width="300px" height="300px" style="display: block;margin: auto;" class="imgs"></center>
+				  	<p class="tulisan">b. Luas Tembereng \[BC\],  <input type="text" id="myText17" value="" placeholder=".........." style="width: 40px;" class="inputt"> \[cm^{2}\]</p>
 					<button onclick="myFunction17()" class="pj">Periksa Jawaban</button>
 					<p id="demo17a"></p>
 				  </div>
 				  
 				  <div class="mySlides">
 					<p>Berdasarkan gambar di bawah, tentukan:</p>
-					<center><img src="PERTANYAAN 2.png" width="300px" height="300px" style="display: block;margin: auto;" class="imgs"></center>
-				  	<p class="tulisan">c. \[m\angle EGF\].  <input type="text" id="myText18" value="" placeholder=".........." style="width: 40px;" class="inputt"> °</p>
+					<center><img src="PERTANYAAN 2 2.png" width="300px" height="300px" style="display: block;margin: auto;" class="imgs"></center>
+				  	<p class="tulisan">c. Luas Juring \[CAD\].  <input type="text" id="myText18" value="" placeholder=".........." style="width: 40px;" class="inputt"> \[cm^{2}\]</p>
 					<button onclick="myFunction18()" class="pj">Periksa Jawaban</button>
 					<p id="demo18a"></p>
 				  </div>
