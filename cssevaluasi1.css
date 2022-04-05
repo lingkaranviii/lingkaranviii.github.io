@@ -397,6 +397,7 @@ a:hover {
     padding: 0;
     overflow: hidden;
     background-color: #8e6bc5;
+    height: 38px;
   }
 
   li a {

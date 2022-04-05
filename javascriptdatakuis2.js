@@ -11,6 +11,8 @@ var firebaseConfig = {
 
 let selanjutnya = document.querySelector('.lanjut');
 let datadiri = document.querySelector('.data_diri');
+let nav1 = document.querySelector('.nav');
+let thome1 = document.querySelector('.thome');
 namanya = document.getElementById('nama');
 kelasnya = document.getElementById('kelas');
 sekolah = document.getElementById('sekolah');
@@ -52,7 +54,7 @@ selanjutnya.addEventListener('click', function () {
     } else {
         sekolah.className = sekolah.className.replace('tt_salah', '');
         if (sekolah.value == "1") {
-            sekolahfix = "SMP Negeri Banjarmasin";
+            sekolahfix = "SMP Negeri 15 Banjarmasin";
         }
         cek += 1;
     }
@@ -60,13 +62,19 @@ selanjutnya.addEventListener('click', function () {
     // console.log(sekolahfix);
 
     if (cek != 3) {
-        alert("lengkapi dulu data dari anda");
+        alert("Silahkan lengkapi dulu data diri anda!");
     } else if (cek == 3) {
         // document.getElementById('dafis').className += ' hilang';
         document.getElementById('data').className += ' hilang';
         datadiri.className += ' hilang';
         document.getElementById('kiri').className = document.getElementById('kiri').className.replace('hilang', '');
         document.getElementById('kanan').className = document.getElementById('kanan').className.replace('hilang', '');
+        document.getElementById('nav').className += ' hilang';
+        nav1.className += ' hilang';
+        document.getElementById('nav').className = document.getElementById('nav').className.replace('hilang', '');
+        document.getElementById('thome').className += ' hilang';
+        thome1.className += ' hilang';
+        document.getElementById('thome').className = document.getElementById('thome').className.replace('hilang', '');
     }
 });
 
@@ -354,6 +362,12 @@ dat.onreadystatechange = function () {
                 let kananhilang = document.querySelector('.kanan');
                 kananhilang.className += ' hilang';
 
+                let navhilang = document.querySelector('.nav');
+                navhilang.className += ' hilang';
+
+                let thomehilang = document.querySelector('.thome');
+                thomehilang.className += ' hilang';
+
                 let datanya = document.querySelector('.dataaa');
                 datanya.className = datanya.className.replace('hilang', '');
 
@@ -365,7 +379,7 @@ dat.onreadystatechange = function () {
                     mtrslnjt.className = mtrslnjt.className.replace("hilang","");
                 }
             } else {
-                alert('Masih Ada Soal Yang Belum Dijawab, Periksa Kembali . . . !');
+                alert('Masih ada soal yang belum anda jawab, silahkan perika kembali!');
             }
             
         })

@@ -16,6 +16,29 @@ header{
     height: 120px;
 }
 
+footer {
+    background-color: #8e6bc5;
+    font-family: 'Bookman Old Style', serif;
+    padding: 5px;
+    margin-top: 198px;
+    height: 29px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+  }
+
+  a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 4px;
+    border-radius: 10px;
+  }
+  
+  a:hover {
+    background-color: #8bb4d0;
+    color: black;
+  }
+
 .headerhlmndaftarnilai {
     background-image: url(headerhlmndaftarnilai.gif);
     height: 120px;
@@ -48,10 +71,13 @@ h1 {
     background-color: #d9c2fa;
     border: 3px solid #8e6bc5;
     border-radius: 20px;
-    width: 90px;
+    width: fit-content;
     text-align: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.kembali:hover {
+    background-color: #8e6bc5;
 }
 
 a {
@@ -59,13 +85,15 @@ a {
     text-decoration: none;
 }
 
-.kembali:hover {
-    background-color: #8e6bc5;
-}
-
 .batsatas {
     margin-top: 30px;
     margin-bottom: 20px;
+}
+
+article {
+    width: 100%;
+    background-color: #000e2a;
+    height: 338px; 
 }
 
 hr {
@@ -181,10 +209,11 @@ label {
     border-radius: 10px;
     width: 90px;
     color: white;
+    cursor: pointer;
 }
 
 .cari:hover {
-    cursor: pointer;
+    background-color: #8e6bc5;
 }
 
 .bgnya {
