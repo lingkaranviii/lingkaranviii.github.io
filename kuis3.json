@@ -40,8 +40,8 @@
         "c": "c. \\[210\\,cm^{2}\\]",
         "d": "d. \\[200\\,cm^{2}\\]",
         "e": "e. \\[150\\,cm^{2}\\]",
-        "benar": "c",
-        "jwban": "c. \\[210\\,cm^{2}\\]"
+        "benar": "b",
+        "jwban": "b. \\[220\\,cm^{2}\\]"
     }
 }, {
     "soal4": {
@@ -68,13 +68,13 @@
 }, {
     "soal6": {
         "soal": "Panjang busur sebuah lingkaran yang besar sudut pusatnya \\[120^{\\circ}\\] adalah \\[38\\,cm\\]. Keliling lingkaran tersebut adalah . . . .",
-        "a": "a. \\[115,11\\,cm\\]",
+        "a": "a. \\[114\\,cm\\]",
         "b": "b. \\[122\\,cm\\]",
         "c": "c. \\[134,12\\,cm\\]",
         "d": "d. \\[152,13\\,cm\\]",
         "e": "e. \\[160\\,cm\\]",
-        "benar": "c",
-        "jwban": "c. \\[134,12\\,cm\\]"
+        "benar": "a",
+        "jwban": "a. \\[114\\,cm\\]"
     }
 }, {
     "soal7": {
@@ -92,11 +92,11 @@
         "soal": "Perhatikan gambar di bawah ini <br> <img src='KUIS 3 5.png' width='300' height='300'> <br>Panjang busur \\[RS = 25\\,cm\\], panjang busur \\[ST = 65\\,cm\\], dan besar sudut \\[ROS = 35^{\\circ}\\]. Berarti besar sudut \\[SOT\\] adalah . . . .",
         "a": "a. \\[122,5^{\\circ}\\]",
         "b": "b. \\[115,2^{\\circ}\\]",
-        "c": "c. \\[97^{\\circ}\\]",
+        "c": "c. \\[91^{\\circ}\\]",
         "d": "d. \\[85,8^{\\circ}\\]",
         "e": "e. \\[60^{\\circ}\\]",
-        "benar": "a",
-        "jwban": "a. \\[122,5^{\\circ}\\]"
+        "benar": "c",
+        "jwban": "c. \\[91^{\\circ}\\]"
     }
 }, {
     "soal9": {
