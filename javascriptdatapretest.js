@@ -60,7 +60,7 @@ selanjutnya.addEventListener('click', function () {
     // console.log(sekolahfix);
 
     if (cek != 3) {
-        alert("lengkapi dulu data dari anda");
+        alert("Silahkan lengkapi dulu data dari anda!");
     } else if (cek == 3) {
         // document.getElementById('dafis').className += ' hilang';
         document.getElementById('data').className += ' hilang';
@@ -283,6 +283,10 @@ dat.onreadystatechange = function () {
         //cek jawaban
         let selesai = document.querySelector(".selesai");
 
+        let pil_user = [];
+        new_jwb_urut = [];
+        new_jwb_urut_no = [];
+
         selesai.addEventListener("click", function(){
             let sarat = 0;
             
@@ -308,6 +312,7 @@ dat.onreadystatechange = function () {
                     for (let j = 0; j < namaradio.length; j++) {
                         if(namaradio[j].checked){
                             checked = true;
+                                                        pil_user.push(namaradio[j].value);
                             if(namaradio[j].value == jwbs[i]){
                                 hasilakhir = hasilakhir + 5;
                                 benarr = benarr + 1;
@@ -318,6 +323,17 @@ dat.onreadystatechange = function () {
                     }
                 }
 
+                for (let i = 0; i < cek.length; i++) {
+                    for (let j = 0; j < cek.length; j++) {
+                        if (i == cek[j]) {
+                            new_jwb_urut.push(pil_user[j]);
+                            new_jwb_urut_no.push(cek[j]);
+                        }
+                    }
+                }
+                console.log("jwb_user_urut_no :" + new_jwb_urut_no);
+                console.log("jwb_user_urut :" + new_jwb_urut);
+
                 
                 // simpan kedatabase----------
                 console.log(namanya.value);
@@ -327,7 +343,7 @@ dat.onreadystatechange = function () {
                 let waktunya = waktu();
                 let harinya = hari();
 
-                createTask(sekolahfix, namanya.value, kelasfix, hasilakhir, waktunya, harinya);
+                createTask(sekolahfix, namanya.value, kelasfix, hasilakhir, waktunya, harinya, new_jwb_urut);
 
                 let namainput = document.querySelector('.nama');
                 namainput.innerText = namanya.value;
@@ -364,13 +380,10 @@ dat.onreadystatechange = function () {
                     mtrslnjt.className = mtrslnjt.className.replace("hilang","");
                 }
             } else {
-                alert('Masih Ada Soal Yang Belum Dijawab, Periksa Kembali . . . !');
+                alert('Masih ada soal yang belum anda jawab, silahkan periksa kembali!');
             }
             
-        })
-
-
-        
+        })  
 
     }
     MathJax.typeset();
@@ -409,7 +422,7 @@ function hari() {
 }
 
 
-function createTask(sekolah, nama, kelas, nilai, waktunya, hari) {
+function createTask(sekolah, nama, kelas, nilai, waktunya, hari, jwb) {
     counter += 1;
     var task = {
         id: counter,
@@ -418,7 +431,8 @@ function createTask(sekolah, nama, kelas, nilai, waktunya, hari) {
         kelas: kelas,
         nilai: nilai,
         waktu: waktunya,
-        hari: hari
+        hari: hari,
+        jawabannya: jwb
     }
 
     let db = firebase.database().ref("pretest/" + counter);

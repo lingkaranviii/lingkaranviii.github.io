@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="icon" type="image/png" href="L.png">
+	<title>Lingkaran</title>
+	<link href="stylejawaban.css" rel="stylesheet" type="text/css" media="screen" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <header class="headerhlmndaftarnilai"></header>
+
+        <main>
+            <section>
+                <ul>
+                    &nbsp;&nbsp;&nbsp;<a href="halamanguru.html"><img src="t home.png" style=" width: 30px; height: 30px;"></a>
+                </ul>
+          <nav class="nav" id="nav">
+              <div class="button-nav">
+            <button class="dropbtn dropdown-btn" onclick="ftampil()">Daftar Nilai Siswa
+              <i class="fa fa-caret-down"></i>
+            </button>
+        
+            <div class="dropdown-content dropdown-container">
+                <a href="daftarnilaipretest.html">1. Daftar Nilai Pretest</a>
+                <a href="daftarnilai1.html">2. Daftar Nilai Kuis 1</a>
+                <a href="daftarnilai2.html">3. Daftar Nilai Kuis 2</a>
+                <a href="daftarnilai3.html">4. Daftar Nilai Kuis 3</a>
+                <a href="daftarnilai4.html">5. Daftar Nilai Kuis 4</a>
+                <a href="daftarnilaievaluasi.html">6. Daftar Nilai Evaluasi</a>
+            </div>
+        
+            <button class="dropbtn dropdown-btn active" onclick="ftampil()">Daftar Jawaban Siswa
+              <i class="fa fa-caret-down"></i>
+            </button>
+        
+            <div class="dropdown-content dropdown-containerr">
+              <a href="daftarnilaijawaban.html" class="hvr">1. Daftar Jawaban Kuis</a>
+              <a href="daftarnilaijawabane.html">2. Daftar Jawaban Evaluasi</a>
+            </div>
+            </div>
+            </nav>
+                <div class="konten batsatas">
+                    <div class="isinya">
+                        <h4>Silahkan pilih kuis: <select id="kuis" name="kuis" class="mundur">
+                                <option value="kuis1/" selected="selected">KUIS_1</option>
+                                <option value="kuis2/" >KUIS_2</option>
+                                <option value="kuis3/" >KUIS_3</option>
+                                <option value="kuis4/" >KUIS_4</option>
+                            </select></h4>
+                        <hr>
+                        <div class="bgnya">
+        
+                            <label for="nama"> Sekolah :
+                                <select id="sekolah" name="sekolah" class="mundur" aria-placeholder="-PILIH SEKOLAH-">
+                                    <option value="0" selected="selected">-- PILIH SEKOLAH --</option>
+                                    <option value="1">SMP Negeri 15 Banjarmasin</option>
+                                </select>
+                            </label>
+                            <label for="nama"> Kelas :
+                                <select id="kelas" name="kelas" class="mundur" aria-placeholder="-PILIH SEKOLAH-">
+                                    <option value="0" selected="selected">-- PILIH KELAS --</option>
+                                    <option value="1">8A</option>
+                                    <option value="2">8B</option>
+                                    <option value="3">8C</option>
+                                </select>
+                            </label>
+                            <div class="cari" onclick="readlah()">Cari</div>
+                        </div>
+                        <br><br>
+        
+                        <div>
+                            <table id='table_wrapper'>
+                                <thead class="jrkbawah">
+                                    <tr>
+                                        <td class="ukr1" colspan="" rowspan="2">Nama</td>
+                                        <td class="ukr3" colspan="" rowspan="2">Skor</td>
+                                        <td class="ukr0" colspan="10">Jawaban</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="wdj">1</td>
+                                        <td class="wdj">2</td>
+                                        <td class="wdj">3</td>
+                                        <td class="wdj">4</td>
+                                        <td class="wdj">5</td>
+                                        <td class="wdj">6</td>
+                                        <td class="wdj">7</td>
+                                        <td class="wdj">8</td>
+                                        <td class="wdj">9</td>
+                                        <td class="wdj">10</td>
+                                    </tr>
+                                </thead>
+                                <tbody class="disini"></tbody>
+                            </table>
+                            <center class="ha">
+                            </center>
+                            <br>
+                            <div class="cari download">Unduh Daftar Jawaban</div>
+                            <br>
+                            <p style="text-align: left;">Keterangan:<br>
+                                <i style="background-color: #64d524; padding: 3px;">Hijau</i> = Jawaban Siswa Benar<br>
+                                <i style="background-color: #f11908; padding: 3px;">Merah</i> = Jawaban Siswa Salah
+                            </p>
+    
+                        </div>
+        
+        
+        
+                        <div class=" clear"></div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+
+    <script src="javascriptdaftarjawaban.js"></script>
+
+</body>
+
+</html>

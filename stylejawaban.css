@@ -231,7 +231,6 @@ nav {
   li a:hover {
     background-color: #000e2a;
   }
-    
 
 article {
     width: 100%;
@@ -243,10 +242,6 @@ hr {
     background-color: #8e6bc5;
     height: 3px;
     margin-bottom: 20px;
-}
-
-.unduh {
-    margin-left: 54%;
 }
 
 /* toggle --------------------------------------------------------------------------------------------------*/
@@ -373,6 +368,15 @@ table,
 td {
     border-collapse: collapse;
     text-align: center;
+    border: 1px solid #4B3869;
+}
+
+.wdj {
+    width: 100px;
+}
+
+.wdj1 {
+    width: 50px;
 }
 
 .table1 {
@@ -493,6 +497,15 @@ td {
         margin-top: 5px;
         margin-bottom: 25px;
     }
+
+    .benar {
+    background-color: #64d524;
+
+}
+
+    .salah {
+    background-color: #f11908;
+}
 
     /* toggle --------------------------------------------------------------------------------------------------*/
     .switch {

@@ -7,11 +7,10 @@ var firebaseConfig = {
     messagingSenderId: "601366976968",
     appId: "1:601366976968:web:3be0ad083c3007d5bcc8fd"
   };
-
+  // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
-
-
-window.onload = function () {
+  
+window.load = function () {
 }
 
 function ftampil(){
@@ -33,15 +32,30 @@ function ftampil(){
     }
   }
 
-function readlah() {
-    var task = firebase.database().ref("kuis3/");
-    let tmp = document.querySelector('.disini');
-    tmp.innerHTML = "";
-    kelasnya = document.getElementById('kelas');
-    sekolah = document.getElementById('sekolah');
-    let kelasfix = '';
-    let sekolahfix = '';
+let kmplanId = [];
 
+
+let kuisnya = document.getElementById('kuis');
+
+
+let tmp = document.querySelector('.disini');
+tmp.innerHTML = "";
+namanya = document.getElementById('nama');
+kelasnya = document.getElementById('kelas');
+sekolah = document.getElementById('sekolah');
+let kelasfix = '';
+let sekolahfix = '';
+
+let cek11 = 0;
+kuisfix = kuisnya.value;
+
+
+function readlah() {
+    kuisfix = kuisnya.value;
+    console.log(kuisfix);
+    var task = firebase.database().ref(kuisfix);
+
+    tmp.innerHTML = "";
     if (kelasnya.value == "1") {
         kelasfix = "8A";
     } else if (kelasnya.value == "2") {
@@ -52,43 +66,63 @@ function readlah() {
 
     if (sekolah.value == "1") {
         sekolahfix = "SMP Negeri 15 Banjarmasin";
+    } 
+
+
+    let jwbfixx = [];
+
+    let jwb1 = ["b", "b", "a", "c", "e", "a", "d", "c", "c", "c", "b", "e", "d", "b", "a", "b", "e", "a", "a", "d"];
+    if (kuisfix == "pretest/") {
+        let hhh = `<tr><td class="nah" colspan="2">Kunci Jawaban </td>`;
+        for (let i = 0; i < jwb1.length; i++) {
+            hhh += `<td class = "nah"> ${jwb1[i]}</td>`;
+        }
+        hhh += `</tr>`;
+        tmp.innerHTML += hhh;
+        jwbfixx = jwb1;
+    }
+
+    let jwb2 = ["b", "b", "a", "c", "e", "a", "d", "c", "c", "c", "b", "e", "d", "b", "a", "b", "e", "a", "a", "d"];
+    if (kuisfix == "evaluasi1/") {
+        let hhh = `<tr><td class="nah" colspan="2">Kunci Jawaban </td>`;
+        for (let i = 0; i < jwb2.length; i++) {
+            hhh += `<td class = "nah"> ${jwb2[i]}</td>`;
+        }
+        hhh += `</tr>`;
+        tmp.innerHTML += hhh;
+        jwbfixx = jwb2;
     }
 
     if ((sekolahfix != '') && (kelasfix != '')) {
-       task.orderByChild("hari").on("child_added", function(data){
-        //task.on("child_added", function (data) {
+        task.orderByChild("nama").on("child_added", function (data) {
+            // task.on("child_added", function (data) {
             var taskvalue = data.val();
+
+
 
 
             if ((sekolahfix == taskvalue.sekolah) && (kelasfix == taskvalue.kelas)) {
-                tmp.innerHTML += `<tr>
-                            <td class="ukr1 table1">${taskvalue.sekolah}</td>
-                            <td class="ukr3 table1">${taskvalue.kelas}</td>
-                            <td class="ukr1 table1">${taskvalue.nama}</td>
-                            <td class="ukr3 table1">${taskvalue.nilai}</td>
-                            <td class="ukr2 table1">${taskvalue.hari}</td>
-                            <td class="ukr2 table1">${taskvalue.waktu}</td>
-                        </tr>`;
+                let mm = '';
+                mm = `<tr><td >${taskvalue.nama}</td><td >${taskvalue.nilai}</td>`;
+                // console.log(taskvalue.jawabannya[0]);
+
+
+                for (let i = 0; i < jwbfixx.length; i++) {
+                    if (taskvalue.jawabannya[i] == jwbfixx[i]) {
+                        mm += `<td class="benar">${taskvalue.jawabannya[i]}</td>`;
+                    } else {
+                        mm += `<td class="salah">${taskvalue.jawabannya[i]}</td>`;
+                    }
+                }
+                mm += `</tr>`;
+                tmp.innerHTML += mm;
             }
+
         });
 
-    } else if (sekolahfix != '') {
-        task.orderByChild("hari").on("child_added", function(data){
-        //task.on("child_added", function (data) {
-            var taskvalue = data.val();
 
 
-            if ((sekolahfix == taskvalue.sekolah)) {
-                tmp.innerHTML += `<tr>
-                            <td class="ukr1">${taskvalue.sekolah}</td>
-                            <td class="ukr3">${taskvalue.kelas}</td>
-                            <td class="ukr1">${taskvalue.nama}</td>
-                            <td class="ukr3">${taskvalue.nilai}</td>
-                            <td class="ukr2">${taskvalue.hari}</td>
-                            <td class="ukr2">${taskvalue.waktu}</td>
-                        </tr>`;
-            }
-        });
+
 
     } else {
         alert('Tentukan filter pencarian');
@@ -101,9 +135,12 @@ function readlah() {
 window.onload = function () {
     kelasnya = document.getElementById('kelas');
     sekolah = document.getElementById('sekolah');
+    kuis = document.getElementById('kuis');
     kelasnya.value = value = "0";
     sekolah.value = value = "0";
+    kuis.value = value = "pretest/";
 }
+
 
 
 

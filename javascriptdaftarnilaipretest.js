@@ -34,7 +34,7 @@ function ftampil(){
   }
 
 function readlah() {
-    var task = firebase.database().ref("kuis3/");
+    var task = firebase.database().ref("pretest/");
     let tmp = document.querySelector('.disini');
     tmp.innerHTML = "";
     kelasnya = document.getElementById('kelas');

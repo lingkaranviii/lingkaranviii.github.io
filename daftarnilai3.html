@@ -1,20 +1,47 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<link rel="icon" type="image/png" href="L.png">
 	<title>Lingkaran</title>
-	<link href="daftarnilai.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="daftarnilai.css" rel="stylesheet" type="text/css" media="screen" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-
-<header class="headerhlmndaftarnilai"></header>
-
 <body>
-        <div class="konten batsatas">
-            <div class="isinya">
-                <h1>KUIS 3</h1>
+  <header class="headerhlmndaftarnilai"></header>
+
+<main class="main" id="main">
+    <section>
+        <ul>
+            &nbsp;&nbsp;&nbsp;<a href="halamanguru.html"><img src="t home.png" style=" width: 30px; height: 30px;"></a>
+        </ul>
+  <nav class="nav" id="nav">
+      <div class="button-nav">
+    <button class="dropbtn dropdown-btn active" onclick="ftampil()">Daftar Nilai Siswa
+      <i class="fa fa-caret-down"></i>
+    </button>
+
+    <div class="dropdown-content dropdown-containerr">
+      <a href="daftarnilaipretest.html">1. Daftar Nilai Pretest</a>
+      <a href="daftarnilai1.html">2. Daftar Nilai Kuis 1</a>
+      <a href="daftarnilai2.html">3. Daftar Nilai Kuis 2</a>
+      <a href="daftarnilai3.html" class="hvr">4. Daftar Nilai Kuis 3</a>
+      <a href="daftarnilai4.html">5. Daftar Nilai Kuis 4</a>
+      <a href="daftarnilaievaluasi.html">6. Daftar Nilai Evaluasi</a>
+    </div>
+
+    <button class="dropbtn dropdown-btn" onclick="ftampil()">Daftar Jawaban Siswa
+      <i class="fa fa-caret-down"></i>
+    </button>
+
+    <div class="dropdown-content dropdown-container">
+      <a href="daftarnilaijawaban.html">1. Daftar Jawaban Kuis</a>
+      <a href="daftarnilaijawabane.html">2. Daftar Jawaban Evaluasi</a>
+    </div>
+    </div>
+    </nav>
+    <div class="konten batsatas">
+        <div class="isinya">
+        <h1>KUIS 3</h1>
                 <hr>
                 <div class="bgnya">
 
@@ -35,17 +62,18 @@
                     <div class="cari" onclick="readlah()">Cari</div>
 
                 </div>
-                <br><br>
-
+                <br>
                 <div>
                     <table class="jrkbawah">
                         <tr>
+                            <center>
                             <td class="ukr1">Sekolah</td>
                             <td class="ukr3">Kelas</td>
                             <td class="ukr1">Nama</td>
                             <td class="ukr3">Skor</td>
                             <td class="ukr2">Hari</td>
                             <td class="ukr2">Waktu</td>
+                            </center>
                         </tr>
                     </table>
                     <table class="disini" id='table_wrapper'></table>
@@ -53,23 +81,15 @@
                 <div class=" clear"></div>
             </div>
         </div>
+        <div class="unduh">
+                <div class="download kembali" id="btnExport">Unduh Daftar Nilai</div>
+        </div>
+</section>
+</main>
 
-        <center>
-            <a href="halamannilai.html" class="kembali">Kembali</a>
-            <div class="download kembali" id="btnExport">Unduh Daftar Nilai</div>
-        </center>
-
-        <footer>
-            <div id="footer">
-              <a href="halamannilai.html"><img src="sebelumnya.png" width="100px" height="25px"></a>
-            </div>
-          </footer>
-
-        <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
-        <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
-        <script src="javascriptdaftarnilai3.js"></script>
-
-
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+<script src="javascriptdaftarnilai3.js"></script>
 
 </body>
 </html>
