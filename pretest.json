@@ -33,28 +33,6 @@
     }
 }, {
     "soal3": {
-        "soal": "Terdapat sebuah cermin yang berbentuk lingkaran, cermin tersebut memiliki panjang jari-jari \\[21\\,cm\\], maka keliling dari cermin tersebut adalah . . . .",
-        "a": "a. \\[173\\,cm\\]",
-        "b": "b. \\[151\\,cm\\]",
-        "c": "c. \\[132\\,cm\\]",
-        "d": "d. \\[119\\,cm\\]",
-        "e": "e. \\[98\\,cm\\]",
-        "benar": "c",
-        "jwban": "c. \\[132\\,cm\\]"
-    }
-}, {
-    "soal4": {
-        "soal": "Sebuah lingkaran dengan diameter \\[26\\,cm\\] memiliki luas . . . .",
-        "a": "a. \\[256\\,cm^{2}\\]",
-        "b": "b. \\[321,43\\,cm^{2}\\]",
-        "c": "c. \\[415\\,cm^{2}\\]",
-        "d": "d. \\[480,13\\,cm^{2}\\]",
-        "e": "e. \\[530,66\\,cm^{2}\\]",
-        "benar": "e",
-        "jwban": "e. \\[530,66\\,cm^{2}\\]"
-    }
-}, {
-    "soal5": {
         "soal": "Perhatikan gambar di bawah ini <br> <img src='EVALUASI 6.png' width='300' height='300'> <br>Diketahui sebuah lingkaran \\[O\\] terdapat sudut keliling \\[NMP\\] dan sudut pusat \\[NOP\\], besar sudut keliling \\[NMP = 35^{\\circ}\\], maka besar sudut pusat \\[NOP\\] adalah . . . .",
         "a": "a. \\[70^{\\circ}\\]",
         "b": "b. \\[71^{\\circ}\\]",
@@ -65,7 +43,7 @@
         "jwban": "a. \\[70^{\\circ}\\]"
     }
 }, {
-    "soal6": {
+    "soal4": {
         "soal": "Berdasarkan gambar di bawah, <br> <img src='EVALUASI 7.png' width='300' height='300'> <br>Besar sudut pusat \\[QOT\\] adalah . . . .",
         "a": "a. \\[90^{\\circ}\\]",
         "b": "b. \\[110^{\\circ}\\]",
@@ -76,7 +54,7 @@
         "jwban": "d. \\[150^{\\circ}\\]"
     }
 }, {
-    "soal7": {
+    "soal5": {
         "soal": "Perhatikan gambar di bawah ini <br> <img src='EVALUASI 8.png' width='300' height='300'> <br>Suatu lingkaran dibagi menjadi empat sudut \\[A,B,C,\\] dan \\[D\\] dengan perbandingan \\[3:7:8:12\\], ukuran sudut \\[A\\] dan \\[C\\] adalah . . . .",
         "a": "a. \\[21^{\\circ}\\] dan \\[75^{\\circ}\\]",
         "b": "b. \\[32^{\\circ}\\] dan \\[82^{\\circ}\\]",
@@ -87,7 +65,7 @@
         "jwban": "c. \\[36^{\\circ}\\] dan \\[96^{\\circ}\\]"
     }
 }, {
-    "soal8": {
+    "soal6": {
         "soal": "Perhatikan gambar di bawah ini <br> <img src='EVALUASI 9.png' width='300' height='300'> <br>Jika besar sudut \\[VWX = 113^{\\circ}\\] maka besar sudut \\[VYX\\] adalah . . . .",
         "a": "a. \\[30^{\\circ}\\]",
         "b": "b. \\[45^{\\circ}\\]",
@@ -98,7 +76,7 @@
         "jwban": "c. \\[67^{\\circ}\\]"
     }
 }, {
-    "soal9": {
+    "soal7": {
         "soal": "Perhatikan gambar di bawah ini <br> <img src='EVALUASI 10.png' width='300' height='300'> <br>1) \\[\\angle EOB\\]  <br>2) \\[\\angle EDB\\] <br>3) \\[\\angle ECB\\] <br>4) \\[\\angle EAB\\] <br>Dari yang disebutkan di atas, yang tidak termasuk sudut keliling adalah . . . .",
         "a": "a. \\[\\angle DEB\\]",
         "b": "b. \\[\\angle EAB\\]",
@@ -109,7 +87,7 @@
         "jwban": "c. \\[\\angle EOB\\]"
     }
 },  {
-    "soal10": {
+    "soal8": {
         "soal": "Sebuah lingkaran yang memiliki sudut pusat sebesar \\[80^{\\circ}\\] dan jari-jarinya adalah \\[28\\,cm\\], maka panjang busur pada sudut pusat lingkaran tersebut adalah . . . .",
         "a": "a. \\[27\\,cm\\]",
         "b": "b. \\[39,1\\,cm\\]",
@@ -120,18 +98,7 @@
         "jwban": "b. \\[39,1\\,cm\\]"
     }
 }, {
-    "soal11": {
-        "soal": "Sudut pusat suatu lingkaran adalah \\[120^{\\circ}\\] dan jari-jarinya \\[6\\,cm\\], maka luas juring lingkaran tersebut adalah . . . ",
-        "a": "a. \\[10,53\\,cm\\]",
-        "b": "b. \\[11,21\\,cm\\]",
-        "c": "c. \\[26,9\\,cm\\]",
-        "d": "d. \\[32,45\\,cm\\]",
-        "e": "e. \\[37,68\\,cm\\]",
-        "benar": "e",
-        "jwban": "e. \\[37,68\\,cm\\]"
-    }
-}, {
-    "soal12": {
+    "soal9": {
         "soal": "Berdasarkan gambar di bawah, <br> <img src='EVALUASI 13.png' width='300' height='300'> <br>Keliling lingkaran tersebut adalah . . . .",
         "a": "a. \\[225\\,cm\\]",
         "b": "b. \\[169\\,cm\\]",
@@ -142,7 +109,7 @@
         "jwban": "d. \\[126\\,cm\\]"
     }
 }, {
-    "soal13": {
+    "soal10": {
         "soal": "Perhatikan gambar di bawah ini <br> <img src='EVALUASI 14.png' width='300' height='300'> <br>Panjang busur \\[FG = 50\\,cm\\], panjang busur \\[HI\\] adalah . . . .",
         "a": "a. \\[98\\,cm\\]",
         "b": "b. \\[100\\,cm\\]",
@@ -153,7 +120,7 @@
         "jwban": "b. \\[100\\,cm\\]"
     }
 }, {
-    "soal14": {
+    "soal11": {
         "soal": "Sebuah juring yang mempunyai luas \\[61,6\\,cm^{2}\\] dengan besar sudut pusat \\[144^{\\circ}\\], maka panjang jari-jari lingkaran tersebut adalah . . . .",
         "a": "a. \\[7\\,cm\\]",
         "b": "b. \\[14\\,cm\\]",
@@ -164,7 +131,7 @@
         "jwban": "a. \\[7\\,cm\\]"
     } 
 }, {
-    "soal15": {
+    "soal12": {
         "soal": "Terdapat dua buah lingkaran yang saling bersinggungan, yaitu lingkaran \\[J\\] dan \\[K\\] dengan jari-jari berturut-turut \\[17\\,cm\\] dan \\[10\\,cm\\], jarak pusat antara lingkaran \\[J\\] dan \\[K\\] adalah \\[30\\,cm\\], maka garis singgung persekutuan luar kedua lingkaran tersebut adalah . . . .",
         "a": "a. \\[\\sqrt{632\\,cm^{2}}\\]",
         "b": "b. \\[\\sqrt{851\\,cm^{2}}\\]",
@@ -175,7 +142,7 @@
         "jwban": "b. \\[\\sqrt{851\\,cm^{2}}\\]"
     } 
 }, {
-    "soal16": {
+    "soal13": {
         "soal": "Berdasarkan gambar di bawah, <br> <img src='EVALUASI 17.png' width='400' height='200'> <br>Jika jarak kedua lingkaran \\[1\\,cm\\] maka garis singgung persekutuan dalam kedua lingkaran tersebut adalah . . . .",
         "a": "a. \\[14\\,cm\\]",
         "b": "b. \\[11\\,cm\\]",
@@ -186,7 +153,7 @@
         "jwban": "e. \\[3\\,cm\\]"
     } 
 }, {
-    "soal17": {
+    "soal14": {
         "soal": "Panjang jari-jari lingkaran \\[P\\] dan \\[Q\\]  berturut-turut \\[5\\,cm\\] dan \\[3\\,cm\\] dengan jarak pusat kedua lingkaran tersebut adalah \\[10\\,cm\\]. Jarak lingkaran \\[P\\] dan \\[Q\\] adalah . . . .",
         "a": "a. \\[2\\,cm\\]",
         "b": "b. \\[3\\,cm\\]",
@@ -197,7 +164,7 @@
         "jwban": "a. \\[2\\,cm\\]"
     } 
 },{
-    "soal18": {
+    "soal15": {
         "soal": "Pada lingkaran \\[R\\] dan \\[S\\] yang memiliki panjang jari-jari berturut-turut \\[6\\,cm\\] dan \\[3\\,cm\\] dengan garis singgung persekutuan dalamnya diketahui \\[12\\,cm\\] maka jarak pusat lingkaran \\[R\\] dan \\[S\\] tersebut adalah . . . .",
         "a": "a. \\[15\\,cm\\]",
         "b": "b. \\[17\\,cm\\]",
@@ -208,7 +175,7 @@
         "jwban": "a. \\[15\\,cm\\]"
     } 
 }, {
-    "soal19": {
+    "soal16": {
         "soal": "Perhatikan gambar di bawah ini <br> <img src='EVALUASI 20.png' width='200' height='400'> <br>Panjang jari-jari lingkaran kedua atau \\[UW\\] adalah . . . .",
         "a": "a. \\[25\\,cm\\]",
         "b": "b. \\[18\\,cm\\]",
@@ -217,5 +184,38 @@
         "e": "e. \\[9\\,cm\\]",
         "benar": "d",
         "jwban": "d. \\[13\\,cm\\]"
+    } 
+}, {
+    "soal17": {
+        "soal": "Masjid Raya Sabilal Muhtadin adalah sebuah masjid besar yang berada di Kota Banjarmasin, Kalimantan Selatan. Rencananya akan dilakukan sedikit renovasi pada lantai masjid. Lantai di tengah masjid akan dipasang mozaik baru berbentuk lingkaran yang disusun dari kepingan-kepingan keramik. Desain mozaiknya adalah sebagai berikut, <br> <img src='kontekstual1.png' width='200' height='400'> &nbsp;&nbsp; <img src='kontekstual1 1.png' width='200' height='400'> <br>Daerah berwarna kuning dan putih akan dipasang dengan tipe keramik yang berbeda. Pada daerah yang berwarna kuning akan dipasang keramik tipe \\[A\\] yang memiliki ukuran \\[56\\,cm^{2}\\]/keping. Sedangkan, daerah yang berbentuk \\[2\\] segitiga dengan ukuran sama berwarna putih akan dipasang keramik tipe \\[B\\]. Diketahui luas salah satu segitiga putih adalah \\[61.250\\,cm^{2}\\]. Banyak keping minimal keramik tipe \\[A\\] yang diperlukan agar dapat membentuk desain mozaik baru yang diinginkan jika panjang sisi persegi di luar lingkaran mozaik \\[7\\,m\\] adalah . . . .",
+        "a": "a. \\[105\\] keping",
+        "b": "b. \\[107\\] keping",
+        "c": "c. \\[111\\] keping",
+        "d": "d. \\[114\\] keping",
+        "e": "e. \\[123\\] keping",
+        "benar": "a",
+        "jwban": "a. \\[105\\] keping"
+    } 
+}, {
+    "soal18": {
+        "soal": "Bundaran pada tugu selamat datang di kota Banjarbaru terbagi menjadi \\[4\\] bagian taman yang memiliki luas sama. Rencananya keempat bagian tersebut akan ditanami jenis bunga yang berbeda. Keliling satu bagian taman tersebut jika panjang jari-jari lingkaran tugu \\[3,5\\,m\\] dan panjang jari-jari bundaran seluruhnya \\[7\\,m\\] adalah . . . .<br> <img src='kontekstual2.jpg' width='200' height='400'> &nbsp;&nbsp; <img src='kontekstual2 1.png' width='200' height='400'>",
+        "a": "a. \\[11\\,m\\]",
+        "b": "b. \\[16,9\\,m\\]",
+        "c": "c. \\[20,3\\,m\\]",
+        "d": "d. \\[23,5\\,m\\]",
+        "e": "e. \\[25\\,m\\]",
+        "benar": "d",
+        "jwban": "d. \\[23,5\\,m\\]"
+    } 
+}, {
+    "soal19": {
+        "soal": "Dibangun sebuah jembatan di kelurahan Kuin Utara, Kecamatan Banjarmasin Utara, Kalimantan selatan. Jembatan itu terbuat dari beton dan di atasnya akan dilapisi dengan aspal. Seorang pekerja akan mengikat 6 buah drum yang dipakai sebagai wadah aspal. Jari-jari drum adalah 28 cm. Panjang tali minimal yang diperlukan untuk mengikat 6 buah drum itu jika pekerja tersebut mengikat drum dengan sususan seperti berikut, adalah . . . .<br> <img src='kontekstual3.png' width='200' height='400'> &nbsp;&nbsp; <img src='kontekstual3 1.png' width='200' height='400'> . . . .",
+        "a": "a. \\[664\\,cm\\]",
+        "b": "b. \\[605\\,cm\\]",
+        "c": "c. \\[512\\,cm\\]",
+        "d": "d. \\[507\\,cm\\]",
+        "e": "e. \\[456\\,cm\\]",
+        "benar": "c",
+        "jwban": "c. \\[512\\,cm\\]"
     } 
 }]
