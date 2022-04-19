@@ -59,8 +59,6 @@ function readlah() {
         kelasfix = "8A";
     } else if (kelasnya.value == "2") {
         kelasfix = "8B";
-    } else if (kelasnya.value == "3") {
-        kelasfix = "8C";
     } 
 
     if (sekolah.value == "1") {
