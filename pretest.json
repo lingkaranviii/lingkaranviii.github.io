@@ -184,38 +184,38 @@
         "e": "e. \\[9\\,cm\\]",
         "benar": "d",
         "jwban": "d. \\[13\\,cm\\]"
-    } 
+    }
 }, {
     "soal17": {
-        "soal": "Masjid Raya Sabilal Muhtadin adalah sebuah masjid besar yang berada di Kota Banjarmasin, Kalimantan Selatan. Rencananya akan dilakukan sedikit renovasi pada lantai masjid. Lantai di tengah masjid akan dipasang mozaik baru berbentuk lingkaran yang disusun dari kepingan-kepingan keramik. Desain mozaiknya adalah sebagai berikut, <br> <center><img src='kontekstual1.png' width='300' height='200'> &nbsp;&nbsp; <img src='kontekstual1 1.png' width='220' height='250'></center> <br>Daerah berwarna kuning dan putih akan dipasang dengan tipe keramik yang berbeda. Pada daerah yang berwarna kuning akan dipasang keramik tipe \\[A\\] yang memiliki ukuran \\[56\\,cm^{2}\\]/keping. Sedangkan, daerah yang berbentuk \\[2\\] segitiga dengan ukuran sama berwarna putih akan dipasang keramik tipe \\[B\\]. Diketahui luas salah satu segitiga putih adalah \\[61.250\\,cm^{2}\\]. Banyak keping minimal keramik tipe \\[A\\] yang diperlukan agar dapat membentuk desain mozaik baru yang diinginkan jika panjang sisi persegi di luar lingkaran mozaik \\[7\\,m\\] adalah . . . .",
-        "a": "a. \\[105\\] keping",
-        "b": "b. \\[107\\] keping",
-        "c": "c. \\[111\\] keping",
-        "d": "d. \\[114\\] keping",
-        "e": "e. \\[123\\] keping",
-        "benar": "a",
-        "jwban": "a. \\[105\\] keping"
+        "soal": "Masjid Raya Sabilal Muhtadin adalah sebuah masjid besar yang berada di Kota Banjarmasin, Kalimantan Selatan. Rencananya akan dilakukan sedikit renovasi pada lantai masjid. Lantai di tengah masjid akan dipasang mozaik baru berbentuk lingkaran yang disusun dari kepingan-kepingan keramik. Desain mozaiknya adalah sebagai berikut, <br> <center><img src='kontekstual1.png' width='400' height='250'> &nbsp;&nbsp; <img src='kontekstual1 1.png' width='220' height='250'></center> <br>Daerah berwarna kuning dan putih akan dipasang dengan tipe keramik yang berbeda. Pada daerah yang berwarna kuning akan dipasang keramik tipe \\[A\\]. Sedangkan, daerah yang berbentuk \\[2\\] segitiga dengan ukuran sama berwarna putih akan dipasang keramik tipe \\[B\\]. Diketahui luas salah satu segitiga putih adalah \\[61.250\\,cm^{2}\\]. Luas daerah berwarna kuning yang akan dipasangi keramik tipe \\[A\\] jika panjang jari-jari lingkaran mozaik \\[3,5\\,m\\] adalah . . . .",
+        "a": "a. \\[131.250\\,cm^{2}\\]",
+        "b": "b. \\[166.250\\,cm^{2}\\]",
+        "c": "c. \\[227.500\\,cm^{2}\\]",
+        "d": "d. \\[262.500\\,cm^{2}\\]",
+        "e": "e. \\[315.500\\,cm^{2}\\]",
+        "benar": "d",
+        "jwban": "d. \\[262.500\\,cm^{2}\\]"
     } 
 }, {
     "soal18": {
-        "soal": "Perhatikan gambar di bawah ini!<br><center><img src='kontekstual2.jpg' width='250' height='250'> &nbsp;&nbsp; <img src='kontekstual2 1.png' width='250' height='250'></center><br>Bundaran pada tugu selamat datang di kota Banjarbaru terbagi menjadi \\[4\\] bagian taman yang memiliki luas sama. Rencananya keempat bagian tersebut akan ditanami jenis bunga yang berbeda. Keliling satu bagian taman tersebut jika panjang jari-jari lingkaran tugu \\[3,5\\,m\\] dan panjang jari-jari bundaran seluruhnya \\[7\\,m\\] adalah . . . .",
-        "a": "a. \\[11\\,m\\]",
-        "b": "b. \\[16,9\\,m\\]",
-        "c": "c. \\[20,3\\,m\\]",
-        "d": "d. \\[23,5\\,m\\]",
-        "e": "e. \\[25\\,m\\]",
-        "benar": "d",
-        "jwban": "d. \\[23,5\\,m\\]"
+        "soal": "Perhatikan gambar di bawah ini!<br><center><img src='kontekstual2.jpg' width='400' height='250'> &nbsp;&nbsp; <img src='kontekstual2 1.png' width='200' height='200'></center><br>Bundaran pada tugu selamat datang di kota Banjarbaru terbagi menjadi \\[4\\] bagian taman yang memiliki luas sama. Rencananya keempat bagian tersebut akan ditanami jenis bunga yang berbeda. Keliling satu bagian taman tersebut jika panjang jari-jari lingkaran tugu \\[3,5\\,meter\\] dan panjang jari-jari bundaran seluruhnya \\[7\\,meter\\] adalah . . . .",
+        "a": "a. \\[16,5\\,meter\\]",
+        "b": "b. \\[20\\,meter\\]",
+        "c": "c. \\[23,5\\,meter\\]",
+        "d": "d. \\[25\\,meter\\]",
+        "e": "e. \\[29,3\\,meter\\]",
+        "benar": "c",
+        "jwban": "c. \\[23,5\\,meter\\]"
     } 
 }, {
     "soal19": {
-        "soal": "Perhatikan gambar di bawah ini!<br><center><img src='kontekstual3.png' width='250' height='250'> &nbsp;&nbsp; <img src='kontekstual3 1.png' width='250' height='250'></center><br>Dibangun sebuah jembatan di kelurahan Kuin Utara, Kecamatan Banjarmasin Utara, Kalimantan selatan. Jembatan itu terbuat dari beton dan di atasnya akan dilapisi dengan aspal. Seorang pekerja akan mengikat 6 buah drum yang dipakai sebagai wadah aspal. Jari-jari drum adalah 28 cm. Panjang tali minimal yang diperlukan untuk mengikat 6 buah drum itu jika pekerja tersebut mengikat drum dengan sususan seperti berikut, adalah . . . .",
-        "a": "a. \\[664\\,cm\\]",
-        "b": "b. \\[605\\,cm\\]",
-        "c": "c. \\[512\\,cm\\]",
-        "d": "d. \\[507\\,cm\\]",
-        "e": "e. \\[456\\,cm\\]",
-        "benar": "c",
-        "jwban": "c. \\[512\\,cm\\]"
+        "soal": "Perhatikan gambar di bawah ini!<br><center><img src='kontekstual3.png' width='250' height='250'> &nbsp;&nbsp; <img src='kontekstual3 1.png' width='250' height='250'></center><br>Dibangun sebuah jembatan di kelurahan Kuin Utara, Kecamatan Banjarmasin Utara, Kalimantan Selatan. Jembatan itu terbuat dari beton dan di atasnya akan dilapisi dengan aspal. Seorang pekerja akan mengikat 6 buah drum yang dipakai sebagai wadah aspal. Jari-jari drum adalah 28 cm. Panjang tali minimal yang diperlukan untuk mengikat 6 buah drum itu jika pekerja tersebut mengikat drum dengan susunan seperti pada gambar di atas, adalah . . . .",
+        "a": "a. \\[512\\,cm\\]",
+        "b": "b. \\[524\\,cm\\]",
+        "c": "c. \\[636\\,cm\\]",
+        "d": "d. \\[648\\,cm\\]",
+        "e": "e. \\[724\\,cm\\]",
+        "benar": "a",
+        "jwban": "a. \\[512\\,cm\\]"
     } 
 }]

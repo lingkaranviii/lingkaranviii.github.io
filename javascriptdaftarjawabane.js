@@ -69,7 +69,7 @@ function readlah() {
 
     let jwbfixx = [];
 
-    let jwb1 = ["b", "b", "a", "c", "e", "a", "d", "c", "c", "c", "b", "e", "d", "b", "a", "b", "e", "a", "a", "d"];
+    let jwb1 = ["b", "b", "a", "c", "e", "a", "d", "c", "c", "c", "b", "e", "d", "b", "a", "b", "e", "d", "c", "a"];
     if (kuisfix == "pretest/") {
         let hhh = `<tr><td class="nah" colspan="2">Kunci Jawaban </td>`;
         for (let i = 0; i < jwb1.length; i++) {
@@ -80,7 +80,7 @@ function readlah() {
         jwbfixx = jwb1;
     }
 
-    let jwb2 = ["b", "b", "a", "c", "e", "a", "d", "c", "c", "c", "b", "e", "d", "b", "a", "b", "e", "a", "a", "d"];
+    let jwb2 = ["b", "b", "a", "c", "e", "a", "d", "c", "c", "c", "b", "e", "d", "b", "a", "b", "e", "d", "c", "a"];
     if (kuisfix == "evaluasi1/") {
         let hhh = `<tr><td class="nah" colspan="2">Kunci Jawaban </td>`;
         for (let i = 0; i < jwb2.length; i++) {
