@@ -33,7 +33,7 @@ xx1.addEventListener("click",function(){
     if (dafis.className.indexOf("dafis-hilang") == -1){
       dafis.className += "dafis-hilang";
       main.className = main.className.replace("main","main-sempit");
-    } else{
+    } else {
       dafis.className = dafis.className.replace("dafis-hilang","");
       main.className = main.className.replace("main-sempit","main");
     }

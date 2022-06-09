@@ -392,7 +392,8 @@ dat.onreadystatechange = function () {
                     mtrslnjt.className = mtrslnjt.className.replace("hilang","");
                 }
             } else {
-                alert('Masih ada soal yang belum anda jawab, silahkan periksa kembali!');
+                // alert('Masih ada soal yang belum anda jawab, silahkan periksa kembali!');
+                document.getElementById('popup').classList.toggle('hilang');
             }
             
         })  
@@ -402,6 +403,12 @@ dat.onreadystatechange = function () {
 }
 dat.open('GET', 'evaluasi1.json', true);
 dat.send();
+
+let cancel = document.getElementById('cancel');
+cancel.addEventListener('click',function(){
+    event.preventDefault();
+    document.getElementById('popup').classList.toggle('hilang');
+})
 
 //FUNGSI WAKTU DAN HARI
 var d = new Date();

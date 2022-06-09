@@ -92,8 +92,6 @@ function readlah() {
         alert('Tentukan filter pencarian');
     }
 
-
-
 }
 
 window.onload = function () {
@@ -102,8 +100,6 @@ window.onload = function () {
     kelasnya.value = value = "0";
     sekolah.value = value = "0";
 }
-
-
 
 // download data
 

@@ -560,6 +560,34 @@ main{
   outline-offset: -20px; */
 }
 
+.piljwb {
+  float: left;
+  width: 30%;
+  background-color: white;
+  height: 350px;
+  overflow: auto;
+  padding: 20px;
+  text-align: justify;
+  box-sizing: border-box;
+  border: 10px solid #8e6bc5;
+  border-radius: 15px;
+  margin-left: 2%;
+}
+
+.popup {
+  width: 30%;
+  background-color: white;
+  height: 350px;
+  overflow: auto;
+  padding: 20px;
+  text-align: justify;
+  box-sizing: border-box;
+  border: 10px solid #8e6bc5;
+  border-radius: 15px;
+  margin-left: 2%;
+  display: block;
+}
+
 .kiri1 {
   float: left;
   width: 50%;
@@ -595,6 +623,33 @@ main{
 .full img {
   display: inline-block !important;
   margin-top: 200px;
+}
+
+.fullpop {
+  position: fixed;
+    z-index: 5;
+    top: 17%;
+    bottom: 5%;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.678);
+    text-align: center;
+}
+
+.tekspopup {
+  position: fixed;
+  float: left;
+  width: 30%;
+  background-color: white;
+  height: 150px;
+  overflow: auto;
+  padding: 20px;
+  text-align: justify;
+  box-sizing: border-box;
+  border-radius: 15px;
+  margin-left: 35%;
+  margin-top: 14%;
+  opacity: 1 !important;
 }
 
 /*tampilan HP*/

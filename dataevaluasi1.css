@@ -173,6 +173,20 @@ label {
     color: white;
 }
 
+.ok {
+    color: black;
+    background-color: #8e6bc5;
+    padding: 2%;
+    margin-top: 5%;
+}
+
+.ok:hover {
+    color: white;
+    background-color: #000e2a;
+    padding: 2%;
+    margin-top: 5%;
+}
+
 .bg_pertanyaan {
     width: 100%;
 }
@@ -188,6 +202,8 @@ label {
 
 .inti_pertanyaan {
     padding: 10px 20px;
+    width: 65%;
+    float: left;
 }
 
 .pertanyaannya {
@@ -280,7 +296,7 @@ input[type="radio"]:checked+span .nav_pilihan:after {
 
 .nav_sebelum {
     background-color: #8bb4d0;
-    width: 20%;
+    width: 22%;
     padding: 5px;
     text-align: center;
     margin-top: 20px;
@@ -301,7 +317,7 @@ input[type="radio"]:checked+span .nav_pilihan:after {
 
 .nav_selanjut {
     background-color: #8e6bc5;
-    width: 20%;
+    width: 22%;
     padding: 5px;
     text-align: center;
     margin-top: 20px;
