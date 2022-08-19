@@ -100,7 +100,7 @@ dat.onreadystatechange = function () {
     salahh = 0;
 
     if (dat.readyState == 4 && dat.status == 200) {
-        // tankap apapun responsnya tangkap,lalu diubah ke objeck
+        // tangkap apapun responsnya, lalu diubah ke objeck
         let data = JSON.parse(this.responseText);
         // melihat data 
         // console.log(data);
